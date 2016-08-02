@@ -1,0 +1,2 @@
+UPDATE Units SET PrereqTech = 'TECH_FISHING' WHERE Type = 'UNIT_WORKBOAT';
+--UPDATE Units SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'UNIT_SCOUT';

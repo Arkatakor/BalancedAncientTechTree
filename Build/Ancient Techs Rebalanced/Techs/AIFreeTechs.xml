@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/29/2016 4:17:24 PM -->
+<GameData>	
+	<!-- update difficulties to include newly added techs -->
+	<HandicapInfo_AIFreeTechs>
+		<!-- king -->
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
+			<TechType>TECH_HUNTING</TechType>
+		</Row>
+		<!-- emperor -->
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_HUNTING</TechType>
+		</Row>
+		<!-- immortal -->
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_FISHING</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_HUNTING</TechType>
+		</Row>
+		<!-- diety -->
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_FISHING</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_HUNTING</TechType>
+		</Row>
+	</HandicapInfo_AIFreeTechs>
+
+</GameData>
+

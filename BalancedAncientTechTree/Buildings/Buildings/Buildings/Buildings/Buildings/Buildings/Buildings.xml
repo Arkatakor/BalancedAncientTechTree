@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 24-Jul-16 11:21:30 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FURRIER</Type>
+			<BuildingClass>BUILDINGCLASS_FURRIER</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_FURRIER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FURRIER</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_FURRIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FURRIER</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>75</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>ANCIENT_BUILDINGS_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_FURRIER</Type>
+			<DefaultBuilding>BUILDING_FURRIER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FURRIER</Description>
+		</Row>
+	</BuildingClasses>
+	<Language_en_US>
+			<Row Tag="TXT_KEY_BUILDING_FURRIER">
+				<Text>Furrier</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_FURRIER_STRATEGY">
+				<Text>
+					Furriers can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer or [ICON_RES_FUR] fur.  Furriers will generate an extra 2 [ICON_GOLD] Gold for those resources.
+				</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDINGS_FURRIER_TEXT">
+				<Text>
+					Fur is generally thought to have been among the first materials used for clothing and bodily decoration. The exact date when fur was first used in clothing is debated. It is known that several species of hominoids including Homo sapiens and Homo neanderthalensis used fur clothing.[NEWLINE][NEWLINE]
+					Fur is still worn in most mild and cool climates around the world due to its superior warmth and durability. From the days of early European settlement, up until the development of modern clothing alternatives, fur clothing was popular in Canada during the cold winters. The invention of inexpensive synthetic textiles for insulating clothing led to fur clothing falling out of fashion.[NEWLINE][NEWLINE]
+					Fur is still used by indigenous people and developed societies, due to its availability and superior insulation properties. The Inuit peoples of the Arctic relied on fur for most of their clothing, and it also forms a part of traditional clothing in Russia, Ukraine, Yugoslavia, Scandinavia, and Japan.[NEWLINE][NEWLINE]
+					It is also sometimes associated with glamour and lavish spending. A number of consumers and designers—notably British fashion designer and outspoken animal rights activist Stella McCartney—reject fur due to moral beliefs and perceived cruelty to animals.[NEWLINE][NEWLINE]
+					Animal furs used in garments and trim may be dyed bright colors or with patterns, often to mimic exotic animal pelts: alternatively they may be left their original pattern and color. Fur may be shorn down to imitate the feel of velvet, creating a fabric called shearling.
+				</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_FURRIER_HELP">
+				<Text>
+					City must have an improved source of [ICON_RES_DEER] Deer or [ICON_RES_FUR] Fur nearby.
+				</Text>
+			</Row>			
+	</Language_en_US>
+	<!--Tell the AI this is an economic building-->
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>		
+	</Building_Flavors>
+	<!--Require these resources for the building -->
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>	
+</GameData>
+
+<!--<Row Tag="TXT_KEY_BUILDING_STABLE_STRATEGY">
+	<Text>The Stable can only be constructed in a city near to one or more improved [ICON_RES_HORSE] horse, [ICON_RES_SHEEP] sheep or [ICON_RES_COW] cattle resources. The Stable increases the speed of production of mounted units.</Text>
+</Row>
+<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+	<Text>+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+</Row>-->
+
+<!--<Description>TXT_KEY_BUILDING_STABLE</Description>
+<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STABLE_TEXT</Civilopedia>
+<Strategy>TXT_KEY_BUILDING_STABLE_STRATEGY</Strategy>
+<Help>TXT_KEY_BUILDING_STABLE_HELP</Help>-->

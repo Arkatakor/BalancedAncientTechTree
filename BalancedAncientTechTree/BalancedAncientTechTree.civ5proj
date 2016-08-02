@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{6bff86c3-5e64-43ac-b7b4-c9e3035c6b99}</ProjectGuid>
+    <Name>Ancient Techs Rebalanced</Name>
+    <Guid>8aafd700-c0be-4358-8d2b-08b7cdcc04ac</Guid>
+    <ModVersion>2</ModVersion>
+    <Stability>Stable</Stability>
+    <Teaser>Re-introduces hunting and fishing, giving earlier access to food resources that require work boats or camps.</Teaser>
+    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Adds a new building (furrier), upon discovery of trapping. Mysticism also re-introduced granting new building (elder council) and re-locating shrine requirement to this tech.
+
+Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. 
+
+Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources, bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achive that. 
+
+Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture, 
+
+--------------------------------------------------------------- 
+AI Free Techs Difficulty Adjustments 
+--------------------------------------------------------------- 
+
+NOTE: techs in brackets represent what the AI used to have. 
+
+King (Pottery) 
+
+-	Agriculture 
+-	Hunting	
+
+Emperor (Pottery, Animal Husbandry) 
+
+-	Agriculture 
+-	Hunting	
+-	Animal Husbandry 
+
+Immortal (Pottery, Animal Husbandry, Mining) 
+
+-	Fishing 
+-	Hunting 
+-	Agriculture	
+-	Animal Husbandry 
+
+Deity (Pottery, Animal Husbandry, Mining, The Wheel) 
+
+-	Animal Husbandry 
+-	Mining 
+-	Fishing 
+-	Hunting 
+-	Agriculture 
+
+--------------------------------------------------------------- 
+SPECIAL THANKS 
+--------------------------------------------------------------- 
+
+This mod would not have been possible without the following contributors: 
+
+- Troller0001 
+- whoward69</Description>
+    <Authors>Arkatakor</Authors>
+    <SpecialThanks>Troller0001, whoward69</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>BalancedAncientTechTree</AssemblyName>
+    <RootNamespace>BalancedAncientTechTree</RootNamespace>
+    <ModReferences />
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/NewTechs.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/TechUpdates.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/AIFreeTechs.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/Art.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Resources/Resources.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Units.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Furrier.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/ElderCouncil.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Art.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/BuildingUpdates.sql</FileName>
+      </Action>
+    </ModActions>
+    <ModProperties />
+    <ReloadAudioSystem>true</ReloadAudioSystem>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Art\Buildings\AncientBuildingAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Buildings\AncientBuildingAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Buildings\AncientBuildingAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Buildings\AncientBuildingAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Buildings\AncientBuildingAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas214.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Techs\AncientTechAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Assets\Sound\TechFishing.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Assets\Sound\TechHunting.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Assets\Sound\TechMysticism.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\Art.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\BuildingUpdates.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\ElderCouncil.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\Furrier.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Resources\Resources.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\AIFreeTechs.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\Art.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\NewTechs.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\TechUpdates.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Units.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Art\" />
+    <Folder Include="Art\Buildings" />
+    <Folder Include="Art\Techs" />
+    <Folder Include="Assets" />
+    <Folder Include="Assets\Sound" />
+    <Folder Include="Buildings" />
+    <Folder Include="Units" />
+    <Folder Include="Resources" />
+    <Folder Include="Techs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>
