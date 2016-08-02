@@ -8,39 +8,41 @@
     <ModVersion>2</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>Re-introduces hunting and fishing, giving earlier access to food resources that require work boats or camps.</Teaser>
-    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Adds a new building (furrier), upon discovery of trapping. Mysticism also re-introduced granting new building (elder council) and re-locating shrine requirement to this tech.
+    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. 
 
-Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. 
+Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
 
-Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources, bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achive that. 
+[h1][b]Balance[/b][/h1]
 
-Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture, 
+Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison.. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this. 
 
---------------------------------------------------------------- 
-AI Free Techs Difficulty Adjustments 
---------------------------------------------------------------- 
+[h1][b]Historical[/b][/h1]
 
-NOTE: techs in brackets represent what the AI used to have. 
+Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture.
 
-King (Pottery) 
+[h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
+
+With new techs introduced, it was necessary to adjust what techs the AI get on various difficulties.  The following describes what techs the AI gets.  Techs in brackets represent what the AI used to have, and the list underneath them describes what they get in this mod. 
+
+[b]King[/b] (Pottery) 
 
 -	Agriculture 
 -	Hunting	
 
-Emperor (Pottery, Animal Husbandry) 
+[b]Emperor[/b] (Pottery, Animal Husbandry) 
 
 -	Agriculture 
 -	Hunting	
 -	Animal Husbandry 
 
-Immortal (Pottery, Animal Husbandry, Mining) 
+[b]Immortal[/b] (Pottery, Animal Husbandry, Mining) 
 
 -	Fishing 
 -	Hunting 
 -	Agriculture	
 -	Animal Husbandry 
 
-Deity (Pottery, Animal Husbandry, Mining, The Wheel) 
+[b]Deity[/b] (Pottery, Animal Husbandry, Mining, The Wheel) 
 
 -	Animal Husbandry 
 -	Mining 
@@ -48,9 +50,7 @@ Deity (Pottery, Animal Husbandry, Mining, The Wheel)
 -	Hunting 
 -	Agriculture 
 
---------------------------------------------------------------- 
-SPECIAL THANKS 
---------------------------------------------------------------- 
+[h1][b]SPECIAL THANKS[/b][/h1]
 
 This mod would not have been possible without the following contributors: 
 
