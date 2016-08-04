@@ -16,5 +16,12 @@
 			<Description>TXT_KEY_BUILDING_FURRIER</Description>
 		</Row>
 
+		<!--Lascaux Caves-->
+		<Row>
+			<Type>BUILDINGCLASS_LASCAUX_CAVES</Type>
+			<DefaultBuilding>BUILDING_LASCAUX_CAVES</DefaultBuilding>
+			<Description>Lascaux Caves</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 	</BuildingClasses>
 </GameData>

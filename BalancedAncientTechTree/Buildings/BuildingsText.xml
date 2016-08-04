@@ -41,6 +41,23 @@
 				Each source of [ICON_RES_DEER] Deer, [ICON_RES_FUR] Fur,  [ICON_RES_BISON] Bison and [ICON_RES_SHEEP] Sheep produce an extra 1 [ICON_GOLD] Gold.  [NEWLINE][NEWLINE]City must have an improved source of Deer, Fur, Bison or Sheep nearby.
 			</Text>
 		</Row>
+		
+		<!--Lascaux Caves-->
+		<Row Tag="TXT_KEY_BUILDING_LASCAUX_CAVES">
+			<Text>Lascaux Caves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists. +1 [ICON_PRODUCTION] from Engineers. +1 [ICON_GOLD] Gold from Merchants. +1 [ICON_CULTURE] from Writers, Artists, and Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_STRATEGY">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists. +1 [ICON_PRODUCTION] from Engineers. +1 [ICON_GOLD] Gold from Merchants. +1 [ICON_CULTURE] from Writers, Artists, and Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_DESC">
+			<Text>The Human Genome Project is an effort to fully identify and catalogue the genomes existing in human DNA. Its analysis may help further understanding of human genetics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Ever so often in the history of human endeavour, there comes a breakthrough that takes humankind across a frontier into a new era. ... today's announcement is such a breakthrough, a breakthrough that opens the way for massive advancement in the treatment of cancer and hereditary diseases. And that is only the beginning. "[NEWLINE][TAB][TAB] — Anthony Charles Lynton (Tony) Blair[NEWLINE][TAB]</Text>
+		</Row>
 
 	</Language_en_US>
 
