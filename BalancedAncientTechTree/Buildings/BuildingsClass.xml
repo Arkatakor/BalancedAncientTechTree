@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2016 2:11:32 PM -->
+<GameData>
+	<BuildingClasses>
+		<!--Elder Council-->
+		<Row>
+			<Type>BUILDINGCLASS_ELDER_COUNCIL</Type>
+			<DefaultBuilding>BUILDING_ELDER_COUNCIL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ELDER_COUNCIL</Description>
+		</Row>
+
+		<!--Furrier-->
+		<Row>
+			<Type>BUILDINGCLASS_FURRIER</Type>
+			<DefaultBuilding>BUILDING_FURRIER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FURRIER</Description>
+		</Row>
+
+	</BuildingClasses>
+</GameData>

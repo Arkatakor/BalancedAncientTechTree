@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2016 2:13:44 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<!--Elder Council-->
+		<Row>
+			<BuildingType>BUILDING_ELDER_COUNCIL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Furrier-->
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+	</Building_YieldChanges>
+</GameData>

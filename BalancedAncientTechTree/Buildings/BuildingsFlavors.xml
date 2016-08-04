@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2016 2:13:24 PM -->
+<GameData>
+	<Building_Flavors>
+		<!--Elder Council-->
+		<Row>
+			<BuildingType>BUILDING_ELDER_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<!--Furrier-->
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+	</Building_Flavors>
+
+</GameData>

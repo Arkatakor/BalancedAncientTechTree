@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2016 2:00:14 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Elder Council-->
+		<Row Tag="TXT_KEY_BUILDING_ELDER_COUNCIL">
+			<Text>Elder Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ELDER_COUNCIL_STRATEGY">
+			<Text>
+				Elder councils grant an early science boost by generating 1 [ICON_SCIENCE] Science.  Obsolete with Theology.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_ELDER_COUNCIL_TEXT">
+			<Text>
+				Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ELDER_COUNCIL_HELP">
+			<Text>
+				Early science building.  Obsolete with Theology.
+			</Text>
+		</Row>
+
+		<!--Furrier-->
+		<Row Tag="TXT_KEY_BUILDING_FURRIER">
+			<Text>Furrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURRIER_STRATEGY">
+			<Text>
+				Furriers can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_FUR] fur, [ICON_RES_BISON] bison or [ICON_RES_SHEEP ] sheep.  Furriers will generate an extra 1 [ICON_GOLD] Gold for those resources.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_FURRIER_TEXT">
+			<Text>
+				Fur is generally thought to have been among the first materials used for clothing and bodily decoration. The exact date when fur was first used in clothing is debated. It is known that several species of hominoids including Homo sapiens and Homo neanderthalensis used fur clothing.[NEWLINE][NEWLINE]Fur is still worn in most mild and cool climates around the world due to its superior warmth and durability. From the days of early European settlement, up until the development of modern clothing alternatives, fur clothing was popular in Canada during the cold winters. The invention of inexpensive synthetic textiles for insulating clothing led to fur clothing falling out of fashion.[NEWLINE][NEWLINE]Fur is still used by indigenous people and developed societies, due to its availability and superior insulation properties. The Inuit peoples of the Arctic relied on fur for most of their clothing, and it also forms a part of traditional clothing in Russia, Ukraine, Yugoslavia, Scandinavia, and Japan.  It is also sometimes associated with glamour and lavish spending. A number of consumers and designers—notably British fashion designer and outspoken animal rights activist Stella McCartney—reject fur due to moral beliefs and perceived cruelty to animals.[NEWLINE][NEWLINE]Animal furs used in garments and trim may be dyed bright colors or with patterns, often to mimic exotic animal pelts: alternatively they may be left their original pattern and color. Fur may be shorn down to imitate the feel of velvet, creating a fabric called shearling.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURRIER_HELP">
+			<Text>
+				Each source of [ICON_RES_DEER] Deer, [ICON_RES_FUR] Fur,  [ICON_RES_BISON] Bison and [ICON_RES_SHEEP] Sheep produce an extra 1 [ICON_GOLD] Gold.  [NEWLINE][NEWLINE]City must have an improved source of Deer, Fur, Bison or Sheep nearby.
+			</Text>
+		</Row>
+
+	</Language_en_US>
+
+</GameData>

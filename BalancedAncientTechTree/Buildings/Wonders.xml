@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2016 2:07:15 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_LASCAUX_CAVES</Type>
+			<BuildingClass>BUILDINGCLASS_LASCAUX_CAVES</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_WONDER_LASCAUX_CAVES_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LASCAUX_CAVES</Description>
+			<Civilopedia>TXT_KEY_WONDER_LASCAUX_CAVES_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_LASCAUX_CAVES_QUOTE</Quote>
+			<ArtDefineTag>STATUE ZEUS</ArtDefineTag>
+			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreePromotion>PROMOTION_LASCAUX_CAVES</FreePromotion>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>WONDERS_DLC_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>WonderConceptTempleZues.dds</WonderSplashImage>
+
+
+			<!--<Type>BUILDING_LASCAUX_CAVES</Type>
+			<BuildingClass>BUILDINGCLASS_LASCAUX_CAVES</BuildingClass>
+			<Cost>20</Cost>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
+			<Help>TXT_KEY_BUILDING_LASCAUX_CAVES_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LASCAUX_CAVES</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_LASCAUX_CAVES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LASCAUX_CAVES_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_LASCAUX_CAVES</ArtDefineTag>
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>-->
+
+		</Row>
+	</Buildings>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_LASCAUX_CAVES</Type>
+			<DefaultBuilding>BUILDING_LASCAUX_CAVES</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LASCAUX_CAVES</Description>
+		</Row>
+	</BuildingClasses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_LASCAUX_CAVES">
+			<Text>Elder Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LASCAUX_CAVES_STRATEGY">
+			<Text>
+				Elder councils grant an early science boost by generating 1 [ICON_SCIENCE] Science.  Obsolete with Theology.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_LASCAUX_CAVES_TEXT">
+			<Text>
+				Oral tradition, oral culture and oral lore are messages or testimony transmitted orally from one generation to another.  The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LASCAUX_CAVES_HELP">
+			<Text>
+				Early science building.  Obsolete with Theology.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--Tell the AI this is a science building-->
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>
