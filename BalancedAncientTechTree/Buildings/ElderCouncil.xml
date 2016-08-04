@@ -12,7 +12,7 @@
 			<Civilopedia>TXT_KEY_BUILDINGS_ELDER_COUNCIL_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_ELDER_COUNCIL_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_ELDER_COUNCIL</ArtDefineTag>
-			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
