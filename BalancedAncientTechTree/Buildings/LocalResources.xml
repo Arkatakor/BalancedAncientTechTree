@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 8/4/2016 2:25:51 PM -->
 <GameData>
-	<!--Furrier-->
 	<Building_LocalResourceOrs>
+		<!--Furrier-->
 		<Row>
 			<BuildingType>BUILDING_FURRIER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
@@ -14,6 +14,19 @@
 		<Row>
 			<BuildingType>BUILDING_FURRIER</BuildingType>
 			<ResourceType>RESOURCE_BISON</ResourceType>
+		</Row>
+		<!--Lascaux Caves-->
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
 	</Building_LocalResourceOrs>
 </GameData>

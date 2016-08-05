@@ -16,6 +16,18 @@
 			<Flavor>50</Flavor>
 		</Row>
 
+		<!--Lascaux Caves-->
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
 	</Building_Flavors>
 
 </GameData>
