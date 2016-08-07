@@ -143,6 +143,11 @@ This mod would not have been possible without the following contributors:
         <Type>UpdateDatabase</Type>
         <FileName>Buildings/Updates.sql</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Wonders.xml</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadAudioSystem>true</ReloadAudioSystem>
