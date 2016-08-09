@@ -17,11 +17,11 @@
 		</Row>
 
 		<!--Lascaux Caves-->
-		<!--<Row>
+		<Row>
 			<Type>BUILDINGCLASS_LASCAUX_CAVES</Type>
 			<DefaultBuilding>BUILDING_LASCAUX_CAVES</DefaultBuilding>
 			<Description>Lascaux Caves</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>-->
+		</Row>
 	</BuildingClasses>
 </GameData>

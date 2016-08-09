@@ -47,21 +47,21 @@
 				<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>-->
 
 		<!--Lascaux Caves-->		
-		<!--<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_TITLE">
+		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_TITLE">
 			<Text>Lascaux Caves</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_CIVILOPEDIA">
 			<Text>Lascaux Caves is the setting of a complex of caves in southwestern France famous for its Paleolithic cave paintings. The original caves are located near the village of Montignac, in the department of Dordogne. They contain some of the best-known Upper Paleolithic art. These paintings are estimated to be circa 17,300 years old.  They primarily consist of images of large animals, most of which are known from fossil evidence to have lived in the area at the time. In 1979, Lascaux was added to the UNESCO World Heritage Sites list along with other prehistoric sites in the Vézère valley.[NEWLINE][NEWLINE]The cave contains nearly 2,000 figures, which can be grouped into three main categories: animals, human figures, and abstract signs.  Most of the major images have been painted onto the walls using red, yellow, and black colours from a complex multiplicity of mineral pigments including iron compounds such as iron oxide (ochre) haematite, and goethite, as well as manganese-containing pigments.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_STRATEGY">
-			<Text>Lascaux Caves can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_BISON] Bison or [ICON_RES_IVORY].  Lascaux Caves will generate an extra 2 [ICON_FAITH] Faith for those resources in the city where its built.</Text>
+			<Text>Lascaux Caves can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_BISON] Bison or [ICON_RES_IVORY] Ivory.  Lascaux Caves will generate an extra 2 [ICON_FAITH] Faith for those resources in the city where its built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"Ever so often in the history of human endeavour, there comes a breakthrough that takes humankind across a frontier into a new era. ... today's announcement is such a breakthrough, a breakthrough that opens the way for massive advancement in the treatment of cancer and hereditary diseases. And that is only the beginning. "[NEWLINE][TAB][TAB] — Anthony Charles Lynton (Tony) Blair[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP">
-			<Text>+2 [ICON_FAITH] Faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison and [ICON_RES_Ivory] Ivory.  </Text>
-		</Row>-->
+			<Text>+2 [ICON_FAITH] Faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison and [ICON_RES_IVORY] Ivory.  </Text>
+		</Row>
 
 	</Language_en_US>
 
