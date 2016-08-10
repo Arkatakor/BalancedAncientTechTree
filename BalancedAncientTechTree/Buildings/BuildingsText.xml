@@ -52,7 +52,7 @@
 			<Text>Lascaux Caves can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_BISON] Bison or [ICON_RES_IVORY] Ivory.  Lascaux Caves will generate an extra 2 [ICON_FAITH] Faith for those resources in the city where its built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_QUOTE">
-			<Text>[NEWLINE][TAB][TAB]""[NEWLINE][TAB][TAB] — [NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"To reach the farthest chamber of Lascaux, it's likely a man had to snuff out his light, lower himself down a shaft with a rope made of twisted fibers, and then rekindle his lamp in the dark so as to draw the woolly rhinoceros, the half horse, and the raging bison there.  A long spear transfixes the bison, and entrails pour from its side. The animals will emerge out of darkness as you pass. Nothing stays still. Shadows nestle in the cavities; a flicker of light across pale protruding rock turns a hoof or raises a head. One shape recedes as another emerges, and everything lingers in the imagination."[NEWLINE][TAB][TAB] — Jane Brox, Brilliant: The Evolution of Artificial Light[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP">
 			<Text>+2 [ICON_FAITH] Faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison and [ICON_RES_IVORY] Ivory.  [NEWLINE]Can only be constructed in a city near to one or more of those improved resources.</Text>
