@@ -16,7 +16,7 @@
 			<ResourceType>RESOURCE_BISON</ResourceType>
 		</Row>
 		<!--Lascaux Caves-->
-		<!--<Row>
+		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
@@ -27,6 +27,6 @@
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
-		</Row>-->
+		</Row>
 	</Building_LocalResourceOrs>
 </GameData>

@@ -41,11 +41,6 @@
 				Each source of [ICON_RES_DEER] Deer, [ICON_RES_FUR] Fur,  [ICON_RES_BISON] Bison and [ICON_RES_SHEEP] Sheep produce an extra 1 [ICON_GOLD] Gold.  [NEWLINE]City must have an improved source of Deer, Fur, Bison or Sheep nearby.
 			</Text>
 		</Row>
-				<!--<Help>TXT_KEY_BUILDING_FURRIER_HELP</Help>
-				<Description>TXT_KEY_BUILDING_FURRIER</Description>
-				<Civilopedia>TXT_KEY_BUILDINGS_FURRIER_DESC</Civilopedia>
-				<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>-->
-
 		<!--Lascaux Caves-->		
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_TITLE">
 			<Text>Lascaux Caves</Text>
@@ -57,10 +52,10 @@
 			<Text>Lascaux Caves can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_BISON] Bison or [ICON_RES_IVORY] Ivory.  Lascaux Caves will generate an extra 2 [ICON_FAITH] Faith for those resources in the city where its built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_QUOTE">
-			<Text>[NEWLINE][TAB][TAB]"Ever so often in the history of human endeavour, there comes a breakthrough that takes humankind across a frontier into a new era. ... today's announcement is such a breakthrough, a breakthrough that opens the way for massive advancement in the treatment of cancer and hereditary diseases. And that is only the beginning. "[NEWLINE][TAB][TAB] — Anthony Charles Lynton (Tony) Blair[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"The animals will emerge out of darkness as you pass. Nothing stays still. Shadows nestle in the cavities; a flicker of light across pale protruding rock turns a hoof or raises a head. One shape recedes as another emerges, and everything lingers in the imagination."[NEWLINE][TAB][TAB] — Jane Brox, Brilliant: The Evolution of Artificial Light[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP">
-			<Text>+2 [ICON_FAITH] Faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison and [ICON_RES_IVORY] Ivory.  </Text>
+			<Text>2 [ICON_PEACE] faith and 1 [ICON_CULTURE] culture for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison and [ICON_RES_IVORY] Ivory.  [NEWLINE][NEWLINE]City must have an improved source of Deer, Bison or Ivory nearby.</Text>
 		</Row>
 
 	</Language_en_US>

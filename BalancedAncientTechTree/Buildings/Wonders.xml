@@ -19,7 +19,7 @@
 			<ConquestProb>100</ConquestProb>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
-			<!--<WonderSplashImage>FileName.dds</WonderSplashImage>-->
+			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>
 			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
 		</Row>
 	</Buildings>

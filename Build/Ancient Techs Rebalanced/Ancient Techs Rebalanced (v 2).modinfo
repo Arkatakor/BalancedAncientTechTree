@@ -74,6 +74,7 @@ This mod would not have been possible without the following contributors:
     <File md5="76429DE9DE1A3A46E9B20947C775546B" import="1">Art/Buildings/AncientBuildingAtlas45.dds</File>
     <File md5="40E6341E1157145937FE850413BEFF98" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
     <File md5="8FA1220D526B647F441804E7A5F84DA0" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
+    <File md5="C762B0F9D2925EF90E6878A97FB5AEFB" import="1">Art/Buildings/LascauxSplash.dds</File>
     <File md5="D710C353DCDD38D3E876D4B3B538D193" import="1">Art/Techs/AncientTechAtlas128.dds</File>
     <File md5="767D594A0746D3D25845E2F403CB3EFD" import="1">Art/Techs/AncientTechAtlas214.dds</File>
     <File md5="BF50D53C907B3DB4828F862A15061BF8" import="1">Art/Techs/AncientTechAtlas256.dds</File>
@@ -86,13 +87,13 @@ This mod would not have been possible without the following contributors:
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
     <File md5="F18359C8A02C9A36C38FD12259D74045" import="0">Buildings/Buildings.xml</File>
     <File md5="971C849F6A035ACB09E0CC9E6F23AB86" import="0">Buildings/BuildingsClass.xml</File>
-    <File md5="071E2366483F6AA1B5F243CB9ADB4399" import="0">Buildings/BuildingsFlavors.xml</File>
-    <File md5="04B52EC3D9AF0FAE9940C57A4DD21169" import="0">Buildings/LocalResources.xml</File>
-    <File md5="35E38E3E0A39F02730A442F8895DABC4" import="0">Buildings/ResourceYieldChanges.xml</File>
+    <File md5="3537511C36FB8410572A5547C82E9B9F" import="0">Buildings/BuildingsFlavors.xml</File>
+    <File md5="20A46589846DDC61FE57982D73FDE781" import="0">Buildings/LocalResources.xml</File>
+    <File md5="C4A1801D6FFB2F4989E4D5E74905BC4E" import="0">Buildings/ResourceYieldChanges.xml</File>
     <File md5="09C3BDAB135AFD73FC64F36E82025B73" import="0">Buildings/BuildingsYieldChanges.xml</File>
     <File md5="3B0A4C4A89F52A66D098BD9C2EC448FE" import="0">Buildings/Updates.sql</File>
-    <File md5="43FF33B49F3E45D8E1877EE2A1117708" import="0">Buildings/BuildingsText.xml</File>
-    <File md5="5D8F186A91615E81F010EE451417A8C7" import="0">Buildings/Wonders.xml</File>
+    <File md5="A0447ED2037BE4BF4110DBF85D972956" import="0">Buildings/BuildingsText.xml</File>
+    <File md5="32C2C7545B89456FD21ABF0815154316" import="0">Buildings/Wonders.xml</File>
     <File md5="B288816213C69C2DF4D25390F7B8B792" import="0">Resources/Resources.sql</File>
     <File md5="46604DB1839E2A67CEE1765E108F97D0" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
