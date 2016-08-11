@@ -20,7 +20,7 @@
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 
 	</Building_YieldChanges>

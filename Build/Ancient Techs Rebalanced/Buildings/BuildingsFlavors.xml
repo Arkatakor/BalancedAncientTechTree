@@ -25,12 +25,12 @@
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 
 	</Building_Flavors>
