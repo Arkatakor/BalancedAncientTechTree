@@ -5,7 +5,7 @@
 		<Row>
 			<Type>BUILDING_LASCAUX_CAVES</Type>
 			<BuildingClass>BUILDINGCLASS_LASCAUX_CAVES</BuildingClass>
-			<Cost>90</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<Help>TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP</Help>
 			<Description>TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_TITLE</Description>

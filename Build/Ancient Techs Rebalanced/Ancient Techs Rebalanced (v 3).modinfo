@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="8aafd700-c0be-4358-8d2b-08b7cdcc04ac" version="2">
+<Mod id="8aafd700-c0be-4358-8d2b-08b7cdcc04ac" version="3">
   <Properties>
     <Name>Ancient Techs Rebalanced</Name>
-    <Teaser>Re-introduces hunting and fishing, giving earlier access to food resources that require work boats or camps.</Teaser>
-    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. 
+    <Teaser>Re-introduces hunting, fishing and mysticism, allowing for earlier access to fish, deer, bison, ivory and fur.</Teaser>
+    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. Also adds Lascaux Caves wonder to hunting.
 
 Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
 
@@ -93,7 +93,7 @@ This mod would not have been possible without the following contributors:
     <File md5="6EA692B5F9C2F73C1D173C58840860D1" import="0">Buildings/BuildingsYieldChanges.xml</File>
     <File md5="3B0A4C4A89F52A66D098BD9C2EC448FE" import="0">Buildings/Updates.sql</File>
     <File md5="51268088ED9AB8FFA61BF8B26C4CCAAD" import="0">Buildings/BuildingsText.xml</File>
-    <File md5="32C2C7545B89456FD21ABF0815154316" import="0">Buildings/Wonders.xml</File>
+    <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B288816213C69C2DF4D25390F7B8B792" import="0">Resources/Resources.sql</File>
     <File md5="46604DB1839E2A67CEE1765E108F97D0" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>

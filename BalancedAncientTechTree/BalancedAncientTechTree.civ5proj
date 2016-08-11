@@ -5,10 +5,10 @@
     <ProjectGuid>{6bff86c3-5e64-43ac-b7b4-c9e3035c6b99}</ProjectGuid>
     <Name>Ancient Techs Rebalanced</Name>
     <Guid>8aafd700-c0be-4358-8d2b-08b7cdcc04ac</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Stability>Stable</Stability>
-    <Teaser>Re-introduces hunting and fishing, giving earlier access to food resources that require work boats or camps.</Teaser>
-    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. 
+    <Teaser>Re-introduces hunting, fishing and mysticism, allowing for earlier access to fish, deer, bison, ivory and fur.</Teaser>
+    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. Also adds Lascaux Caves wonder to hunting.
 
 Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
 
