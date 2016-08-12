@@ -71,12 +71,22 @@ This mod would not have been possible without the following contributors:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Techs/NewTechs.sql</FileName>
+        <FileName>Techs/Techs.sql</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Techs/TechUpdates.sql</FileName>
+        <FileName>Techs/TechsFlavors.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/TechsHandicapInfo.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Techs/TechsPrereq.sql</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -92,11 +102,6 @@ This mod would not have been possible without the following contributors:
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Resources/Resources.sql</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>Units/Units.sql</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -147,6 +152,16 @@ This mod would not have been possible without the following contributors:
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Buildings/Wonders.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Units.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/UnitPrereqTech.sql</FileName>
       </Action>
     </ModActions>
     <ModProperties />
@@ -276,15 +291,27 @@ This mod would not have been possible without the following contributors:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Techs\NewTechs.sql">
+    <Content Include="Techs\TechsPrereq.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Techs\TechUpdates.sql">
+    <Content Include="Techs\Techs.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Units\Units.sql">
+    <Content Include="Techs\TechsFlavors.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\TechsHandicapInfo.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\UnitPrereqTech.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Units.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
