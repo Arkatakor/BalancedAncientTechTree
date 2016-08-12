@@ -21,12 +21,6 @@ VALUES ('SND_TECH_FISHING', 'TechFishing', 'DynamicResident');
 INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
 VALUES ('AS2D_TECH_FISHING', 'SND_TECH_FISHING', 'GAME_SPEECH', 80, 80);
 
---	Updates
-UPDATE Builds SET PrereqTech = 'TECH_FISHING' WHERE Type = 'BUILD_FISHING_BOATS';
-
---	Update sailing tech prerequisite to fishing instead of pottery
-UPDATE Technology_PrereqTechs Set PrereqTech = 'TECH_FISHING' WHERE TechType = 'TECH_SAILING';
-
 --	Update Help tool tips for sailing to no longer include part with acquiring resources
 UPDATE Language_en_US Set Text = 'Used to establish lucrative sea-based Trade Routes. Also allows you to build military and economic ships, useful for exploration' 
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP';
@@ -36,9 +30,6 @@ UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_FISH'
 UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_PEARLS';
 UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_CRAB';
 UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_WHALE';
-
---	let the AI know this is for tile improvement
-UPDATE Technology_Flavors SET TechType = 'TECH_FISHING' WHERE TechType = 'TECH_SAILING' AND FlavorType = 'FLAVOR_NAVAL_TILE_IMPROVEMENT';
 
 -----------------------------------------------------------------------
 --	HUNTING 
@@ -63,9 +54,6 @@ VALUES ('SND_TECH_HUNTING', 'TechHunting', 'DynamicResident');
 INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
 VALUES ('AS2D_TECH_HUNTING', 'SND_TECH_HUNTING', 'GAME_SPEECH', 80, 80);
 
---	UPDATES
-UPDATE Builds SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'BUILD_CAMP';
-
 --	Update Help tool tips for trapping to no longer include part with acquiring resources
 UPDATE Language_en_US Set Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Circus[ENDCOLOR] which increases the happiness in your population provided there is an improved source of [ICON_RES_HORSE] horse or [ICON_RES_IVORY] ivory in the city vicinity.' 
 WHERE Tag = 'TXT_KEY_TECH_TRAPPING_HELP';
@@ -76,10 +64,6 @@ UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_IVORY
 UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_FUR';
 UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_BISON';
 UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_TRUFFLES';
-
---	let the AI know this is for tile improvement
-UPDATE Technology_Flavors SET TechType = 'TECH_HUNTING' WHERE TechType = 'TECH_TRAPPING' 
-AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
 
 -----------------------------------------------------------------------
 --	MYSTICISM 
@@ -104,8 +88,29 @@ VALUES ('SND_TECH_MYSTICISM', 'TechMysticism', 'DynamicResident');
 INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
 VALUES ('AS2D_TECH_MYSTICISM', 'SND_TECH_MYSTICISM', 'GAME_SPEECH', 80, 80);
 
---	Let AI know that this tech offers small science boost
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_SCIENCE', 1)
 
---	Update religion indicator for AI; pottery no longer offers religion (shrine), mysticism does
-UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH_POTTERY' AND FlavorType = 'FLAVOR_RELIGION';
+-----------------------------------------------------------------------
+--	STONE_TOOLS 
+-----------------------------------------------------------------------
+INSERT INTO Technologies (Type, Cost, Description, Civilopedia, Help, Era, Trade, GoodyTech, GridX, GridY, Quote, PortraitIndex, IconAtlas, AudioIntro, AudioIntroHeader) 
+VALUES ('TECH_STONE_TOOLS', 20, 'TXT_KEY_TECH_STONE_TOOLS_TITLE', 'TXT_KEY_TECH_STONE_TOOLS_DESC', 'TXT_KEY_TECH_STONE_TOOLS_HELP', 'ERA_ANCIENT', 1, 0, 0, 6, 
+'TXT_KEY_TECH_STONE_TOOLS_QUOTE', 0, 'EXTENDED_RESOURCE_ATLAS', 'AS2D_TECH_STONE_TOOLS', 'AS2D_TECH_STONE_TOOLS');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_TITLE', 'Stone Working');
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_HELP', 
+'Allows you to build monument and axe warrior.  Leads to mining.');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_QUOTE', 
+'[NEWLINE][TAB][TAB]"The man who moves a mountain begins by carrying away small stones."[NEWLINE][TAB][TAB]  - Confucius[NEWLINE][TAB]');
+
+--	TODO: update
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_DESC', 'People of the ancient world were fascinated and awed by the forces of nature surrounding them. Earthquakes, storms and other phenomena were generally regarded as signs from heaven. Individuals and groups arose to formulate explanations for these events, and pass the knowledge along to the tribe. The priests and priestesses of mysticism, who were often called oracles, claimed union with the divine through meditation and trance-like contemplation. Primitive mysticism offered mankind the first, tenuous links with the powers that shaped their world, and represented the first move toward the organized polytheistic and monotheistic religions to come.');
+
+--	Audio
+INSERT INTO Audio_Sounds (SoundID, Filename, LoadType) 
+VALUES ('SND_TECH_STONE_TOOLS', 'TechStoneTools', 'DynamicResident');
+
+INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
+VALUES ('AS2D_TECH_STONE_TOOLS', 'SND_TECH_STONE_TOOLS', 'GAME_SPEECH', 80, 80);
+
+

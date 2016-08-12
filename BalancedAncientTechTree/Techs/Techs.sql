@@ -65,6 +65,29 @@ UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_FUR';
 UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_BISON';
 UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_TRUFFLES';
 
+-----------------------------------------------------------------------
+--	MYSTICISM 
+-----------------------------------------------------------------------
+INSERT INTO Technologies (Type, Cost, Description, Civilopedia, Help, Era, Trade, GoodyTech, GridX, GridY, Quote, PortraitIndex, IconAtlas, AudioIntro, AudioIntroHeader) 
+VALUES ('TECH_MYSTICISM', 20, 'TXT_KEY_TECH_MYSTICISM_TITLE', 'TXT_KEY_TECH_MYSTICISM_DESC', 'TXT_KEY_TECH_MYSTICISM_HELP', 'ERA_ANCIENT', 1, 0, 0, 2, 
+'TXT_KEY_TECH_MYSTICISM_QUOTE', 2, 'ANCIENT_TECH_ICON_ATLAS', 'AS2D_TECH_MYSTICISM', 'AS2D_TECH_MYSTICISM');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_MYSTICISM_TITLE', 'Mysticism');
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_MYSTICISM_HELP', 
+'Allows you to build the elder council and shrine.  Also leads to writing.');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_MYSTICISM_QUOTE', 
+'[NEWLINE][TAB][TAB]"Nature herself has imprinted on the minds of all the idea of God."[NEWLINE][TAB][TAB]  - Cicero[NEWLINE][TAB]');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_MYSTICISM_DESC', 'People of the ancient world were fascinated and awed by the forces of nature surrounding them. Earthquakes, storms and other phenomena were generally regarded as signs from heaven. Individuals and groups arose to formulate explanations for these events, and pass the knowledge along to the tribe. The priests and priestesses of mysticism, who were often called oracles, claimed union with the divine through meditation and trance-like contemplation. Primitive mysticism offered mankind the first, tenuous links with the powers that shaped their world, and represented the first move toward the organized polytheistic and monotheistic religions to come.');
+
+--	Audio
+INSERT INTO Audio_Sounds (SoundID, Filename, LoadType) 
+VALUES ('SND_TECH_MYSTICISM', 'TechMysticism', 'DynamicResident');
+
+INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
+VALUES ('AS2D_TECH_MYSTICISM', 'SND_TECH_MYSTICISM', 'GAME_SPEECH', 80, 80);
+
 
 -----------------------------------------------------------------------
 --	STONE_TOOLS 
