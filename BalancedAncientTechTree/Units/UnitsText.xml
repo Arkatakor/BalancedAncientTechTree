@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Aug-16 11:10:23 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_LIGHT_AXEMAN">
+			<Text>Light Axeman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIGHT_AXEMAN_STRATEGY">
+			<Text>The light axeman is an Ancient era range unit wich is an alternative to the Bowman. Though it does not benefit from the Boman's range, it has a better combat strength and have a free promotion that which increases its damage against wounded units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LIGHT_AXEMAN">
+			<Text>Cheap Ancient Era ranged unit which has bonus attack strength against wounded units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

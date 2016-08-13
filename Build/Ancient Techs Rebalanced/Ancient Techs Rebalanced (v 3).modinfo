@@ -81,28 +81,37 @@ This mod would not have been possible without the following contributors:
     <File md5="FCAB24DA017897B8B50277C3AF6F20FC" import="1">Art/Techs/AncientTechAtlas45.dds</File>
     <File md5="01C9841D9A2781B8622473912B9F2DE9" import="1">Art/Techs/AncientTechAtlas64.dds</File>
     <File md5="2DB8B17557D0671275773B8AE4DA089A" import="1">Art/Techs/AncientTechAtlas80.dds</File>
+    <File md5="3C87964B93CA755595FEB8CFE155150A" import="1">Art/Units/LightAxemanFlag.dds</File>
     <File md5="16A86E889FEC38C0852E3C5E3DA28670" import="1">Assets/Sound/TechFishing.mp3</File>
     <File md5="FDA744DB027840CA9313D2F297DDBC2C" import="1">Assets/Sound/TechHunting.mp3</File>
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
+    <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
     <File md5="F18359C8A02C9A36C38FD12259D74045" import="0">Buildings/Buildings.xml</File>
     <File md5="971C849F6A035ACB09E0CC9E6F23AB86" import="0">Buildings/BuildingsClass.xml</File>
     <File md5="9625CC01875FBBAB4CE35586228D7203" import="0">Buildings/BuildingsFlavors.xml</File>
-    <File md5="20A46589846DDC61FE57982D73FDE781" import="0">Buildings/LocalResources.xml</File>
-    <File md5="35E38E3E0A39F02730A442F8895DABC4" import="0">Buildings/ResourceYieldChanges.xml</File>
+    <File md5="F2565493B94C5966C214E23AADB306C5" import="0">Buildings/LocalResources.xml</File>
+    <File md5="3266D345E53C7FFC98B1AF9DCC539F75" import="0">Buildings/ResourceYieldChanges.xml</File>
     <File md5="6EA692B5F9C2F73C1D173C58840860D1" import="0">Buildings/BuildingsYieldChanges.xml</File>
     <File md5="2AE371F1A375B5666E3CA90BD04BBAF5" import="0">Buildings/Updates.sql</File>
-    <File md5="51268088ED9AB8FFA61BF8B26C4CCAAD" import="0">Buildings/BuildingsText.xml</File>
+    <File md5="A992F422B69B86E6F6557F2FF78F4648" import="0">Buildings/BuildingsText.xml</File>
     <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B288816213C69C2DF4D25390F7B8B792" import="0">Resources/Resources.sql</File>
     <File md5="46604DB1839E2A67CEE1765E108F97D0" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
     <File md5="0D4927ACB78EB908937C22AD7EEEC540" import="0">Techs/TechsPrereq.sql</File>
-    <File md5="C0A1821B0D0DA6408DCDE004B6256A21" import="0">Techs/Techs.sql</File>
+    <File md5="D3D31AB1B14B4B23AAFD11154AE6B4A8" import="0">Techs/Techs.sql</File>
     <File md5="48F4AA3EF215CA0B74142FAD165636F3" import="0">Techs/TechsFlavors.sql</File>
     <File md5="23BF7D2BE88996B2BDE80916AE406972" import="0">Techs/TechsHandicapInfo.sql</File>
-    <File md5="2FE0EF077D446D951508E7B3F4003527" import="0">Units/UnitPrereqTech.sql</File>
-    <File md5="E68B930F48AE431BBBD0AB9D87FFB243" import="0">Units/Units.xml</File>
+    <File md5="B154AAFDF375E3D4E270F79EED3D2E35" import="0">Units/UnitFlagAtlas.xml</File>
+    <File md5="50C1D6578A050F5D0E0FED33EA34695B" import="0">Units/UnitsText.xml</File>
+    <File md5="F31B19B23F134C91E9CF5162435824F8" import="0">Units/Updates.sql</File>
+    <File md5="E9640FC01A2E7A5DF881BB5707843487" import="0">Units/Units.xml</File>
+    <File md5="D249CCB47CD2D6135B6FC1B1EC9F99EA" import="0">Units/UnitsAITypes.xml</File>
+    <File md5="B8ED710EB26116648810CB44B7912D35" import="0">Units/UnitsClasses.xml</File>
+    <File md5="45B6D5D95F7E821527DE6FFE311193E0" import="0">Units/UnitsClassUpgrades.xml</File>
+    <File md5="0DDB4CCEF01943E04007E446789C3B4F" import="0">Units/UnitsFlavors.xml</File>
+    <File md5="D020120B9D11D6526D34AC55A11E8711" import="0">Units/UnitsFreePromotions.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -123,8 +132,15 @@ This mod would not have been possible without the following contributors:
       <UpdateDatabase>Buildings/ResourceYieldChanges.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Updates.sql</UpdateDatabase>
       <UpdateDatabase>Buildings/Wonders.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitFlagAtlas.xml</UpdateDatabase>
       <UpdateDatabase>Units/Units.xml</UpdateDatabase>
-      <UpdateDatabase>Units/UnitPrereqTech.sql</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsAITypes.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsClassUpgrades.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsFlavors.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsFreePromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Updates.sql</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

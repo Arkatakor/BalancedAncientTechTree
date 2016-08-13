@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Aug-16 10:33:26 AM -->
+<GameData>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+</GameData>

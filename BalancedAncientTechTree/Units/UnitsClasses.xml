@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Aug-16 10:31:56 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_LIGHT_AXEMAN</Type>
+			<Description>TXT_KEY_UNIT_LIGHT_AXEMAN</Description>
+			<DefaultUnit>UNIT_LIGHT_AXEMAN</DefaultUnit>
+		</Row>
+	</UnitClasses>  
+</GameData>

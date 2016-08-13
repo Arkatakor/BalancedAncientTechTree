@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Aug-16 10:32:31 AM -->
+<GameData>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+</GameData>

@@ -88,12 +88,11 @@ VALUES ('SND_TECH_MYSTICISM', 'TechMysticism', 'DynamicResident');
 INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
 VALUES ('AS2D_TECH_MYSTICISM', 'SND_TECH_MYSTICISM', 'GAME_SPEECH', 80, 80);
 
-
 -----------------------------------------------------------------------
 --	STONE_TOOLS 
 -----------------------------------------------------------------------
 INSERT INTO Technologies (Type, Cost, Description, Civilopedia, Help, Era, Trade, GoodyTech, GridX, GridY, Quote, PortraitIndex, IconAtlas, AudioIntro, AudioIntroHeader) 
-VALUES ('TECH_STONE_TOOLS', 20, 'TXT_KEY_TECH_STONE_TOOLS_TITLE', 'TXT_KEY_TECH_STONE_TOOLS_DESC', 'TXT_KEY_TECH_STONE_TOOLS_HELP', 'ERA_ANCIENT', 1, 0, 0, 6, 
+VALUES ('TECH_STONE_TOOLS', 20, 'TXT_KEY_TECH_STONE_TOOLS_TITLE', 'TXT_KEY_TECH_STONE_TOOLS_DESC', 'TXT_KEY_TECH_STONE_TOOLS_HELP', 'ERA_ANCIENT', 1, 0, 0, 5, 
 'TXT_KEY_TECH_STONE_TOOLS_QUOTE', 0, 'EXTENDED_RESOURCE_ATLAS', 'AS2D_TECH_STONE_TOOLS', 'AS2D_TECH_STONE_TOOLS');
 
 INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_TITLE', 'Stone Working');
@@ -103,8 +102,7 @@ INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_HELP',
 INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_QUOTE', 
 '[NEWLINE][TAB][TAB]"The man who moves a mountain begins by carrying away small stones."[NEWLINE][TAB][TAB]  - Confucius[NEWLINE][TAB]');
 
---	TODO: update
-INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_DESC', 'People of the ancient world were fascinated and awed by the forces of nature surrounding them. Earthquakes, storms and other phenomena were generally regarded as signs from heaven. Individuals and groups arose to formulate explanations for these events, and pass the knowledge along to the tribe. The priests and priestesses of mysticism, who were often called oracles, claimed union with the divine through meditation and trance-like contemplation. Primitive mysticism offered mankind the first, tenuous links with the powers that shaped their world, and represented the first move toward the organized polytheistic and monotheistic religions to come.');
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_DESC', 'Stone tools predate human history. It appears as if the first stone tools were used by Paranthropus, an ancestor of man who lived about two million years ago. [NEWLINE][NEWLINE]Most stone tools are created by chipping or grinding. The former is used when working with crystalline materials such as flint, chert and obsidian. The worker taps the stone with a harder stone, carefully chipping off stone flakes until the stone has been properly shaped. Mesoamerican tribes used this method to make their sharp and deadly obsidian swords. [NEWLINE][NEWLINE]The grinding method is used when working with harder and coarser materials such as basalt and granite. This is a long and tedious process in which the toolmaker repeatedly grinds away the stone with a harder material or with sand, sometimes using water as a lubricant. Many of the earliest European stone axes were made using this process.');
 
 --	Audio
 INSERT INTO Audio_Sounds (SoundID, Filename, LoadType) 

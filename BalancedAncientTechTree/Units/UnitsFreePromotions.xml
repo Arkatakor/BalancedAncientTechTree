@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Aug-16 10:34:00 AM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
+			<PromotionType>PROMOTION_CHARGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

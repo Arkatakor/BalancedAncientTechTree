@@ -28,5 +28,13 @@
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
 	</Building_LocalResourceOrs>
 </GameData>
