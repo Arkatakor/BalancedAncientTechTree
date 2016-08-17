@@ -6,9 +6,9 @@
 			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
 			<PromotionType>PROMOTION_CHARGE</PromotionType>
-		</Row>
+		</Row>-->
 	</Unit_FreePromotions>
 </GameData>

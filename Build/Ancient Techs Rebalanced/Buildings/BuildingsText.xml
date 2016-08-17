@@ -18,7 +18,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ELDER_COUNCIL_HELP">
 			<Text>
-				Early science building.  Obsolete with Theology.
+				Early science building.  Obsolete with Education.
 			</Text>
 		</Row>
 
@@ -55,7 +55,7 @@
 			<Text>[NEWLINE][TAB][TAB]"The animals will emerge out of darkness as you pass. Nothing stays still. Shadows nestle in the cavities; a flicker of light across pale protruding rock turns a hoof or raises a head. One shape recedes as another emerges, and everything lingers in the imagination."[NEWLINE][TAB][TAB] — Jane Brox, Brilliant: The Evolution of Artificial Light[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LASCAUX_CAVES_WONDER_HELP">
-			<Text>1 [ICON_PEACE] faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison, [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cattle and [ICON_RES_IVORY] Ivory.  [NEWLINE][NEWLINE]City must have an improved source of Deer, Bison or Ivory nearby.</Text>
+			<Text>1 [ICON_PEACE] faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison, [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cattle and [ICON_RES_IVORY] Ivory.  [NEWLINE][NEWLINE]City must have an improved source of Deer, Bison, Horse, Cattle or Ivory nearby.</Text>
 		</Row>
 
 	</Language_en_US>

@@ -338,11 +338,11 @@ This mod would not have been possible without the following contributors:
     </Content>
     <Content Include="Lua\BuildingRequireNearbyResources.lua">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Lua\CityNearbyMapDatas.lua">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Resources\Resources.sql">
       <SubType>Lua</SubType>
