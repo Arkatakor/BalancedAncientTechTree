@@ -141,7 +141,12 @@ This mod would not have been possible without the following contributors:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Buildings/LocalResources.xml</FileName>
+        <FileName>Buildings/BuildingsResourcesImproved.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/BuildingsResourcesUnimproved.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -303,7 +308,11 @@ This mod would not have been possible without the following contributors:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Buildings\LocalResources.xml">
+    <Content Include="Buildings\BuildingsResourcesImproved.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\BuildingsResourcesUnimproved.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -326,6 +335,14 @@ This mod would not have been possible without the following contributors:
     <Content Include="Buildings\Wonders.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\BuildingRequireNearbyResources.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\CityNearbyMapDatas.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Resources\Resources.sql">
       <SubType>Lua</SubType>
@@ -404,6 +421,7 @@ This mod would not have been possible without the following contributors:
     <Folder Include="Assets" />
     <Folder Include="Assets\Sound" />
     <Folder Include="Buildings" />
+    <Folder Include="Lua" />
     <Folder Include="Units" />
     <Folder Include="Resources" />
     <Folder Include="Techs" />
