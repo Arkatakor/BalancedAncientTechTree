@@ -95,7 +95,7 @@ INSERT INTO Technologies (Type, Cost, Description, Civilopedia, Help, Era, Trade
 VALUES ('TECH_STONE_TOOLS', 20, 'TXT_KEY_TECH_STONE_TOOLS_TITLE', 'TXT_KEY_TECH_STONE_TOOLS_DESC', 'TXT_KEY_TECH_STONE_TOOLS_HELP', 'ERA_ANCIENT', 1, 0, 0, 5, 
 'TXT_KEY_TECH_STONE_TOOLS_QUOTE', 0, 'EXTENDED_RESOURCE_ATLAS', 'AS2D_TECH_STONE_TOOLS', 'AS2D_TECH_STONE_TOOLS');
 
-INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_TITLE', 'Stone Working');
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_TITLE', 'Stone Tools');
 INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_STONE_TOOLS_HELP', 
 'Allows you to build monument and axe warrior.  Leads to mining.');
 

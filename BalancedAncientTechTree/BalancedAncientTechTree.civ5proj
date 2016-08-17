@@ -71,6 +71,11 @@ This mod would not have been possible without the following contributors:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Techs/TechCoordinates.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Techs/Techs.sql</FileName>
       </Action>
       <Action>
@@ -331,6 +336,10 @@ This mod would not have been possible without the following contributors:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Techs\Art.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\TechCoordinates.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

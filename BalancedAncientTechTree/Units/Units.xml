@@ -35,7 +35,7 @@
 			<Class>UNITCLASS_LIGHT_AXEMAN</Class>
 			<Type>UNIT_LIGHT_AXEMAN</Type>
 			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
-			<Combat>6</Combat>
+			<Combat>5</Combat>
 			<RangedCombat>4</RangedCombat>
 			<Cost>30</Cost>
 			<FaithCost>60</FaithCost>
