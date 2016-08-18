@@ -96,6 +96,11 @@ This mod would not have been possible without the following contributors:
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Techs/TechsResources.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Techs/AIFreeTechs.xml</FileName>
       </Action>
       <Action>
@@ -211,6 +216,14 @@ This mod would not have been possible without the following contributors:
     </ModActions>
     <ModProperties />
     <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>BuildingRequireNearbyResources</Name>
+        <Description>Building Require Nearby Resources</Description>
+        <FileName>Lua/BuildingRequireNearbyResources.lua</FileName>
+      </Content>
+    </ModContent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -342,7 +355,7 @@ This mod would not have been possible without the following contributors:
     </Content>
     <Content Include="Lua\CityNearbyMapDatas.lua">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Resources\Resources.sql">
       <SubType>Lua</SubType>
@@ -373,6 +386,10 @@ This mod would not have been possible without the following contributors:
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Techs\TechsHandicapInfo.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\TechsResources.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

@@ -29,3 +29,20 @@ UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH
 INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_CULTURE', 4)
 --	For axe warrior
 INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_DEFENSE', 3)
+
+-----------------------------------------------------------------------
+--	WOOD_WORKING 
+-----------------------------------------------------------------------
+UPDATE Technology_Flavors SET TechType = 'TECH_WOOD_WORKING' WHERE TechType = 'TECH_CONSTRUCTION' 
+AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
+
+--	Let AI know that this tech offers small culture boost (through monument)
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_WOOD_WORKING','FLAVOR_PRODUCTION', 8)
+
+--	Production from consturction moved to wood working
+DELETE FROM Technology_Flavors WHERE TechType = 'TECH_CONSTRUCTION' AND FlavorType = 'FLAVOR_PRODUCTION';
+
+--	Updating builds
+UPDATE Builds SET PrereqTech = 'TECH_WOOD_WORKING' WHERE Type = 'BUILD_LUMBERMILL';
+UPDATE Builds SET PrereqTech = 'TECH_FISHING' WHERE Type = 'BUILD_FISHING_BOATS';
+UPDATE Builds SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'BUILD_CAMP';

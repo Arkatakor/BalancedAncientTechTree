@@ -98,7 +98,7 @@ This mod would not have been possible without the following contributors:
     <File md5="892F799025999841764A0963E57E38F2" import="0">Buildings/BuildingsText.xml</File>
     <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B9C09897EF27C1A602363017071DFB57" import="0">Lua/BuildingRequireNearbyResources.lua</File>
-    <File md5="83C68E903BB413946D0AD87F4182F467" import="0">Lua/CityNearbyMapDatas.lua</File>
+    <File md5="83C68E903BB413946D0AD87F4182F467" import="1">Lua/CityNearbyMapDatas.lua</File>
     <File md5="B288816213C69C2DF4D25390F7B8B792" import="0">Resources/Resources.sql</File>
     <File md5="46604DB1839E2A67CEE1765E108F97D0" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
@@ -149,4 +149,10 @@ This mod would not have been possible without the following contributors:
       <UpdateDatabase>Units/UnitsText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/BuildingRequireNearbyResources.lua">
+      <Name>BuildingRequireNearbyResources</Name>
+      <Description>Building Require Nearby Resources</Description>
+    </EntryPoint>
+  </EntryPoints>
 </Mod>
