@@ -219,9 +219,9 @@ This mod would not have been possible without the following contributors:
     <ModContent>
       <Content>
         <Type>InGameUIAddin</Type>
-        <Name>BuildingRequireNearbyResources</Name>
-        <Description>Building Require Nearby Resources</Description>
-        <FileName>Lua/BuildingRequireNearbyResources.lua</FileName>
+        <Name>Building_RequireNearbyResourcesORS</Name>
+        <Description>Building_RequireNearbyResourcesORS</Description>
+        <FileName>Lua/Building_RequireNearbyResourcesORS.lua</FileName>
       </Content>
     </ModContent>
   </PropertyGroup>
@@ -349,7 +349,7 @@ This mod would not have been possible without the following contributors:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Lua\BuildingRequireNearbyResources.lua">
+    <Content Include="Lua\Building_RequireNearbyResourcesORS.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

@@ -17,7 +17,7 @@ AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
 -----------------------------------------------------------------------
 --	let the AI know this is for religion
 --	Let AI know that this tech offers small science boost
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_SCIENCE', 1)
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_SCIENCE', 1);
 
 --	Update religion indicator for AI; pottery no longer offers religion (shrine), mysticism does
 UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH_POTTERY' AND FlavorType = 'FLAVOR_RELIGION';
@@ -26,9 +26,9 @@ UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH
 --	STONE_TOOLS 
 -----------------------------------------------------------------------
 --	Let AI know that this tech offers small culture boost (through monument)
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_CULTURE', 4)
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_CULTURE', 4);
 --	For axe warrior
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_DEFENSE', 3)
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_DEFENSE', 3);
 
 -----------------------------------------------------------------------
 --	WOOD_WORKING 
@@ -37,7 +37,7 @@ UPDATE Technology_Flavors SET TechType = 'TECH_WOOD_WORKING' WHERE TechType = 'T
 AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
 
 --	Let AI know that this tech offers small culture boost (through monument)
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_WOOD_WORKING','FLAVOR_PRODUCTION', 8)
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_WOOD_WORKING','FLAVOR_PRODUCTION', 8);
 
 --	Production from consturction moved to wood working
 DELETE FROM Technology_Flavors WHERE TechType = 'TECH_CONSTRUCTION' AND FlavorType = 'FLAVOR_PRODUCTION';

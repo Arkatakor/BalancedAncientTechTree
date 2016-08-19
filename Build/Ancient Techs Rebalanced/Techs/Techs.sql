@@ -25,11 +25,7 @@ VALUES ('AS2D_TECH_FISHING', 'SND_TECH_FISHING', 'GAME_SPEECH', 80, 80);
 UPDATE Language_en_US Set Text = 'Used to establish lucrative sea-based Trade Routes. Also allows you to build military and economic ships, useful for exploration' 
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP';
 
---	Update resources trading to reflect on fishing
-UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_FISH';
-UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_PEARLS';
-UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_CRAB';
-UPDATE Resources SET TechCityTrade = 'TECH_FISHING' WHERE TYPE = 'RESOURCE_WHALE';
+
 
 -----------------------------------------------------------------------
 --	HUNTING 
@@ -57,13 +53,6 @@ VALUES ('AS2D_TECH_HUNTING', 'SND_TECH_HUNTING', 'GAME_SPEECH', 80, 80);
 --	Update Help tool tips for trapping to no longer include part with acquiring resources
 UPDATE Language_en_US Set Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Circus[ENDCOLOR] which increases the happiness in your population provided there is an improved source of [ICON_RES_HORSE] horse or [ICON_RES_IVORY] ivory in the city vicinity.' 
 WHERE Tag = 'TXT_KEY_TECH_TRAPPING_HELP';
-
---	Update resources trading to reflect on fishing
-UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_DEER';
-UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_IVORY';
-UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_FUR';
-UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_BISON';
-UPDATE Resources SET TechCityTrade = 'TECH_HUNTING' WHERE TYPE = 'RESOURCE_TRUFFLES';
 
 -----------------------------------------------------------------------
 --	MYSTICISM 
@@ -110,5 +99,28 @@ VALUES ('SND_TECH_STONE_TOOLS', 'TechStoneTools', 'DynamicResident');
 
 INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
 VALUES ('AS2D_TECH_STONE_TOOLS', 'SND_TECH_STONE_TOOLS', 'GAME_SPEECH', 80, 80);
+
+-----------------------------------------------------------------------
+--	WOOD_WORKING 
+-----------------------------------------------------------------------
+INSERT INTO Technologies (Type, Cost, Description, Civilopedia, Help, Era, Trade, GoodyTech, GridX, GridY, Quote, PortraitIndex, IconAtlas, AudioIntro, AudioIntroHeader) 
+VALUES ('TECH_WOOD_WORKING', 20, 'TXT_KEY_TECH_WOOD_WORKING_TITLE', 'TXT_KEY_TECH_WOOD_WORKING_DESC', 'TXT_KEY_TECH_WOOD_WORKING_HELP', 'ERA_ANCIENT', 1, 0, 1, 7, 
+'TXT_KEY_TECH_WOOD_WORKING_QUOTE', 3, 'ANCIENT_TECH_ICON_ATLAS', null, 'AS2D_TECH_WOOD_WORKING');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_WOOD_WORKING_TITLE', 'Wood Working');
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_WOOD_WORKING_HELP', 
+'Allows you to build carpenter building and lumbermill improvement over forest tiles.');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_WOOD_WORKING_QUOTE', 
+'[NEWLINE][TAB][TAB]"The best carpenters make the fewest chips."[NEWLINE][TAB][TAB]  - English proverb, c.1500s[NEWLINE][TAB]');
+
+INSERT INTO Language_en_US (Tag, Text) VALUES ('TXT_KEY_TECH_WOOD_WORKING_DESC', 'Along with stone, clay and animal parts, wood was one of the first materials worked by early humans. Microwear analysis of the Mousterian stone tools used by the Neanderthals show that many were used to work wood. The development of civilization was closely tied to the development of increasingly greater degrees of skill in working these materials.[NEWLINE][NEWLINE]Among early finds of wooden tools are the worked sticks from Kalambo Falls, Clacton-on-Sea and Lehringen. The spears from Schöningen (Germany) provide some of the first examples of wooden hunting gear. Flint tools were used for carving. Since Neolithic times, carved wooden vessels are known, for example, from the Linear Pottery culture wells at Kückhofen and Eythra.[NEWLINE][NEWLINE]Examples of Bronze Age wood-carving include tree trunks worked into coffins from northern Germany and Denmark and wooden folding-chairs. The site of Fellbach-Schmieden in Germany has provided fine examples of wooden animal statues from the Iron Age Wooden idols from the La Tène period are known from a sanctuary at the source of the Seine in France.');
+
+--	Audio
+--INSERT INTO Audio_Sounds (SoundID, Filename, LoadType) 
+--VALUES ('SND_TECH_WOOD_WORKING', 'TechMysticism', 'DynamicResident');
+
+--INSERT INTO Audio_2DSounds (ScriptID, SoundID, SoundType, MinVolume, MaxVolume) 
+--VALUES ('AS2D_TECH_WOOD_WORKING', 'SND_TECH_WOOD_WORKING', 'GAME_SPEECH', 80, 80);
 
 
