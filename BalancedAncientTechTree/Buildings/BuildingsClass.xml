@@ -23,5 +23,12 @@
 			<Description>Lascaux Caves</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+		<!--Carpenter-->
+		<Row>
+			<Type>BUILDINGCLASS_CARPENTER</Type>
+			<DefaultBuilding>BUILDING_CARPENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
+		</Row>
+
 	</BuildingClasses>
 </GameData>

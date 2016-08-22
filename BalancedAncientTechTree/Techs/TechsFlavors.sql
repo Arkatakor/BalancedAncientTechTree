@@ -36,10 +36,10 @@ INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE
 UPDATE Technology_Flavors SET TechType = 'TECH_WOOD_WORKING' WHERE TechType = 'TECH_CONSTRUCTION' 
 AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
 
---	Let AI know that this tech offers small culture boost (through monument)
+--	Let AI know that this tech offers produciton boost (through lubmer mill and carpenter)
 INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_WOOD_WORKING','FLAVOR_PRODUCTION', 8);
 
---	Production from consturction moved to wood working
+--	Remove production trait from consturction
 DELETE FROM Technology_Flavors WHERE TechType = 'TECH_CONSTRUCTION' AND FlavorType = 'FLAVOR_PRODUCTION';
 
 --	Updating builds
