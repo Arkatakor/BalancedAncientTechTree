@@ -22,7 +22,7 @@ Historically there is no realistic reason why acquiring fish, bison or deer shou
 
 [h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
 
-With new techs introduced, it was necessary to adjust what techs the AI get on various difficulties.  The following describes what techs the AI gets.  Techs in brackets represent what the AI used to have, and the list underneath them describes what they get in this mod. 
+With new techs introduced, it was necessary to adjust what techs the AI get on various difficulties.  The following describes what techs the AI gets.  Techs in brackets represent what the AI used to have, and the list underneath them describes what they get in this mod.  Although in this mod the AI get more free techs than in vanilla Civ, bear in mind that stone tools, mysticism, agriculture, hunting and fishing cost about half that of the next tier techs (pottery, mining etc).  
 
 [b]King[/b] (Pottery) 
 
@@ -45,7 +45,8 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 [b]Deity[/b] (Pottery, Animal Husbandry, Mining, The Wheel) 
 
 -	Animal Husbandry 
--	Mining 
+-	Stone Tools
+-	Mysticism
 -	Fishing 
 -	Hunting 
 -	Agriculture 

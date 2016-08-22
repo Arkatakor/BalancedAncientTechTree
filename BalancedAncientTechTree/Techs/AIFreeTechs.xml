@@ -47,6 +47,14 @@
 			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<TechType>TECH_HUNTING</TechType>
 		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_MYSTICISM</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_STONE_TOOLS</TechType>
+		</Row>
 	</HandicapInfo_AIFreeTechs>
 
 </GameData>
