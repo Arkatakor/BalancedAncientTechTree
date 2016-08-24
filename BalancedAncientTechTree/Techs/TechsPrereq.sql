@@ -5,6 +5,10 @@ UPDATE Builds SET PrereqTech = 'TECH_FISHING' WHERE Type = 'BUILD_FISHING_BOATS'
 --	Update sailing tech prerequisite to fishing instead of pottery
 UPDATE Technology_PrereqTechs Set PrereqTech = 'TECH_FISHING' WHERE TechType = 'TECH_SAILING';
 
+--	Hunting requires animal husbandry
+DELETE FROM Technology_PrereqTechs WHERE TechType = 'TECH_ANIMAL_HUSBANDRY';
+INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_ANIMAL_HUSBANDRY', 'TECH_HUNTING');
+
 --	hunting
 UPDATE Builds SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'BUILD_CAMP';
 

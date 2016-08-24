@@ -12,6 +12,8 @@
 
 Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
 
+The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from Civ4 Rise of Mankind - A New Dawn mod.  The latter was also the source of ideas behind some of the new buildings found in this mod.
+
 [h1][b]Balance[/b][/h1]
 
 Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison.. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this. 
@@ -56,7 +58,9 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 This mod would not have been possible without the following contributors: 
 
 - Troller0001 
-- whoward69</Description>
+- whoward69
+
+Also special thanks to LeeS whose resource-in-vicinity lua code came in great use.</Description>
     <Authors>Arkatakor</Authors>
     <SpecialThanks>Troller0001, whoward69</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
