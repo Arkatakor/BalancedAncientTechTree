@@ -30,8 +30,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_HAND_AXE_BARBARIAN</UnitArtInfo>
 			<UnitFlagAtlas>ANCIENT_TECH_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>ANCIENT_TECH_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 	</Units>
 </GameData>
