@@ -2,10 +2,12 @@
 <Mod id="8aafd700-c0be-4358-8d2b-08b7cdcc04ac" version="4">
   <Properties>
     <Name>Ancient Techs Rebalanced</Name>
-    <Teaser>Re-introduces hunting, fishing and mysticism, allowing for earlier access to fish, deer, bison, ivory and fur.</Teaser>
-    <Description>Re-introduces the hunting and fishing tech, giving earlier access to food resources such as fish, pearls, bison, deer and ivory. Mysticism also re-introduced granting new building (elder council) and setting shrine requirement to this tech.  Adds a new building (furrier), upon discovery of trapping. Also adds Lascaux Caves wonder to hunting.
+    <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
+    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  New buildings include elder council, furrier, carpenter and the Lascaux Caves wonder.  Monument and shrine require these new techs.
 
 Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
+
+The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from Civ4 Rise of Mankind - A New Dawn mod.  The latter was also the source of ideas behind some of the new buildings found in this mod.
 
 [h1][b]Balance[/b][/h1]
 
@@ -17,7 +19,7 @@ Historically there is no realistic reason why acquiring fish, bison or deer shou
 
 [h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
 
-With new techs introduced, it was necessary to adjust what techs the AI get on various difficulties.  The following describes what techs the AI gets.  Techs in brackets represent what the AI used to have, and the list underneath them describes what they get in this mod. 
+With new techs introduced, it was necessary to adjust what techs the AI get on various difficulties.  The following describes what techs the AI gets.  Techs in brackets represent what the AI used to have, and the list underneath them describes what they get in this mod.  Although in this mod the AI get more free techs than in vanilla Civ, bear in mind that stone tools, mysticism, agriculture, hunting and fishing cost about half that of the next tier techs (pottery, mining etc).  
 
 [b]King[/b] (Pottery) 
 
@@ -40,7 +42,8 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 [b]Deity[/b] (Pottery, Animal Husbandry, Mining, The Wheel) 
 
 -	Animal Husbandry 
--	Mining 
+-	Stone Tools
+-	Mysticism
 -	Fishing 
 -	Hunting 
 -	Agriculture 
@@ -50,7 +53,9 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 This mod would not have been possible without the following contributors: 
 
 - Troller0001 
-- whoward69</Description>
+- whoward69
+
+Also special thanks to LeeS whose resource-in-vicinity lua code came in great use.</Description>
     <Authors>Arkatakor</Authors>
     <SpecialThanks>Troller0001, whoward69</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
@@ -69,11 +74,11 @@ This mod would not have been possible without the following contributors:
   <References />
   <Blocks />
   <Files>
-    <File md5="B7889ADAFA9929921317868FF0865E34" import="1">Art/Buildings/AncientBuildingAtlas128.dds</File>
-    <File md5="D75E7BCBB6C2B6A05BFE767E9AD3F732" import="1">Art/Buildings/AncientBuildingAtlas256.dds</File>
-    <File md5="76429DE9DE1A3A46E9B20947C775546B" import="1">Art/Buildings/AncientBuildingAtlas45.dds</File>
-    <File md5="40E6341E1157145937FE850413BEFF98" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
-    <File md5="8FA1220D526B647F441804E7A5F84DA0" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
+    <File md5="BE8F228526134FA7021DA36799300082" import="1">Art/Buildings/AncientBuildingAtlas128.dds</File>
+    <File md5="0ED1E8BCB80DAB2378AD7B1453778CFE" import="1">Art/Buildings/AncientBuildingAtlas256.dds</File>
+    <File md5="4F3FB4160319B7F89E11369ADEFACDDE" import="1">Art/Buildings/AncientBuildingAtlas45.dds</File>
+    <File md5="19390714B390C31E4F3BAD263B014E42" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
+    <File md5="9BEE6B1EBA8546CC6C6348F06362E256" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
     <File md5="C762B0F9D2925EF90E6878A97FB5AEFB" import="1">Art/Buildings/LascauxSplash.dds</File>
     <File md5="D710C353DCDD38D3E876D4B3B538D193" import="1">Art/Techs/AncientTechAtlas128.dds</File>
     <File md5="767D594A0746D3D25845E2F403CB3EFD" import="1">Art/Techs/AncientTechAtlas214.dds</File>
@@ -81,37 +86,43 @@ This mod would not have been possible without the following contributors:
     <File md5="FCAB24DA017897B8B50277C3AF6F20FC" import="1">Art/Techs/AncientTechAtlas45.dds</File>
     <File md5="01C9841D9A2781B8622473912B9F2DE9" import="1">Art/Techs/AncientTechAtlas64.dds</File>
     <File md5="2DB8B17557D0671275773B8AE4DA089A" import="1">Art/Techs/AncientTechAtlas80.dds</File>
+    <File md5="672439486BFE4CBF91CAA56027E38976" import="1">Art/Units/AncientUnitAtlas128.dds</File>
+    <File md5="C11F4B1B8CA8823B444ABEED7835123C" import="1">Art/Units/AncientUnitAtlas256.dds</File>
+    <File md5="D84201AA1A6EB25F11C5364A4929BC31" import="1">Art/Units/AncientUnitAtlas45.dds</File>
+    <File md5="53429B702F49793992C9468EBB5599DE" import="1">Art/Units/AncientUnitAtlas64.dds</File>
+    <File md5="55D810C7D61A5D6BE9BF968FB054DC97" import="1">Art/Units/AncientUnitAtlas80.dds</File>
     <File md5="3C87964B93CA755595FEB8CFE155150A" import="1">Art/Units/LightAxemanFlag.dds</File>
     <File md5="16A86E889FEC38C0852E3C5E3DA28670" import="1">Assets/Sound/TechFishing.mp3</File>
     <File md5="FDA744DB027840CA9313D2F297DDBC2C" import="1">Assets/Sound/TechHunting.mp3</File>
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
     <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
-    <File md5="F18359C8A02C9A36C38FD12259D74045" import="0">Buildings/Buildings.xml</File>
-    <File md5="971C849F6A035ACB09E0CC9E6F23AB86" import="0">Buildings/BuildingsClass.xml</File>
-    <File md5="9625CC01875FBBAB4CE35586228D7203" import="0">Buildings/BuildingsFlavors.xml</File>
+    <File md5="89B14071FED3E221B5A9995EB6386133" import="0">Buildings/Buildings.xml</File>
+    <File md5="F2E17061DBE1DCCA8D9CC07CC4DECDAD" import="0">Buildings/BuildingsClass.xml</File>
+    <File md5="539D7BA4C4E8E0832E2527F3A22F6F3E" import="0">Buildings/BuildingsFlavors.xml</File>
     <File md5="921DAF959D97CA55E85045480238654F" import="0">Buildings/BuildingsResourcesImproved.xml</File>
     <File md5="1E88A1F220B6DE932D22D50D1D58019B" import="0">Buildings/BuildingsResourcesUnimproved.xml</File>
     <File md5="3266D345E53C7FFC98B1AF9DCC539F75" import="0">Buildings/ResourceYieldChanges.xml</File>
-    <File md5="6EA692B5F9C2F73C1D173C58840860D1" import="0">Buildings/BuildingsYieldChanges.xml</File>
+    <File md5="CE0FDB8280E389213CE8883160E14E4F" import="0">Buildings/BuildingsYieldChanges.xml</File>
     <File md5="2AE371F1A375B5666E3CA90BD04BBAF5" import="0">Buildings/Updates.sql</File>
-    <File md5="892F799025999841764A0963E57E38F2" import="0">Buildings/BuildingsText.xml</File>
+    <File md5="2C043989A1F5267EF0836E9F0955B7B9" import="0">Buildings/BuildingsText.xml</File>
     <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B9C09897EF27C1A602363017071DFB57" import="0">Lua/Building_RequireNearbyResourcesORS.lua</File>
     <File md5="83C68E903BB413946D0AD87F4182F467" import="1">Lua/CityNearbyMapDatas.lua</File>
-    <File md5="B288816213C69C2DF4D25390F7B8B792" import="0">Resources/Resources.sql</File>
-    <File md5="46604DB1839E2A67CEE1765E108F97D0" import="0">Techs/AIFreeTechs.xml</File>
+    <File md5="464FAADB8FC0B94F5D37F492A03D575A" import="0">Resources/Resources.sql</File>
+    <File md5="92B0AD311F9038AB50900503D85CA25F" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
-    <File md5="DFB115037EA818E609DD4EE22E8DA368" import="0">Techs/TechCoordinates.sql</File>
-    <File md5="F8AEB3F3C68BC985D5BA3FDAD9732DAE" import="0">Techs/TechsPrereq.sql</File>
-    <File md5="F46CF56D78121525C291EC276412D9F5" import="0">Techs/Techs.sql</File>
-    <File md5="171A976EE37BCA4708E0925FF573A4A4" import="0">Techs/TechsFlavors.sql</File>
-    <File md5="7C62B1526445858906768A2A69E6AF5F" import="0">Techs/TechsHandicapInfo.sql</File>
+    <File md5="5A86C86997D045FD478592D733CB4A0A" import="0">Techs/TechCoordinates.sql</File>
+    <File md5="5054AFF575600F19BCDB2124069411B4" import="0">Techs/TechsPrereq.sql</File>
+    <File md5="287F5BF6569B21063933A0C3694CAF35" import="0">Techs/Techs.sql</File>
+    <File md5="59B2819E37CD56C0C8D813B3C14A6064" import="0">Techs/TechsFlavors.sql</File>
+    <File md5="43CC5F29DCAADD4784B7F2EDF59A0AA4" import="0">Techs/TechsHandicapInfo.sql</File>
     <File md5="C1D7E421BC978BC080019C5D7B3529BB" import="0">Techs/TechsResources.sql</File>
+    <File md5="095A6CD6A4DEE305E71221383A53E38F" import="0">Units/Art.sql</File>
     <File md5="B154AAFDF375E3D4E270F79EED3D2E35" import="0">Units/UnitFlagAtlas.xml</File>
     <File md5="50C1D6578A050F5D0E0FED33EA34695B" import="0">Units/UnitsText.xml</File>
     <File md5="9749F14CCAD099B1C2BD9D25A029E812" import="0">Units/Updates.sql</File>
-    <File md5="CECE356D36F8B5E5D21F1360CA8CC67C" import="0">Units/Units.xml</File>
+    <File md5="A75B6982596AA6D6DB227E78BF657DFB" import="0">Units/Units.xml</File>
     <File md5="D249CCB47CD2D6135B6FC1B1EC9F99EA" import="0">Units/UnitsAITypes.xml</File>
     <File md5="B8ED710EB26116648810CB44B7912D35" import="0">Units/UnitsClasses.xml</File>
     <File md5="45B6D5D95F7E821527DE6FFE311193E0" import="0">Units/UnitsClassUpgrades.xml</File>
@@ -140,6 +151,7 @@ This mod would not have been possible without the following contributors:
       <UpdateDatabase>Buildings/ResourceYieldChanges.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Updates.sql</UpdateDatabase>
       <UpdateDatabase>Buildings/Wonders.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Art.sql</UpdateDatabase>
       <UpdateDatabase>Units/UnitFlagAtlas.xml</UpdateDatabase>
       <UpdateDatabase>Units/Units.xml</UpdateDatabase>
       <UpdateDatabase>Units/UnitsAITypes.xml</UpdateDatabase>

@@ -21,8 +21,11 @@ INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_WRITING'
 UPDATE Technology_PrereqTechs Set PrereqTech = 'TECH_HUNTING' WHERE TechType = 'TECH_ARCHERY';
 UPDATE Technology_PrereqTechs Set PrereqTech = 'TECH_STONE_TOOLS' WHERE TechType = 'TECH_MINING';
 
---	Add prereq tech for construction
-INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_CONSTRUCTION', 'TECH_WOOD_WORKING');
+--	Add prereq tech for the wheel
+INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_THE_WHEEL', 'TECH_WOOD_WORKING');
+
+--	Add prereq tech for the archery
+--INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_ARCHERY', 'TECH_STONE_TOOLS');
 
 --	Add stone tools as prerequisite for wookd working
 INSERT INTO Technology_PrereqTechs (TechType, PrereqTech) VALUES ('TECH_WOOD_WORKING', 'TECH_STONE_TOOLS');

@@ -39,5 +39,23 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 
+		<!--Carpenter-->
+		<Row>
+			<Type>BUILDING_CARPENTER</Type>
+			<BuildingClass>BUILDINGCLASS_CARPENTER</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>			
+			<PrereqTech>TECH_WOOD_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CARPENTER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_CARPENTER_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CARPENTER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
 	</Buildings>
 </GameData>

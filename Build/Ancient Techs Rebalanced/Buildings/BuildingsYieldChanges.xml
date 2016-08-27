@@ -22,6 +22,15 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
 		</Row>
-
+		
 	</Building_YieldChanges>
+
+	<Building_YieldModifiers>
+		<!--Carpenter-->
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
 </GameData>

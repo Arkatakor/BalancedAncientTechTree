@@ -7,7 +7,7 @@
 			<Type>UNIT_LIGHT_AXEMAN</Type>
 			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
 			<Combat>5</Combat>
-			<RangedCombat>5</RangedCombat>
+			<RangedCombat>4</RangedCombat>
 			<Cost>30</Cost>
 			<FaithCost>60</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>

@@ -55,7 +55,7 @@
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 	</Buildings>
 </GameData>
