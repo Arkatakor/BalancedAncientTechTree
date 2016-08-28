@@ -80,12 +80,12 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="4704AA7201F2F0B7A4F12F107E0AD4EA" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
     <File md5="A0C10E94DAE387EE9D654BC8909A8935" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
     <File md5="C762B0F9D2925EF90E6878A97FB5AEFB" import="1">Art/Buildings/LascauxSplash.dds</File>
-    <File md5="D710C353DCDD38D3E876D4B3B538D193" import="1">Art/Techs/AncientTechAtlas128.dds</File>
-    <File md5="767D594A0746D3D25845E2F403CB3EFD" import="1">Art/Techs/AncientTechAtlas214.dds</File>
-    <File md5="BF50D53C907B3DB4828F862A15061BF8" import="1">Art/Techs/AncientTechAtlas256.dds</File>
-    <File md5="FCAB24DA017897B8B50277C3AF6F20FC" import="1">Art/Techs/AncientTechAtlas45.dds</File>
-    <File md5="01C9841D9A2781B8622473912B9F2DE9" import="1">Art/Techs/AncientTechAtlas64.dds</File>
-    <File md5="2DB8B17557D0671275773B8AE4DA089A" import="1">Art/Techs/AncientTechAtlas80.dds</File>
+    <File md5="EE4B823F225014430EE007AD1CA90BBF" import="1">Art/Techs/AncientTechAtlas128.dds</File>
+    <File md5="54210329219AC0D59DB25DC235559BA3" import="1">Art/Techs/AncientTechAtlas214.dds</File>
+    <File md5="5C951D75FDDBDC3EDF755B50CAC4A2AF" import="1">Art/Techs/AncientTechAtlas256.dds</File>
+    <File md5="22331D797E17E39ACD279AEAF1A10B24" import="1">Art/Techs/AncientTechAtlas45.dds</File>
+    <File md5="6C3DABB8CCE67F83D0CF206B727EC0DA" import="1">Art/Techs/AncientTechAtlas64.dds</File>
+    <File md5="916ABF9D2E5C7CEB7134C7E85B969AB5" import="1">Art/Techs/AncientTechAtlas80.dds</File>
     <File md5="B35CCDC54A41B2B75882A03C72CFA274" import="1">Art/Units/AncientUnitAtlas128.dds</File>
     <File md5="BCE798CE15D88155AE525CD73703EDA2" import="1">Art/Units/AncientUnitAtlas256.dds</File>
     <File md5="08EC70F0E346207952AAD3A7913920AB" import="1">Art/Units/AncientUnitAtlas45.dds</File>
