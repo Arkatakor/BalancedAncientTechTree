@@ -44,7 +44,7 @@
 			<Type>BUILDING_CARPENTER</Type>
 			<BuildingClass>BUILDINGCLASS_CARPENTER</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>75</Cost>			
+			<Cost>60</Cost>			
 			<PrereqTech>TECH_WOOD_WORKING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CARPENTER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>

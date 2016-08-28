@@ -9,7 +9,7 @@
 			<Text>The light axeman is an Ancient era range unit wich is a cheaper alternative to the Bowman.  It is also available earlier.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_LIGHT_AXEMAN">
-			<Text>Cheap ranged ancient era ranged unit.</Text>
+			<Text>Cheap ranged ancient era unit.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

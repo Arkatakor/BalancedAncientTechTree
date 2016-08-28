@@ -97,7 +97,7 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
     <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
-    <File md5="89B14071FED3E221B5A9995EB6386133" import="0">Buildings/Buildings.xml</File>
+    <File md5="F04ECA1D382E70B34BDC9F653BEA857A" import="0">Buildings/Buildings.xml</File>
     <File md5="F2E17061DBE1DCCA8D9CC07CC4DECDAD" import="0">Buildings/BuildingsClass.xml</File>
     <File md5="539D7BA4C4E8E0832E2527F3A22F6F3E" import="0">Buildings/BuildingsFlavors.xml</File>
     <File md5="921DAF959D97CA55E85045480238654F" import="0">Buildings/BuildingsResourcesImproved.xml</File>
@@ -120,7 +120,7 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="C1D7E421BC978BC080019C5D7B3529BB" import="0">Techs/TechsResources.sql</File>
     <File md5="095A6CD6A4DEE305E71221383A53E38F" import="0">Units/Art.sql</File>
     <File md5="B154AAFDF375E3D4E270F79EED3D2E35" import="0">Units/UnitFlagAtlas.xml</File>
-    <File md5="E7299A8DDF01EB50083C96CAF3483CE0" import="0">Units/UnitsText.xml</File>
+    <File md5="43F6D1C8B1B324C5600910D5DEBD58BA" import="0">Units/UnitsText.xml</File>
     <File md5="9749F14CCAD099B1C2BD9D25A029E812" import="0">Units/Updates.sql</File>
     <File md5="A75B6982596AA6D6DB227E78BF657DFB" import="0">Units/Units.xml</File>
     <File md5="D249CCB47CD2D6135B6FC1B1EC9F99EA" import="0">Units/UnitsAITypes.xml</File>
