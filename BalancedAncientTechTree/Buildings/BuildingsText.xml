@@ -74,7 +74,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CARPENTER_HELP">
 			<Text>
-				Gives minor building production boost.
+				10% [PRODUCTION] Production when constructing buildings.
 			</Text>
 		</Row>
 
