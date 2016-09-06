@@ -15,6 +15,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ELDER_COUNCIL</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>0</PortraitIndex>
