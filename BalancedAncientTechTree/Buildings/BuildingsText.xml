@@ -85,7 +85,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FISH_TRAPS_STRATEGY">
 			<Text>
-				Fish traps can only be constructed in a city near to one or more [ICON_RES_FISH] fish or [ICON_RES_CRAB] crab.  Fish traps will generate an extra 1 [ICON_FOOD] Food for those resources.
+				Fish traps can only be constructed in a city near one or more [ICON_RES_FISH] fish or [ICON_RES_CRAB] crab.  Fish traps will generate an extra 1 [ICON_FOOD] Food for those resources.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDINGS_FISH_TRAPS_DESC">
@@ -95,7 +95,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FISH_TRAPS_HELP">
 			<Text>
-				Each source of [ICON_RES_FISH] Fish and [ICON_RES_CRAB] Crab produce an extra 1 [ICON_FOOD] Food.  [NEWLINE]City must have a source of Fish or Crab nearby.
+				Each source of [ICON_RES_FISH] Fish and [ICON_RES_CRAB] Crab produce an extra 1 [ICON_FOOD] Food.  [NEWLINE][NEWLINE]City must have a source of Fish or Crab nearby.
 			</Text>
 		</Row>
 

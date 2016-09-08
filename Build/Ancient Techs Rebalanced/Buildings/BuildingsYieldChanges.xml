@@ -22,9 +22,32 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
 		</Row>
-		
+
+		<!--Elder Council-->
+		<Row>
+			<BuildingType>BUILDING_ELDER_COUNCIL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
 	</Building_YieldChanges>
 
+	<Building_ResourceYieldChanges>
+		<!--Fish Traps-->
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
 	<Building_YieldModifiers>
 		<!--Carpenter-->
 		<Row>

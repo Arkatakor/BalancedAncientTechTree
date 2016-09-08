@@ -5,17 +5,23 @@
     <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
     <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  New buildings include elder council, furrier, carpenter and the Lascaux Caves wonder.  Monument and shrine require these new techs.
 
-Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. The following section describes why I set out to create this mod.
+Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. 
 
-The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from Civ4 Rise of Mankind - A New Dawn mod.  The latter was also the source of ideas behind some of the new buildings found in this mod.
+The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from [url=http://anewdawn.sourceforge.net/pages/features/]Civ4 BtS Rise of Mankind - A New Dawn mod[/url].  The latter was also the source of ideas behind some of the new buildings found in this mod.
 
-[h1][b]Balance[/b][/h1]
+[h1][b]Reasons for creating this Mod[/b][/h1]
 
-Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison.. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this. 
+Below is a description as to why I set out to create this mod.
 
-[h1][b]Historical[/b][/h1]
+[h1]Balancing early resource access[/h1]
 
-Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture.
+Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this.   
+
+Also note that historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture.
+
+[h1]Adding more depth to the ancient era[/h1]
+
+The monument was available right off the bat and having the shrine building available with pottery seemed nonsensical.  Also there just seemed to be too few techs before one would wonder rush the great library / stonehenge.
 
 [h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
 
@@ -74,11 +80,11 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
   <References />
   <Blocks />
   <Files>
-    <File md5="BE8F228526134FA7021DA36799300082" import="1">Art/Buildings/AncientBuildingAtlas128.dds</File>
-    <File md5="0ED1E8BCB80DAB2378AD7B1453778CFE" import="1">Art/Buildings/AncientBuildingAtlas256.dds</File>
-    <File md5="10AD0A7F79469718A34AF6BD02F0530B" import="1">Art/Buildings/AncientBuildingAtlas45.dds</File>
-    <File md5="4704AA7201F2F0B7A4F12F107E0AD4EA" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
-    <File md5="A0C10E94DAE387EE9D654BC8909A8935" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
+    <File md5="DD6066EBBE79574EC41F1DE4CA9F3959" import="1">Art/Buildings/AncientBuildingAtlas128.dds</File>
+    <File md5="A3E8664ECEADC807DE0C16EC1E9749FA" import="1">Art/Buildings/AncientBuildingAtlas256.dds</File>
+    <File md5="5B888AF4B4B4D1CCDCC1E2EBAC71F6AF" import="1">Art/Buildings/AncientBuildingAtlas45.dds</File>
+    <File md5="6EE9137F998D45E7161C27C2073A512D" import="1">Art/Buildings/AncientBuildingAtlas64.dds</File>
+    <File md5="A5A1176BB02C27A88C34ABF4A4738B04" import="1">Art/Buildings/AncientBuildingAtlas80.dds</File>
     <File md5="C762B0F9D2925EF90E6878A97FB5AEFB" import="1">Art/Buildings/LascauxSplash.dds</File>
     <File md5="EE4B823F225014430EE007AD1CA90BBF" import="1">Art/Techs/AncientTechAtlas128.dds</File>
     <File md5="54210329219AC0D59DB25DC235559BA3" import="1">Art/Techs/AncientTechAtlas214.dds</File>
@@ -97,15 +103,15 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
     <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
-    <File md5="F04ECA1D382E70B34BDC9F653BEA857A" import="0">Buildings/Buildings.xml</File>
-    <File md5="F2E17061DBE1DCCA8D9CC07CC4DECDAD" import="0">Buildings/BuildingsClass.xml</File>
-    <File md5="539D7BA4C4E8E0832E2527F3A22F6F3E" import="0">Buildings/BuildingsFlavors.xml</File>
-    <File md5="921DAF959D97CA55E85045480238654F" import="0">Buildings/BuildingsResourcesImproved.xml</File>
-    <File md5="1E88A1F220B6DE932D22D50D1D58019B" import="0">Buildings/BuildingsResourcesUnimproved.xml</File>
+    <File md5="05F646545CBDB10214227BA8A4F3C60D" import="0">Buildings/Buildings.xml</File>
+    <File md5="EF8B107A2A47DF6048360C3214E045F4" import="0">Buildings/BuildingsClass.xml</File>
+    <File md5="B64539DAEA0281E3AA73CCA76D194C8F" import="0">Buildings/BuildingsFlavors.xml</File>
+    <File md5="197F5216B8D8B9084A82BC205DB3BAAE" import="0">Buildings/BuildingsResourcesImproved.xml</File>
+    <File md5="D6BE9345EC303460FF73FF6659B73F7D" import="0">Buildings/BuildingsResourcesUnimproved.xml</File>
     <File md5="3266D345E53C7FFC98B1AF9DCC539F75" import="0">Buildings/ResourceYieldChanges.xml</File>
-    <File md5="CE0FDB8280E389213CE8883160E14E4F" import="0">Buildings/BuildingsYieldChanges.xml</File>
-    <File md5="2AE371F1A375B5666E3CA90BD04BBAF5" import="0">Buildings/Updates.sql</File>
-    <File md5="7271E50C2C39634DA01383B1FCF99522" import="0">Buildings/BuildingsText.xml</File>
+    <File md5="CBFA817F62E13FC19FB107CF422956C3" import="0">Buildings/BuildingsYieldChanges.xml</File>
+    <File md5="D71330FB27237B9CE2919910A2BCA562" import="0">Buildings/Updates.sql</File>
+    <File md5="2F98E0716243718CCCDDF934A7DDCAB8" import="0">Buildings/BuildingsText.xml</File>
     <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B9C09897EF27C1A602363017071DFB57" import="0">Lua/Building_RequireNearbyResourcesORS.lua</File>
     <File md5="83C68E903BB413946D0AD87F4182F467" import="1">Lua/CityNearbyMapDatas.lua</File>
