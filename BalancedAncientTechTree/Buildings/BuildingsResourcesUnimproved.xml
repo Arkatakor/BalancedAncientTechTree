@@ -29,11 +29,15 @@
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 		</Row>
+
+		<!--Fish Traps-->
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+		</Row>
 	</Building_RequireNearbyResourcesORS>	
-	<!-- TODO: Insert table creation example here. -->
- 
-  <!-- TODO: Insert table data example here.-->
-  
-  <!-- Enter your Game Data here. -->
-  
 </GameData>

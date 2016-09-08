@@ -15,7 +15,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ELDER_COUNCIL</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
-			<Happiness>1</Happiness>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>0</PortraitIndex>
@@ -34,6 +33,7 @@
 			<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FURRIER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
 			<ConquestProb>75</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>25</PortraitIndex>
@@ -58,5 +58,24 @@
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
+
+		<!--Fish Traps-->
+		<Row>
+			<Type>BUILDING_FISH_TRAPS</Type>
+			<BuildingClass>BUILDINGCLASS_FISH_TRAPS</BuildingClass>
+			<Cost>20</Cost>
+			<PrereqTech>TECH_FISHING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_FISH_TRAPS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_FISH_TRAPS_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FISH_TRAPS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FISH_TRAPS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+
 	</Buildings>
 </GameData>

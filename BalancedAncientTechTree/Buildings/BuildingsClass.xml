@@ -29,6 +29,12 @@
 			<DefaultBuilding>BUILDING_CARPENTER</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
 		</Row>
+		<!--Fish Traps-->
+		<Row>
+			<Type>BUILDINGCLASS_FISH_TRAPS</Type>
+			<DefaultBuilding>BUILDING_FISH_TRAPS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
+		</Row>
 
 	</BuildingClasses>
 </GameData>

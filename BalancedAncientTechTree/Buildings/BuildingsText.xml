@@ -79,6 +79,26 @@
 		</Row>
 
 
+		<!--Fish Traps-->
+		<Row Tag="TXT_KEY_BUILDING_FISH_TRAPS">
+			<Text>Fish Traps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FISH_TRAPS_STRATEGY">
+			<Text>
+				Fish traps can only be constructed in a city near to one or more [ICON_RES_FISH] fish or [ICON_RES_CRAB] crab.  Fish traps will generate an extra 1 [ICON_FOOD] Food for those resources.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_FISH_TRAPS_DESC">
+			<Text>
+				A fish trap is a trap used for fishing. Fish traps may have the form of a fishing weir or a lobster trap. A typical trap might consist of a frame of thick steel wire in the shape of a heart, with chicken wire stretched around it. The mesh wraps around the frame and then tapers into the inside of the trap. When a fish swims inside through this opening, it cannot get out, as the chicken wire opening bends back into its original narrowness. In earlier times, traps were constructed of wood and fibre.[NEWLINE][NEWLINE]Fish Traps are culturally almost universal and seem to have been independently invented many times. There are essentially two types of trap, a permanent or semi-permanent structure placed in a river or tidal area and bottle or pot trap that are usually, but not always baited to attract prey, and are periodically lifted out of the water.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FISH_TRAPS_HELP">
+			<Text>
+				Each source of [ICON_RES_FISH] Fish and [ICON_RES_CRAB] Crab produce an extra 1 [ICON_FOOD] Food.  [NEWLINE]City must have a source of Fish or Crab nearby.
+			</Text>
+		</Row>
+
 	</Language_en_US>
 
 </GameData>
