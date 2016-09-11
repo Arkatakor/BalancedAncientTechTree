@@ -35,20 +35,21 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 [b]King[/b] (Pottery) 
 
 -	Agriculture 
--	Hunting	
+-	Stone Tools	
 
 [b]Emperor[/b] (Pottery, Animal Husbandry) 
 
 -	Agriculture 
--	Hunting	
--	Animal Husbandry 
+-	Stone Tools	
+-	Mining 
 
 [b]Immortal[/b] (Pottery, Animal Husbandry, Mining) 
 
--	Fishing 
--	Hunting 
--	Agriculture	
--	Animal Husbandry 
+-	Agriculture
+-	Stone Tools 	
+-	Mining
+-	Fishing
+-	Mysticism
 
 [b]Deity[/b] (Pottery, Animal Husbandry, Mining, The Wheel) 
 

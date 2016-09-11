@@ -10,7 +10,7 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_KING</HandicapType>
-			<TechType>TECH_HUNTING</TechType>
+			<TechType>TECH_STONE_TOOLS</TechType>
 		</Row>
 		<!-- emperor -->
 		<Row>
@@ -19,8 +19,13 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
-			<TechType>TECH_HUNTING</TechType>
+			<TechType>TECH_STONE_TOOLS</TechType>
 		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+
 		<!-- immortal -->
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
@@ -32,8 +37,16 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<TechType>TECH_HUNTING</TechType>
+			<TechType>TECH_STONE_TOOLS</TechType>
 		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_MYSTICISM</TechType>
+		</Row>		
 		<!-- diety -->
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>

@@ -30,20 +30,21 @@ With new techs introduced, it was necessary to adjust what techs the AI get on v
 [b]King[/b] (Pottery) 
 
 -	Agriculture 
--	Hunting	
+-	Stone Tools	
 
 [b]Emperor[/b] (Pottery, Animal Husbandry) 
 
 -	Agriculture 
--	Hunting	
--	Animal Husbandry 
+-	Stone Tools	
+-	Mining 
 
 [b]Immortal[/b] (Pottery, Animal Husbandry, Mining) 
 
--	Fishing 
--	Hunting 
--	Agriculture	
--	Animal Husbandry 
+-	Agriculture
+-	Stone Tools 	
+-	Mining
+-	Fishing
+-	Mysticism
 
 [b]Deity[/b] (Pottery, Animal Husbandry, Mining, The Wheel) 
 
@@ -103,7 +104,7 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
     <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="E14746F680CD2C8409042ECA8EB2CE7F" import="0">Buildings/Art.sql</File>
-    <File md5="05F646545CBDB10214227BA8A4F3C60D" import="0">Buildings/Buildings.xml</File>
+    <File md5="7638DDEE8C97CCD4C3F2FB20CC65FC78" import="0">Buildings/Buildings.xml</File>
     <File md5="EF8B107A2A47DF6048360C3214E045F4" import="0">Buildings/BuildingsClass.xml</File>
     <File md5="B64539DAEA0281E3AA73CCA76D194C8F" import="0">Buildings/BuildingsFlavors.xml</File>
     <File md5="197F5216B8D8B9084A82BC205DB3BAAE" import="0">Buildings/BuildingsResourcesImproved.xml</File>
@@ -116,7 +117,7 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="B9C09897EF27C1A602363017071DFB57" import="0">Lua/Building_RequireNearbyResourcesORS.lua</File>
     <File md5="83C68E903BB413946D0AD87F4182F467" import="1">Lua/CityNearbyMapDatas.lua</File>
     <File md5="464FAADB8FC0B94F5D37F492A03D575A" import="0">Resources/Resources.sql</File>
-    <File md5="92B0AD311F9038AB50900503D85CA25F" import="0">Techs/AIFreeTechs.xml</File>
+    <File md5="73F5EB7DD5C7F0C06E7371B52278538C" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
     <File md5="9D05FB7A63054BF75837109548BC7F1E" import="0">Techs/TechCoordinates.sql</File>
     <File md5="5054AFF575600F19BCDB2124069411B4" import="0">Techs/TechsPrereq.sql</File>
