@@ -63,7 +63,7 @@
 		<Row>
 			<Type>BUILDING_FISH_TRAPS</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_TRAPS</BuildingClass>
-			<Cost>30</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FISH_TRAPS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
