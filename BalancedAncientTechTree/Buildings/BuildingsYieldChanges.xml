@@ -23,13 +23,19 @@
 			<Yield>3</Yield>
 		</Row>
 
-		<!--Elder Council-->
+		<!--Fish Traps -->
 		<Row>
-			<BuildingType>BUILDING_ELDER_COUNCIL</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 
+		<!--Carpenter -->
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 	</Building_YieldChanges>
 
