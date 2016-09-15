@@ -10,25 +10,25 @@
     <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
     <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  New buildings include elder council, furrier, carpenter, fish traps and the Lascaux Caves wonder.  Monument and shrine require these new techs.
 
-Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example. 
+[h1][b]Compatibility[/b][/h1]
+
+Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example (I use them myself in conjunction with this mod). 
+
+[h1][b]Background &amp; Reasons for creating this Mod[/b][/h1]
 
 The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from [url=http://anewdawn.sourceforge.net/pages/features/]Civ4 BtS Rise of Mankind - A New Dawn mod[/url].  The latter was also the source of ideas behind some of the new buildings found in this mod.
 
-[h1][b]Reasons for creating this Mod[/b][/h1]
-
-Below is a description as to why I set out to create this mod.
-
-[h1]Balancing early resource access[/h1]
+[h1]Reason 1: Balancing early resource access[/h1]
 
 Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this.   
 
-[h1]Historical Accuracy[/h1]
+[h1]Reason 2: Historical Accuracy[/h1]
 
 Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture.
 
-[h1]Adding more depth to the ancient era[/h1]
+[h1]Reason 3: Adding more depth to the ancient era[/h1]
 
-The monument was available right off the bat and having the shrine building available with pottery seemed nonsensical.  Also there just seemed to be too few techs before one would wonder rush the great library / stonehenge.  This mod opens up new tech research order strategies.
+The monument was available right off the bat and having the shrine building available with pottery seemed nonsensical.  Also there just seemed to be too few techs before one would wonder rush the great library / stonehenge.  This mod opens up new tech research priority strategies.
 
 [h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
 
