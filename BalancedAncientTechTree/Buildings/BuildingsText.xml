@@ -98,6 +98,32 @@
 				Each source of [ICON_RES_FISH] Fish and [ICON_RES_CRAB] Crab produce an extra 1 [ICON_FOOD] Food.  [NEWLINE][NEWLINE]City must have a source of Fish or Crab nearby.
 			</Text>
 		</Row>
+		
+		<!--Palisade-->
+		<Row Tag="TXT_KEY_BUILDING_PALISADE">
+			<Text>
+				Palisade
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_TEXT">
+			<Text>
+				A palisade (sometimes called a stakewall) is typically a fence or wall made from wooden stakes or tree trunks and used as a defensive structure.
+				Typical construction consisted of small or mid sized tree trunks aligned vertically, with no spacing in between. The trunks were sharpened or pointed at the top, and were driven into the ground and were sometimes reinforced with additional construction. The height of a palisade ranged from a few feet to nearly ten feet. As a defensive structure, palisades were often used in conjunction with earthworks.[NEWLINE][NEWLINE]
+				Palisades were an excellent option for small forts or other hastily constructed fortifications. Since they were wood, they could be quickly and easily built from materials readily available. They proved to be effective protection for short-term conflicts, and were an effective deterrent against small forces. However, due to their wooden construction, they were also vulnerable to fire and siege weapons.
+				Often, a palisade would be constructed around a castle as a temporary wall until a permanent stone wall could be erected. They were frequently used in New France.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_STRATEGY">
+			<Text>
+				Provides the city with a small defense bonus.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_HELP">
+			<Text>
+				Provides the city with a small defense bonus.
+			</Text>
+		</Row>
+s
 
 	</Language_en_US>
 

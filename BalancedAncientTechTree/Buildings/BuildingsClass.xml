@@ -35,6 +35,12 @@
 			<DefaultBuilding>BUILDING_FISH_TRAPS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
 		</Row>
+		<!--Palisade-->
+		<Row>
+			<Type>BUILDINGCLASS_PALISADE</Type>
+			<DefaultBuilding>BUILDING_PALISADE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+		</Row>
 
 	</BuildingClasses>
 </GameData>

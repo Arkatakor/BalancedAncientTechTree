@@ -87,6 +87,13 @@
 			<Flavor>4</Flavor>
 		</Row>
 		
+		<!--Palisade-->
+		<Row>
+			<BuildingType>BUILDING_PALISADE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
 	</Building_Flavors>
 
 </GameData>

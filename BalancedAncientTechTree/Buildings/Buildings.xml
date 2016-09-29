@@ -76,6 +76,26 @@
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
+		
+		<!--Palisade-->
+		<Row>
+			<Type>BUILDING_PALISADE</Type>
+			<BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
+			<Cost>15</Cost>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
+			<ObsoleteTech>TECH_ENGINEERING</ObsoleteTech>
+			<Help>TXT_KEY_BUILDING_PALISADE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PALISADE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALISADE_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>100</Defense>
+			<ExtraCityHitPoints>10</ExtraCityHitPoints>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
 
 	</Buildings>
 </GameData>
