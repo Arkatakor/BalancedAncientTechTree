@@ -120,7 +120,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALISADE_HELP">
 			<Text>
-				Provides the city with a small defense bonus.
+				Provides the city with a small defense bonus.  Obsolete with Gunpowder.
 			</Text>
 		</Row>
 s
