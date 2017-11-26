@@ -15,5 +15,9 @@
 			<BuildingType>BUILDING_FURRIER</BuildingType>
 			<ResourceType>RESOURCE_BISON</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
 	</Building_LocalResourceOrs>
 </GameData>

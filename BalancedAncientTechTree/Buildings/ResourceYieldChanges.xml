@@ -21,6 +21,12 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_FURRIER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>		
 		<!--Lascaux Caves-->
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>

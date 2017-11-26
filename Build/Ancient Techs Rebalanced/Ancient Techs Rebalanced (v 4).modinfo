@@ -106,23 +106,23 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <File md5="057A0A1370EB010115C2A6FF2365984E" import="1">Assets/Sound/TechMysticism.mp3</File>
     <File md5="9ABBBF5756D6A171F2A3941CD7802A53" import="1">Assets/Sound/TechStoneTools.mp3</File>
     <File md5="16FD05ACB011E5DAFA46736031BAC67D" import="0">Buildings/Art.sql</File>
-    <File md5="CD5EE1F77EB4C6C93A68B9B24F87592B" import="0">Buildings/Buildings.xml</File>
+    <File md5="D949997496F68510DC30AD55FAC35171" import="0">Buildings/Buildings.xml</File>
     <File md5="09AEE811AA59DF51C7CA78A54FD97A64" import="0">Buildings/BuildingsClass.xml</File>
     <File md5="3B9DA72F1F103926998F4EB9DE77F045" import="0">Buildings/BuildingsFlavors.xml</File>
-    <File md5="197F5216B8D8B9084A82BC205DB3BAAE" import="0">Buildings/BuildingsResourcesImproved.xml</File>
+    <File md5="3010EE7BE17D303914897F4775344D0D" import="0">Buildings/BuildingsResourcesImproved.xml</File>
     <File md5="D6BE9345EC303460FF73FF6659B73F7D" import="0">Buildings/BuildingsResourcesUnimproved.xml</File>
     <File md5="3266D345E53C7FFC98B1AF9DCC539F75" import="0">Buildings/ResourceYieldChanges.xml</File>
     <File md5="315F5D2A16773FEF9647BA76317A3F05" import="0">Buildings/BuildingsYieldChanges.xml</File>
     <File md5="D71330FB27237B9CE2919910A2BCA562" import="0">Buildings/Updates.sql</File>
-    <File md5="9E4D913F8AA412D4F4F86FBF2A44F3AB" import="0">Buildings/BuildingsText.xml</File>
+    <File md5="54D2EAD7F59E4C46D2A84035E3879379" import="0">Buildings/BuildingsText.xml</File>
     <File md5="C4D013E994AD733A92EA69239F0A9B8B" import="0">Buildings/Wonders.xml</File>
     <File md5="B9C09897EF27C1A602363017071DFB57" import="0">Lua/Building_RequireNearbyResourcesORS.lua</File>
     <File md5="83C68E903BB413946D0AD87F4182F467" import="1">Lua/CityNearbyMapDatas.lua</File>
     <File md5="464FAADB8FC0B94F5D37F492A03D575A" import="0">Resources/Resources.sql</File>
     <File md5="73F5EB7DD5C7F0C06E7371B52278538C" import="0">Techs/AIFreeTechs.xml</File>
     <File md5="A62BF9A34650D6CDA61A54D835A6E5E7" import="0">Techs/Art.sql</File>
-    <File md5="9D05FB7A63054BF75837109548BC7F1E" import="0">Techs/TechCoordinates.sql</File>
-    <File md5="5054AFF575600F19BCDB2124069411B4" import="0">Techs/TechsPrereq.sql</File>
+    <File md5="024E0C2F4476683050BC66B1A7B3C76E" import="0">Techs/TechCoordinates.sql</File>
+    <File md5="136F6F7BB736C42126E978894EAF12D4" import="0">Techs/TechsPrereq.sql</File>
     <File md5="C2C4A97F1B2876090A3EAB60EBA6812A" import="0">Techs/Techs.sql</File>
     <File md5="59B2819E37CD56C0C8D813B3C14A6064" import="0">Techs/TechsFlavors.sql</File>
     <File md5="43CC5F29DCAADD4784B7F2EDF59A0AA4" import="0">Techs/TechsHandicapInfo.sql</File>
