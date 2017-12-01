@@ -90,18 +90,13 @@
 		<!--Apiary -->
 		<Row>
 			<BuildingType>BUILDING_APIARY</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_APIARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>1</Flavor>
 		</Row>
 
 		<!--Palisade-->

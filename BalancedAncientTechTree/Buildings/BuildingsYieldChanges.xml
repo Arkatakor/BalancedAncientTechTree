@@ -37,6 +37,18 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<!--Apiary -->
+		<Row>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
 	</Building_YieldChanges>
 
 	<Building_ResourceYieldChanges>
