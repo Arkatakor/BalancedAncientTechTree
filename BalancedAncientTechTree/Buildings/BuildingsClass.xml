@@ -35,6 +35,14 @@
 			<DefaultBuilding>BUILDING_FISH_TRAPS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
 		</Row>
+		
+		<!--Apiary-->
+		<Row>
+			<Type>BUILDINGCLASS_APIARY</Type>
+			<DefaultBuilding>BUILDING_APIARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_APIARY</Description>
+		</Row>
+		
 		<!--Palisade-->
 		<Row>
 			<Type>BUILDINGCLASS_PALISADE</Type>

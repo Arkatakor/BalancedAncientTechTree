@@ -34,7 +34,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FURRIER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<Happiness>1</Happiness>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>25</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
@@ -64,6 +64,7 @@
 			<Type>BUILDING_FISH_TRAPS</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_TRAPS</BuildingClass>
 			<Cost>40</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FISH_TRAPS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
@@ -71,7 +72,7 @@
 			<Strategy>TXT_KEY_BUILDING_FISH_TRAPS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FISH_TRAPS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>0</ConquestProb>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
@@ -81,7 +82,7 @@
 		<Row>
 			<Type>BUILDING_PALISADE</Type>
 			<BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_WOOD_WORKING</PrereqTech>
 			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
 			<Help>TXT_KEY_BUILDING_PALISADE_HELP</Help>
@@ -89,13 +90,32 @@
 			<Civilopedia>TXT_KEY_BUILDING_PALISADE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_PALISADE_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
-			<Defense>100</Defense>
-			<ExtraCityHitPoints>15</ExtraCityHitPoints>
+			<Defense>200</Defense>
+			<ExtraCityHitPoints>20</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
 
+		<!--Apiary-->
+		<Row>
+			<Type>BUILDING_APIARY</Type>
+			<BuildingClass>BUILDINGCLASS_APIARY</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_APIARY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_APIARY</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_APIARY_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_APIARY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_APIARY</ArtDefineTag>
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		
 	</Buildings>
 </GameData>

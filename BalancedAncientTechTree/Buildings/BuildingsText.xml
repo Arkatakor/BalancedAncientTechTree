@@ -98,7 +98,27 @@
 				Each source of [ICON_RES_FISH] Fish and [ICON_RES_CRAB] Crab produce an extra 1 [ICON_FOOD] Food.  [NEWLINE][NEWLINE]City must have a source of Fish or Crab nearby.
 			</Text>
 		</Row>
-		
+
+		<!--Apiary-->
+		<Row Tag="TXT_KEY_BUILDING_APIARY">
+			<Text>Apiary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APIARY_STRATEGY">
+			<Text>
+				An Apiary will generate an extra 1 [ICON_FOOD] Food and 1 [ICON_GOLD] Gold.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_APIARY_DESC">
+			<Text>
+				Beekeeping (or apiculture) is the maintenance of honey bee colonies, commonly in man-made hives, by humans. A beekeeper (or apiarist) keeps bees in order to collect their honey and other products that the hive produces (including beeswax, propolis, pollen, and royal jelly), to pollinate crops, or to produce bees for sale to other beekeepers. A location where bees are kept is called an apiary or bee yard.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APIARY_HELP">
+			<Text>
+				Provides a small gold and science boost.
+			</Text>
+		</Row>
+
 		<!--Palisade-->
 		<Row Tag="TXT_KEY_BUILDING_PALISADE">
 			<Text>
