@@ -50,5 +50,11 @@
 			<Description>TXT_KEY_BUILDING_PALISADE</Description>
 		</Row>
 
+		<Row>
+			<Type>BUILDINGCLASS_KNOSSOS</Type>
+			<DefaultBuilding>BUILDING_KNOSSOS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_KNOSSOS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 	</BuildingClasses>
 </GameData>

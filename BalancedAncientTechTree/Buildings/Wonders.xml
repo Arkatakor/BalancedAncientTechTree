@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 8/4/2016 2:07:15 PM -->
 <GameData>
+
 	<Buildings>
+		<!-- LASCAUX CAVES -->
 		<Row>
 			<Type>BUILDING_LASCAUX_CAVES</Type>
 			<BuildingClass>BUILDINGCLASS_LASCAUX_CAVES</BuildingClass>
@@ -22,5 +24,54 @@
 			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>
 			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
 		</Row>
+		<!-- KNOSSOS -->
+		<Row>
+			<Type>BUILDING_KNOSSOS</Type>
+			<BuildingClass>BUILDINGCLASS_KNOSSOS</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
+			<Help>TXT_KEY_WONDER_KNOSSOS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KNOSSOS</Description>
+			<Civilopedia>TXT_KEY_WONDER_KNOSSOS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_KNOSSOS_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_KNOSSOS</ArtDefineTag>			
+			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>			
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>70</ExtraCityHitPoints>
+			<ConquestProb>100</ConquestProb>			
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>			
+		</Row>
 	</Buildings>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LASCAUX_CAVES</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LASCAUX_CAVES</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KNOSSOS</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KNOSSOS</BuildingClassType>
+			<BuildingType/>
+		</Row>
+
+	</Civilization_BuildingClassOverrides>
+	
 </GameData>

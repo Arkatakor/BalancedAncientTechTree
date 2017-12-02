@@ -58,6 +58,23 @@
 			<Text>1 [ICON_PEACE] faith for each [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison, [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cattle and [ICON_RES_IVORY] Ivory.  [NEWLINE][NEWLINE]City must have a source of Deer, Bison, Horse, Cattle or Ivory nearby.</Text>
 		</Row>
 
+		<!--Knossoss-->
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_TITLE">
+			<Text>Labyrinth of Knossos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_CIVILOPEDIA">
+			<Text>The Labyrinth of Knossos was teh stuff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_STRATEGY">
+			<Text>Provides a great early defense boost in the city where its built</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The bull seeks ye of little faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_HELP">
+			<Text>Ëarly boost.</Text>
+		</Row>
+
 		<!--Carpenter-->
 		<Row Tag="TXT_KEY_BUILDING_CARPENTER">
 			<Text>Carpenter</Text>
