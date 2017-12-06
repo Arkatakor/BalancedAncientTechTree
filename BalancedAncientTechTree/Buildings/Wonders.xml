@@ -43,8 +43,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<Defense>700</Defense>
 			<ExtraCityHitPoints>70</ExtraCityHitPoints>
-			<ConquestProb>100</ConquestProb>			
-			<DisplayPosition>2</DisplayPosition>
+			<ConquestProb>100</ConquestProb>					
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>			

@@ -106,6 +106,23 @@
 			<Flavor>20</Flavor>
 		</Row>
 
+		<!--Lascaux Caves-->
+		<Row>
+			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
 	</Building_Flavors>
 
 </GameData>

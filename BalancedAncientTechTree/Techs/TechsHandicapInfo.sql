@@ -12,6 +12,4 @@ DELETE FROM HandicapInfo_AIFreeTechs WHERE TechType = 'TECH_THE_WHEEL';
 
 --	Remove mining from all difficulties
 DELETE FROM HandicapInfo_AIFreeTechs WHERE TechType = 'TECH_MINING';
-
-
 --drop mining, get mysticism and stone working
