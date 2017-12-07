@@ -31,9 +31,9 @@
 			<Cost>100</Cost>
 			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
 			<Help>TXT_KEY_WONDER_KNOSSOS_HELP</Help>
-			<Description>TXT_KEY_BUILDING_KNOSSOS</Description>
-			<Civilopedia>TXT_KEY_WONDER_KNOSSOS_DESC</Civilopedia>
-			<Quote>TXT_KEY_WONDER_KNOSSOS_QUOTE</Quote>
+			<Description>TXT_KEY_WONDER_KNOSSOS_WONDER_TITLE</Description>
+			<Civilopedia>TXT_KEY_WONDER_KNOSSOS_CIVILOPEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_KNOSSOS_WONDER_QUOTE</Quote>
 			<ArtDefineTag>ART_DEF_BUILDING_KNOSSOS</ArtDefineTag>			
 			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>			
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -45,8 +45,8 @@
 			<ExtraCityHitPoints>70</ExtraCityHitPoints>
 			<ConquestProb>100</ConquestProb>					
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>5</PortraitIndex>
-			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>			
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>			
 		</Row>
 	</Buildings>
 	<Civilization_BuildingClassOverrides>

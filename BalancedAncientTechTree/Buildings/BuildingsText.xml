@@ -71,7 +71,7 @@
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"The bull seeks ye of little faith</Text>
 		</Row>
-		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_HELP">
+		<Row Tag="TXT_KEY_WONDER_KNOSSOS_HELP">
 			<Text>Ëarly boost.</Text>
 		</Row>
 
