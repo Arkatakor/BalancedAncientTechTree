@@ -44,8 +44,3 @@ INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_WOOD_
 
 --	Remove production trait from consturction
 DELETE FROM Technology_Flavors WHERE TechType = 'TECH_CONSTRUCTION' AND FlavorType = 'FLAVOR_PRODUCTION';
-
---	Updating builds
-UPDATE Builds SET PrereqTech = 'TECH_WOOD_WORKING' WHERE Type = 'BUILD_LUMBERMILL';
-UPDATE Builds SET PrereqTech = 'TECH_FISHING' WHERE Type = 'BUILD_FISHING_BOATS';
-UPDATE Builds SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'BUILD_CAMP';
