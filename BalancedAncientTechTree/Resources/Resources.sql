@@ -5,3 +5,5 @@ UPDATE Resource_YieldChanges Set Yield = 1 WHERE ResourceType = 'RESOURCE_FUR';
 
 UPDATE Resources Set TechReveal = 'TECH_HUNTING' WHERE Type = 'RESOURCE_HORSE';
 
+UPDATE Resources Set TechReveal = 'TECH_OPTICS' WHERE Type = 'RESOURCE_WHALE';
+

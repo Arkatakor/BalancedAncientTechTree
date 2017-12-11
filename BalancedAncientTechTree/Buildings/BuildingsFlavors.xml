@@ -61,6 +61,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>		
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
