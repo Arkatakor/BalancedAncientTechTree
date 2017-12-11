@@ -51,6 +51,8 @@
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_CARPENTER_DESC</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CARPENTER_STRATEGY</Strategy>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>			
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>

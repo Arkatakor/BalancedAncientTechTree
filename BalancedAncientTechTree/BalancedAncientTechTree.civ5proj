@@ -232,6 +232,11 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
         <Type>UpdateDatabase</Type>
         <FileName>Units/UnitsText.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Improvements/Improvements.sql</FileName>
+      </Action>
     </ModActions>
     <ModProperties />
     <ReloadAudioSystem>true</ReloadAudioSystem>
@@ -388,6 +393,10 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Improvements\Improvements.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Lua\Building_RequireNearbyResourcesORS.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -482,6 +491,7 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <Folder Include="Assets\Sound" />
     <Folder Include="Buildings" />
     <Folder Include="Lua" />
+    <Folder Include="Improvements" />
     <Folder Include="Units" />
     <Folder Include="Resources" />
     <Folder Include="Techs" />
