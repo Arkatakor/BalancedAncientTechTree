@@ -10,3 +10,8 @@ UPDATE Builds SET PrereqTech = 'TECH_FISHING' WHERE Type = 'BUILD_FISHING_BOATS'
 --	HUNTING 
 -----------------------------------------------------------------------
 UPDATE Builds SET PrereqTech = 'TECH_HUNTING' WHERE Type = 'BUILD_CAMP';
+-----------------------------------------------------------------------
+--	POTTERY
+-----------------------------------------------------------------------
+UPDATE Builds SET PrereqTech = 'TECH_POTTERY' WHERE Type = 'BUILD_TRADING_POST';
+
