@@ -5,10 +5,10 @@
     <ProjectGuid>{6bff86c3-5e64-43ac-b7b4-c9e3035c6b99}</ProjectGuid>
     <Name>Ancient Techs Rebalanced</Name>
     <Guid>8aafd700-c0be-4358-8d2b-08b7cdcc04ac</Guid>
-    <ModVersion>4</ModVersion>
+    <ModVersion>5</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
-    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  New buildings include elder council, furrier, carpenter, fish traps and the Lascaux Caves wonder.  Monument and shrine require these new techs.
+    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  Monument and shrine require these new techs.  New buildings include elder council, furrier, carpenter, fish traps, apiary and the Lascaux Caves and Knossos wonders.
 
 [h1][b]Compatibility[/b][/h1]
 
@@ -247,7 +247,14 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
         <Description>Building_RequireNearbyResourcesORS</Description>
         <FileName>Lua/Building_RequireNearbyResourcesORS.lua</FileName>
       </Content>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>KnossosDebuff</Name>
+        <Description>KnossosDebuff</Description>
+        <FileName>Lua/KnossosDebuff.lua</FileName>
+      </Content>
     </ModContent>
+    <Homepage>http://steamcommunity.com/sharedfiles/filedetails/?id=728819967</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -408,6 +415,10 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
     <Content Include="Lua\CityNearbyMapDatas.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\KnossosDebuff.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Resources\Resources.sql">
       <SubType>Lua</SubType>
