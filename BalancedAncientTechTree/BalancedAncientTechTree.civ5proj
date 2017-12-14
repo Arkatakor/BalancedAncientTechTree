@@ -71,7 +71,7 @@ This mod would not have been possible without the following contributors:
 
 Also special thanks to LeeS whose resource-in-vicinity lua code came in great use.</Description>
     <Authors>Arkatakor</Authors>
-    <SpecialThanks>Troller0001, whoward69</SpecialThanks>
+    <SpecialThanks>Troller0001, whoward69, LeeS</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
