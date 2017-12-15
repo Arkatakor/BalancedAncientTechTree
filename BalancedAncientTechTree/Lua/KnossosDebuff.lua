@@ -13,7 +13,7 @@ local g_iKnossosBuildingPlot = nil
 -------------------------------------------------------------------------------
 --	Event function - fires every turn
 -------------------------------------------------------------------------------
-function  KnossosDamage(playerID)
+function  KnossosDamageEndTurn(playerID)
 	
 		--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
@@ -25,8 +25,6 @@ function  KnossosDamage(playerID)
 	local player = Players[playerID]
 
 	if (player:IsAlive() and IsPlayerAtWarWithKnossosOwner(playerID)) then
-		local bIsUnitNearKnossos = false
-
 		--	loop thru players units and damage them if in vicinity to knossos
 		for unit in player:Units() do
 			local plot = unit:GetPlot()			
@@ -39,8 +37,27 @@ function  KnossosDamage(playerID)
 	end
 end
 
-GameEvents.PlayerDoTurn.Add( KnossosDamage)
---GameEvents.UnitSetXY.Add( KnossosDamage)
+function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
+	--	Also stores the plot location of knossos if it exists
+	g_iKnossosPlayerID = GetKnossosPlayerID()
+
+	if (g_iKnossosPlayerID == nil) then
+		return
+	end
+
+	local player = Players[playerID]
+
+	if (player:IsAlive() and IsPlayerAtWarWithKnossosOwner(playerID)) then
+		local plotDistance = Map.PlotDistance(unitX, unitY, g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
+		if plotDistance <= 2 then
+			local unit = player:GetUnitByID(unitID)
+			unit:SetDamage(unit:GetDamage() + 10)				
+		end
+	end
+end
+
+GameEvents.PlayerDoTurn.Add( KnossosDamageEndTurn)
+GameEvents.UnitSetXY.Add( KnossosDamageUnitMove)
 
 -------------------------------------------------------------------------------
 --	Returns player ID of knossos owner.  also stores plot location of knossoss
