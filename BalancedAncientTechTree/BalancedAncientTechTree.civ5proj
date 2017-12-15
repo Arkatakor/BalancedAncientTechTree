@@ -111,6 +111,11 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Techs/Updates.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Techs/Art.sql</FileName>
       </Action>
       <Action>
@@ -444,6 +449,10 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Techs\TechsResources.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Techs\Updates.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
