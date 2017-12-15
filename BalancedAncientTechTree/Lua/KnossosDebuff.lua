@@ -49,7 +49,7 @@ function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
 
 	if (player:IsAlive() and IsPlayerAtWarWithKnossosOwner(playerID)) then
 		local plotDistance = Map.PlotDistance(unitX, unitY, g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
-		if plotDistance <= 2 then
+		if plotDistance <= 2 and plotDistance > 0 then
 			local unit = player:GetUnitByID(unitID)
 			unit:SetDamage(unit:GetDamage() + 10)				
 		end
@@ -105,7 +105,7 @@ function IsUnitPlotNearKnossos(plot)
 	
 	local plotDistance = Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 
-	if plotDistance <= 2 then
+	if plotDistance <= 2 and plotDistance > 0 then
 		return true
 	end
 	
