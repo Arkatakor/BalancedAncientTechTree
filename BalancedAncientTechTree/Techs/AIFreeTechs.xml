@@ -8,23 +8,23 @@
 			<HandicapType>HANDICAP_KING</HandicapType>
 			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
-		<Row>
-			<HandicapType>HANDICAP_KING</HandicapType>
-			<TechType>TECH_STONE_TOOLS</TechType>
-		</Row>
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_KING</HandicapType> -->
+			<!-- <TechType>TECH_STONE_TOOLS</TechType> -->
+		<!-- </Row> -->
 		<!-- emperor -->
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
 			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
-		<Row>
-			<HandicapType>HANDICAP_EMPEROR</HandicapType>
-			<TechType>TECH_STONE_TOOLS</TechType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_EMPEROR</HandicapType>
-			<TechType>TECH_MINING</TechType>
-		</Row>
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_EMPEROR</HandicapType> -->
+			<!-- <TechType>TECH_STONE_TOOLS</TechType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_EMPEROR</HandicapType> -->
+			<!-- <TechType>TECH_MINING</TechType> -->
+		<!-- </Row> -->
 
 		<!-- immortal -->
 		<Row>
@@ -35,18 +35,18 @@
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
 			<TechType>TECH_FISHING</TechType>
 		</Row>
-		<Row>
-			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<TechType>TECH_STONE_TOOLS</TechType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<TechType>TECH_MINING</TechType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<TechType>TECH_MYSTICISM</TechType>
-		</Row>		
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_IMMORTAL</HandicapType> -->
+			<!-- <TechType>TECH_STONE_TOOLS</TechType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_IMMORTAL</HandicapType> -->
+			<!-- <TechType>TECH_MINING</TechType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_IMMORTAL</HandicapType> -->
+			<!-- <TechType>TECH_MYSTICISM</TechType> -->
+		<!-- </Row>		 -->
 		<!-- diety -->
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
@@ -56,18 +56,18 @@
 			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<TechType>TECH_FISHING</TechType>
 		</Row>
-		<Row>
-			<HandicapType>HANDICAP_DEITY</HandicapType>
-			<TechType>TECH_HUNTING</TechType>
-		</Row>
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_DEITY</HandicapType> -->
+			<!-- <TechType>TECH_HUNTING</TechType> -->
+		<!-- </Row> -->
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<TechType>TECH_MYSTICISM</TechType>
 		</Row>
-		<Row>
-			<HandicapType>HANDICAP_DEITY</HandicapType>
-			<TechType>TECH_STONE_TOOLS</TechType>
-		</Row>
+		<!-- <Row> -->
+			<!-- <HandicapType>HANDICAP_DEITY</HandicapType> -->
+			<!-- <TechType>TECH_STONE_TOOLS</TechType> -->
+		<!-- </Row> -->
 	</HandicapInfo_AIFreeTechs>
 
 </GameData>
