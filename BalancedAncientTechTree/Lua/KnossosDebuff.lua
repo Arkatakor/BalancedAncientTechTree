@@ -15,25 +15,20 @@ local g_iKnossosBuildingPlot = nil
 -------------------------------------------------------------------------------
 function  KnossosDamage(playerID)
 	
-	print("entering KnossosDamage")
-	--	Also stores the plot location of knossos if it exists
+		--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
 
-	if (g_iKnossosPlayerID == nil)
-		print("g_iKnossosPlayerID == nil")
+	if (g_iKnossosPlayerID == nil) then
 		return
 	end
 
 	local player = Players[playerID]
 
 	if (player:IsAlive() and IsPlayerAtWarWithKnossosOwner(playerID)) then
-		print("IsPlayerAtWarWithKnossosOwner == true")
 		local bIsUnitNearKnossos = false
 
-		local playerUnits = player:Units()
-
 		--	loop thru players units and damage them if in vicinity to knossos
-		for _, unit in ipairs(playerUnits) do
+		for unit in player:Units() do
 			local plot = unit:GetPlot()			
 			if (plot and (IsUnitPlotNearKnossos(plot))) then
 				--	damage unit here
@@ -54,7 +49,7 @@ GameEvents.PlayerDoTurn.Add( KnossosDamage)
 function GetKnossosPlayerID()
 	
 	for playerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-		local player = Players[playerID]			
+		local player = Players[playerID]		
 		if (player:IsAlive()) then
 			for city in player:Cities() do
 				if city:IsHasBuilding(g_iBuildingKnossosID) then 
@@ -91,10 +86,7 @@ end
 -------------------------------------------------------------------------------
 function IsUnitPlotNearKnossos(plot)
 	
-	local plotDistance = Map.PlotDistance(plot.GetX(), plot.GetY(), g_iKnossosBuildingPlot.GetX(), g_iKnossosBuildingPlot.GetY())
-
-	print("plotDistance result: ")
-	print(plotDistance)
+	local plotDistance = Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 
 	if plotDistance <= 2 then
 		return true
