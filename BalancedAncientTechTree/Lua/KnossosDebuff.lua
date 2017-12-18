@@ -29,8 +29,10 @@ function  KnossosDamageEndTurn(playerID)
 		for unit in player:Units() do
 			local plot = unit:GetPlot()			
 			if (plot and (IsUnitPlotNearKnossos(plot))) then
+				local damageMessage = "A unit " .. tostring(unit:GetName()) .. " has taken 10 damage from ending its turn near the Labyrinth of Knossos.")
 				--	damage unit here
 				unit:SetDamage(unit:GetDamage() + 10)				
+				Events.GameplayAlertMessage(damageMessage)
 			end	
 			
 		end
@@ -51,7 +53,9 @@ function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
 		local plotDistance = Map.PlotDistance(unitX, unitY, g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 		if plotDistance <= 2 and plotDistance > 0 then
 			local unit = player:GetUnitByID(unitID)
+			local damageMessage = "A unit " .. tostring(unit:GetName()) .. " has taken 10 movement damage from Labyrinth of Knossos.")
 			unit:SetDamage(unit:GetDamage() + 10)				
+			Events.GameplayAlertMessage(damageMessage)
 		end
 	end
 end
