@@ -1590,18 +1590,109 @@ function GetCityMapDatas(pCity, ...)
 end
 
 
+function GetCityMapDatasResources(pCity, ...)
+	-------------------------------------------------------------------------------------------------
+	--decide what to count
+	-------------------------------------------------------------------------------------------------
+	local bValidCollectionSettings, tDataCollections = SortForValidSettings({ ["Units"] = "Units", ["Resources"] = "Resources", ["Improvements"] = "Improvements", ["Cities"] = "Cities" }, {...})
+	-------------------------------------------------------------------------------------------------
+	--count
+	-------------------------------------------------------------------------------------------------
+	local iPlayer = pCity:GetOwner()
+	local pPlayer = Players[iPlayer]
+	local tCityNearbyDatas = {}
+	tCityNearbyDatas.Resources = {}
+	tCityNearbyDatas.Units = { PlayerUnits = {}, PlayerUnitCount = 0, BarbarianCount = 0, BarbarianUnits = {}, EnemyCount = 0, EnemyUnits = {},
+					AdversaryCount = 0, AdversaryUnits = {}, BarbarianInvisibleCount = 0, BarbarianInvisibleUnits = {},
+					EnemyInvisibleCount = 0, EnemyInvisibleUnits = {}, AdversaryInvisibleCount = 0, AdversaryInvisibleUnits = {} }
+	tCityNearbyDatas.Improvements = {}
+	tCityNearbyDatas.OtherCities = { Cities = {}, CitiesWithResources = {} }
+	tCityNearbyDatas.OurCity = pCity
+	local iTeam = pPlayer:GetTeam()
+	local pTeam = Teams[iTeam]
+	local iNumPlots = pCity:GetNumCityPlots()
+	for i = 0, iNumPlots - 1 do
+		local pPlot = pCity:GetCityIndexPlot(i)
+		if pPlot then
+			local iResourceID = pPlot:GetResourceType()
+			local bPlotHasResource = (iResourceID ~= -1)
+			local tPlotResourceData = GameInfo.Resources[iResourceID]
+			local bPlotHasResourceAmount = (pPlot:GetNumResource() > 0)
+			local iPlotOwner = pPlot:GetOwner()
+			local bPlotIsOwnedByPlayer = (iPlotOwner == iPlayer)
+			local bPlotIsNotOwned = (iPlotOwner == -1)
 
+			if bPlotHasResource then
+				local bPlayerHasResourceRevealTech = true
+				local iRequiredTech = GameInfoTypes[tPlotResourceData.TechReveal]
+				local bResourceIsArtifact = (tArtifactResourcesCityNearbyMapDatas[iResourceID] ~= nil)
+				local bResourceIsCorrectlyImproved = false
+				local bResourceIsStrategic = (((tPlotResourceData.ResourceClassType == "RESOURCECLASS_MODERN") or (tPlotResourceData.ResourceClassType == "RESOURCECLASS_RUSH")) and not bResourceIsArtifact)
+				if (iRequiredTech ~= nil) and (iRequiredTech ~= -1) then
+					bPlayerHasResourceRevealTech = pTeam:IsHasTech(iRequiredTech)
+				end
+				if pPlot:IsCity() and (pPlot:GetPlotCity() == pCity) then
+					tCityNearbyDatas.CityResource = iResourceID
+					tCityNearbyDatas.CityResourceIsRevealed = bPlayerHasResourceRevealTech
+					tCityNearbyDatas.CityResourceQty = (bResourceIsStrategic and pPlot:GetNumResource() or 0)
+					tCityNearbyDatas.CityResourceIsLuxury = (tPlotResourceData.ResourceClassType == "RESOURCECLASS_LUXURY")
+					tCityNearbyDatas.CityResourceIsBonus = (tPlotResourceData.ResourceClassType == "RESOURCECLASS_BONUS")
+					tCityNearbyDatas.CityResourceIsStrategic = bResourceIsStrategic
+				else
+					if not tCityNearbyDatas.Resources[iResourceID] then
+						tCityNearbyDatas.Resources[iResourceID] = { Type = tPlotResourceData.Type,
+							Class = tPlotResourceData.ResourceClassType, Description = Locale.ConvertTextKey(tPlotResourceData.Description),
+							NumPlotsCounted = 0, NumPlotsWorkedByCity = 0, NumPlotsWorkedByCityThatAreNotPillaged = 0,
+							NumPlotsWorkedByCityThatArePillaged = 0, NumPillagedPlots = 0, NumUnclaimedPlots = 0,
+							NumPlotsWithIncorrectImprovement = 0, NumPlotsWithNoImprovement = 0,
+							ResourceAmount = 0, UnClaimedResourceAmounts = 0, PillagedResourceAmounts = 0, CityResourceAmount = 0,
+							Plots = {}, WorkedPlots = {}, WorkedPlotsThatAreNotPillaged = {}, WorkedPlotsThatArePillaged = {},
+							WorkedPlotsWithIncorrectImprovement = {}, WorkedPlotsWithNoImprovement = {},
+							PillagedPlots = {}, UnclaimedPlots = {},
+							ResourceIsRevealed = bPlayerHasResourceRevealTech,
+							ResourceIsLuxury = (tPlotResourceData.ResourceClassType == "RESOURCECLASS_LUXURY"),
+							ResourceIsBonus = (tPlotResourceData.ResourceClassType == "RESOURCECLASS_BONUS"),
+							ResourceIsStrategic = bResourceIsStrategic, ResourceIsArtifact = bResourceIsArtifact,
 
-
-
-
-
-
-
-
-
-
-
+							Placeholder = "Placeholder" }
+						if (tCityNearbyDatas.CityResource ~= nil) and (tCityNearbyDatas.CityResource == iResourceID) and (tCityNearbyDatas.CityResourceIsStrategic == true) and (tCityNearbyDatas.CityResourceQty > 0) then
+							tCityNearbyDatas.Resources[iResourceID].ResourceAmount = tCityNearbyDatas.CityResourceQty
+							tCityNearbyDatas.Resources[iResourceID].CityResourceAmount = tCityNearbyDatas.CityResourceQty
+						end
+						if bResourceIsArtifact then
+							tCityNearbyDatas.Resources[iResourceID].ResourceArtifactType = tArtifactResourcesCityNearbyMapDatas[iResourceID]
+						else
+							tCityNearbyDatas.Resources[iResourceID].ResourceArtifactType = "Not An Atrifact Or Hidden Artifact"
+						end
+					end
+					if bPlotIsOwnedByPlayer then
+						tCityNearbyDatas.Resources[iResourceID].NumPlotsCounted = tCityNearbyDatas.Resources[iResourceID].NumPlotsCounted + 1
+						table.insert(tCityNearbyDatas.Resources[iResourceID].Plots, pPlot)
+						if not pPlot:IsImprovementPillaged() then
+							if bResourceIsStrategic and (bPlotHasResourceAmount) then
+								tCityNearbyDatas.Resources[iResourceID].ResourceAmount = tCityNearbyDatas.Resources[iResourceID].ResourceAmount + pPlot:GetNumResource()
+							end
+						else
+							tCityNearbyDatas.Resources[iResourceID].NumPillagedPlots = tCityNearbyDatas.Resources[iResourceID].NumPillagedPlots + 1
+							table.insert(tCityNearbyDatas.Resources[iResourceID].PillagedPlots, pPlot)
+							if bResourceIsStrategic and (bPlotHasResourceAmount) then
+								tCityNearbyDatas.Resources[iResourceID].PillagedResourceAmounts = tCityNearbyDatas.Resources[iResourceID].PillagedResourceAmounts + pPlot:GetNumResource()
+							end
+						end
+					end
+					if bPlotIsNotOwned then
+						tCityNearbyDatas.Resources[iResourceID].NumUnclaimedPlots = tCityNearbyDatas.Resources[iResourceID].NumUnclaimedPlots + 1
+						table.insert(tCityNearbyDatas.Resources[iResourceID].UnclaimedPlots, pPlot)
+						if bResourceIsStrategic and (bPlotHasResourceAmount) then
+							tCityNearbyDatas.Resources[iResourceID].UnClaimedResourceAmounts = tCityNearbyDatas.Resources[iResourceID].UnClaimedResourceAmounts + pPlot:GetNumResource()
+						end
+					end
+				end
+			end
+		end
+	end
+	return tCityNearbyDatas
+end
 
 print("CityNearbyMapDatas from the CityNearbyMapDatas Mod loaded to the end")
 
