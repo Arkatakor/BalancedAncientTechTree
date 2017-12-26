@@ -39,5 +39,10 @@
 			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 		</Row>
+		<!--Knossos -->
+		<Row>
+			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
 	</Building_RequireNearbyResourcesORS>	
 </GameData>
