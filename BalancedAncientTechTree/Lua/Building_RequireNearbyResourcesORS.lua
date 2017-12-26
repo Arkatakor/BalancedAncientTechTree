@@ -21,10 +21,11 @@ function BuildingsRequireNearbyResourcesORS(PlayerID, CityID, BuildingType)
 	if tBuildingRequireNearbyResourcesORS[BuildingType] then
 		local pPlayer = Players[PlayerID]
 		local pCity = pPlayer:GetCityByID(CityID)
-		local tCityMapDatas = GetCityMapDatasResources(pCity, "Resources")
-		for Item,iResourceID in pairs(tBuildingRequireNearbyResourcesORS[BuildingType]) do	
+		local tCityMapDatas = GetCityMapDatasOwnedResources(pCity, "Resources")
+		for Item,iResourceID in pairs(tBuildingRequireNearbyResourcesORS[BuildingType]) do
+	
 			if DoesResourceExistNearCity(tCityMapDatas, iResourceID) then
-				if tCityMapDatas.Resources[iResourceID].NumPlotsCounted >= tCityMapDatas.Resources[iResourceID].NumUnclaimedPlots then
+				if tCityMapDatas.Resources[iResourceID].NumPlotsCounted > 0 then
 					return true
 				end
 			end

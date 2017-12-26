@@ -1590,7 +1590,7 @@ function GetCityMapDatas(pCity, ...)
 end
 
 
-function GetCityMapDatasResources(pCity, ...)
+function GetCityMapDatasOwnedResources(pCity, ...)
 	-------------------------------------------------------------------------------------------------
 	--decide what to count
 	-------------------------------------------------------------------------------------------------
