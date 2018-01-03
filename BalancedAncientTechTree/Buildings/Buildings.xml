@@ -133,7 +133,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
 
