@@ -111,7 +111,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 
-		<!--Lascaux Caves-->
+		<!--Labyrinth of Knossos-->
 		<Row>
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
@@ -126,6 +126,13 @@
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>30</Flavor>
+		</Row>
+
+		<!--Fire Pit -->
+		<Row>
+			<BuildingType>BUILDING_FIRE_PIT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 
 	</Building_Flavors>

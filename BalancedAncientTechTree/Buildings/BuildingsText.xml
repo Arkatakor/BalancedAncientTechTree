@@ -160,7 +160,29 @@
 				Provides the city with a small defense bonus.  Obsolete with Gunpowder.
 			</Text>
 		</Row>
-s
+
+		<!--Fire pit-->
+		<Row Tag="TXT_KEY_BUILDING_FIRE_PIT">
+			<Text>
+				Fire Pit
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRE_PIT_TEXT">
+			<Text>
+				Many cultures, particularly nomadic ones would cut the turf above the fire-pit in a turf cutting ceremony, replacing the turf afterwards to hide any evidence of the fire. Elements of this ceremony remain in traditional youth organizations such as the Woodcraft Folk.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRE_PIT_STRATEGY">
+			<Text>
+				Provides the city with a small culture boost.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRE_PIT_HELP">
+			<Text>
+				Provides the city with a small culture boost.  Obsolete with Philosophy.
+			</Text>
+		</Row>
+
 
 	</Language_en_US>
 
