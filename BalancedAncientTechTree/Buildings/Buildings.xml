@@ -123,7 +123,7 @@
 		<Row>
 			<Type>BUILDING_FIRE_PIT</Type>
 			<BuildingClass>BUILDINGCLASS_FIRE_PIT</BuildingClass>
-			<Cost>20</Cost>			
+			<Cost>30</Cost>			
 			<Help>TXT_KEY_BUILDING_FIRE_PIT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FIRE_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_FIRE_PIT_DESC</Civilopedia>
