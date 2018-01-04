@@ -72,7 +72,7 @@
 			<Text>[NEWLINE][TAB][TAB]"There is no great invention, from fire to flying, which has not been hailed as an insult to some god."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_HELP">
-			<Text>Enemy units take 10 damage if they move or end their turn within 2 tiles of the city.  Increases city defense strength by 5 and Hit Points by 25.  Obsolete with dynamite.</Text>
+			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 10 damage if they move or end their turn within 2 tiles of the city.  Increases city defense strength by 5 and Hit Points by 25.  Obsolete with dynamite.</Text>
 		</Row>
 		
 		<!--Carpenter-->
@@ -122,7 +122,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APIARY_STRATEGY">
 			<Text>
-				An Apiary will generate an extra 1 [ICON_FOOD] Food and 1 [ICON_GOLD] Gold.
+				An Apiary will generate an extra 1 [ICON_SCIENCE] Science and 1 [ICON_GOLD] Gold.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDINGS_APIARY_DESC">

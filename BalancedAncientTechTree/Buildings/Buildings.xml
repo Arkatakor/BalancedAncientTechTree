@@ -33,7 +33,6 @@
 			<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FURRIER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Happiness>1</Happiness>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>25</PortraitIndex>
@@ -123,13 +122,13 @@
 		<Row>
 			<Type>BUILDING_FIRE_PIT</Type>
 			<BuildingClass>BUILDINGCLASS_FIRE_PIT</BuildingClass>
-			<Cost>30</Cost>			
+			<Cost>20</Cost>			
 			<Help>TXT_KEY_BUILDING_FIRE_PIT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FIRE_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_FIRE_PIT_DESC</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FIRE_PIT_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FIRE_PIT</ArtDefineTag>
-			<ObsoleteTech>TECH_PHILOSOPHY</ObsoleteTech>
+			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>

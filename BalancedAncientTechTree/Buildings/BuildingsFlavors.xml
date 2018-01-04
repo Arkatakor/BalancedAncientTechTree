@@ -15,11 +15,6 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_FURRIER</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
 
 		<!--Lascaux Caves-->
 		<Row>
