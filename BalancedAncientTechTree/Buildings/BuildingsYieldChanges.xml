@@ -53,10 +53,20 @@
 		<Row>
 			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		
 	</Building_YieldChanges>
+
+	<!--Carpenter gets + 1 yield with machinery (specified in Buildings.xml) -->
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+
 
 	<Building_ResourceYieldChanges>
 		<!--Fish Traps-->

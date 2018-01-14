@@ -81,7 +81,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CARPENTER_STRATEGY">
 			<Text>
-				The Carpenter building grants +2 [PRODUCTION] Production and 10% building [PRODUCTION] Production boost.
+				The Carpenter building grants +1 [PRODUCTION] Production and 10% building [PRODUCTION] Production boost.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDINGS_CARPENTER_DESC">
@@ -91,7 +91,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CARPENTER_HELP">
 			<Text>
-				+2 [PRODUCTION] Production and 10% [PRODUCTION] Production when constructing buildings. 
+				+1 [PRODUCTION] Production and 10% [PRODUCTION] Production when constructing buildings. 
 			</Text>
 		</Row>
 
