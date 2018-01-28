@@ -65,7 +65,6 @@
 			<Type>BUILDING_FISH_TRAPS</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_TRAPS</BuildingClass>
 			<Cost>40</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FISH_TRAPS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
@@ -104,7 +103,7 @@
 			<Type>BUILDING_APIARY</Type>
 			<BuildingClass>BUILDINGCLASS_APIARY</BuildingClass>
 			<Cost>60</Cost>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_APIARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_APIARY</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_APIARY_DESC</Civilopedia>
