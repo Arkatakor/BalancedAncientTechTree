@@ -102,7 +102,7 @@
 		<Row>
 			<Type>BUILDING_APIARY</Type>
 			<BuildingClass>BUILDINGCLASS_APIARY</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_APIARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_APIARY</Description>
