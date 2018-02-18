@@ -52,6 +52,28 @@
 			<PortraitIndex>6</PortraitIndex>
 			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>			
 		</Row>
+		<Row>
+			<Type>BUILDING_FIVE_GREAT_KILNS</Type>
+			<BuildingClass>BUILDINGCLASS_FIVE_GREAT_KILNS</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_WONDER_FIVE_GREAT_KILNS_WONDER_HELP</Help>
+			<Description>TXT_KEY_WONDER_FIVE_GREAT_KILNS_WONDER_TITLE</Description>
+			<Civilopedia>TXT_KEY_WONDER_FIVE_GREAT_KILNS_CIVILOPEDIA</Civilopedia>
+			<Strategy>TXT_KEY_WONDER_FIVE_GREAT_KILNS_WONDER_STRATEGY</Strategy>
+			<Quote>TXT_KEY_WONDER_FIVE_GREAT_KILNS_WONDER_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_WONDER_FIVE_GREAT_KILNS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_GRANERY</FreeBuildingThisCity>
+			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>LascauxSplash.dds</WonderSplashImage>
+			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
+		</Row>
 	</Buildings>
 	<Civilization_BuildingClassOverrides>
 		<Row>
@@ -74,7 +96,22 @@
 			<BuildingClassType>BUILDINGCLASS_KNOSSOS</BuildingClassType>
 			<BuildingType/>
 		</Row>
-
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FIVE_GREAT_KILNS</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FIVE_GREAT_KILNS</BuildingClassType>
+			<BuildingType/>
+		</Row>		
 	</Civilization_BuildingClassOverrides>
-	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<ResourceType>RESOURCE_PORCELAIN</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
 </GameData>

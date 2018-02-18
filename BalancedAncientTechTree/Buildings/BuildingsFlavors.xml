@@ -111,7 +111,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 
-		<!--Lascaux Caves-->
+		<!--Knossos-->
 		<Row>
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
@@ -128,6 +128,17 @@
 			<Flavor>30</Flavor>
 		</Row>
 
+		<!--Five Great Kilns -->
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
 	</Building_Flavors>
 
 </GameData>
