@@ -41,24 +41,12 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		
+		<Row>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>		
 	</Building_YieldChanges>
-
-	<Building_ResourceYieldChanges>
-		<!--Fish Traps-->
-		<Row>
-			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_ResourceYieldChanges>
 	<Building_YieldModifiers>
 		<!--Carpenter-->
 		<Row>
