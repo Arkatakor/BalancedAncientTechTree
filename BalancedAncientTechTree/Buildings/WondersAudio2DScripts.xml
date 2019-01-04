@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04-Jan-19 9:44:22 AM -->
+<GameData>
+	<Script2DFile>
+		<Script2DSounds>
+			<!--Wonder Audio -->
+			<Script2DSound>
+				<ScriptID>AS2D_WONDER_NEOLITHIC_KILNS</ScriptID>
+				<SoundID>SND_WONDER_NEOLITHIC_KILNS</SoundID>
+				<SoundType>GAME_MUSIC_STINGS</SoundType>
+				<iMaxVolume>85</iMaxVolume>
+				<iMinVolume>85</iMinVolume>
+				<fTaperSoundtrackVolume>0.0</fTaperSoundtrackVolume>
+			</Script2DSound>
+		</Script2DSounds>
+	</Script2DFile>
+	<AudioDefinesFile>
+		<SoundDatas>
+			<!--Wonder Audio -->
+			<SoundData>
+				<SoundID>SND_WONDER_NEOLITHIC_KILNS</SoundID>
+				<Filename>NeolithicKilns</Filename>
+				<bDontCache />
+				<bOnlyLoadOneVariationEachTime />
+				<LoadType>DYNAMIC_RES</LoadType>
+			</SoundData>
+		</SoundDatas>
+	</AudioDefinesFile>	
+</GameData>
