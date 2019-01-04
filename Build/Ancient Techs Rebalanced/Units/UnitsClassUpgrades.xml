@@ -4,7 +4,7 @@
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_LIGHT_AXEMAN</UnitType>
-			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 </GameData>
