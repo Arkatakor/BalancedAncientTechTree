@@ -47,6 +47,13 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<!--Carpenter  -->
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<!--Fire Pit  -->
 		<Row>
 			<BuildingType>BUILDING_FIRE_PIT</BuildingType>
