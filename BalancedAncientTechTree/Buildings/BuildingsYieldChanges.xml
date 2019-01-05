@@ -45,7 +45,51 @@
 			<BuildingType>BUILDING_APIARY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>		
+		</Row>
+
+		<!--Neolithic Kilns -->
+		<Row>
+			<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Sea -->
+		<Row>
+			<BuildingType>BUILDING_SEA_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEA_MYTH</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Beast -->
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Hero -->
+		<Row>
+			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+			
 	</Building_YieldChanges>
 	<Building_YieldModifiers>
 		<!--Carpenter-->
