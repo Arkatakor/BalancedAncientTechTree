@@ -67,7 +67,7 @@
 			<FreeBuildingThisCity>BUILDINGCLASS_GRANERY</FreeBuildingThisCity>
 			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
+			<PortraitIndex>11</PortraitIndex>
 			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>
 			<WonderSplashAudio>AS2D_WONDER_NEOLITHIC_KILNS</WonderSplashAudio>	
 			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
