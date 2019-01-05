@@ -4,8 +4,7 @@
 	<Units>
 		<Row>
 			<Class>UNITCLASS_LIGHT_AXEMAN</Class>
-			<Type>UNIT_LIGHT_AXEMAN</Type>
-			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
+			<Type>UNIT_LIGHT_AXEMAN</Type>			
 			<Combat>5</Combat>
 			<RangedCombat>4</RangedCombat>
 			<Cost>30</Cost>

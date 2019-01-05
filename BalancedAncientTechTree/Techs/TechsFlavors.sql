@@ -13,15 +13,20 @@ UPDATE Technology_Flavors SET TechType = 'TECH_HUNTING' WHERE TechType = 'TECH_T
 AND FlavorType = 'FLAVOR_TILE_IMPROVEMENT';
 INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_HUNTING','FLAVOR_WONDER', 3);
 
+
+
 -----------------------------------------------------------------------
 --	MYSTICISM
 -----------------------------------------------------------------------
 --	let the AI know this is for religion
 --	Let AI know that this tech offers small science boost
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_SCIENCE', 1);
+DELETE FROM Technology_Flavors WHERE TechType = 'TECH_POTTERY' AND FlavorType = 'FLAVOR_RELIGION';
+
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_SCIENCE', 3);
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_MYSTICISM','FLAVOR_RELIGION', 4);
 
 --	Update religion indicator for AI; pottery no longer offers religion (shrine), mysticism does
-UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH_POTTERY' AND FlavorType = 'FLAVOR_RELIGION';
+--	UPDATE Technology_Flavors SET TechType = 'TECH_MYSTICISM' WHERE TechType = 'TECH_POTTERY' AND FlavorType = 'FLAVOR_RELIGION';
 
 -----------------------------------------------------------------------
 --	STONE_TOOLS 

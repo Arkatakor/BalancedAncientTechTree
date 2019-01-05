@@ -33,7 +33,6 @@
 			<Strategy>TXT_KEY_BUILDING_FURRIER_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FURRIER</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Happiness>1</Happiness>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>25</PortraitIndex>
@@ -51,8 +50,8 @@
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_CARPENTER_DESC</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CARPENTER_STRATEGY</Strategy>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>			
+			<BuildingProductionModifier>10</BuildingProductionModifier>
+			<EnhancedYieldTech>TECH_MACHINERY</EnhancedYieldTech>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -66,7 +65,6 @@
 			<Type>BUILDING_FISH_TRAPS</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_TRAPS</BuildingClass>
 			<Cost>40</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FISH_TRAPS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FISH_TRAPS</Description>
@@ -104,8 +102,8 @@
 		<Row>
 			<Type>BUILDING_APIARY</Type>
 			<BuildingClass>BUILDINGCLASS_APIARY</BuildingClass>
-			<Cost>60</Cost>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Cost>40</Cost>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_APIARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_APIARY</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_APIARY_DESC</Civilopedia>
@@ -116,6 +114,24 @@
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+
+		<!--Fire Pit -->
+		<Row>
+			<Type>BUILDING_FIRE_PIT</Type>
+			<BuildingClass>BUILDINGCLASS_FIRE_PIT</BuildingClass>
+			<Cost>20</Cost>			
+			<Help>TXT_KEY_BUILDING_FIRE_PIT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FIRE_PIT</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_FIRE_PIT_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FIRE_PIT_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FIRE_PIT</ArtDefineTag>
+			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
 

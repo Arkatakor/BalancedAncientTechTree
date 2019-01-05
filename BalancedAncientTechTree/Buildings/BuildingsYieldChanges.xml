@@ -47,6 +47,13 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<!--Fire Pit  -->
+		<Row>
+			<BuildingType>BUILDING_FIRE_PIT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<!--Neolithic Kilns -->
 		<Row>
 			<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
