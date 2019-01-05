@@ -61,6 +61,13 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<!-- Knossos  -->
+		<Row>
+			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<!--Neolithic Kilns -->
 		<Row>
 			<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
