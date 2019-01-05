@@ -139,7 +139,7 @@
 		<Row>
 			<Type>BUILDING_SEA_MYTH</Type>
 			<BuildingClass>BUILDINGCLASS_SEA_MYTH</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_SEA_MYTH_HELP</Help>
 			<Description>TXT_KEY_BUILDING_SEA_MYTH</Description>
@@ -159,7 +159,7 @@
 		<Row>
 			<Type>BUILDING_BEAST_MYTH</Type>
 			<BuildingClass>BUILDINGCLASS_BEAST_MYTH</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_BEAST_MYTH_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BEAST_MYTH</Description>
@@ -178,7 +178,7 @@
 		<Row>
 			<Type>BUILDING_HERO_MYTH</Type>
 			<BuildingClass>BUILDINGCLASS_HERO_MYTH</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>40</Cost>
 			<PrereqTech>TECH_STONE_TOOLS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HERO_MYTH_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HERO_MYTH</Description>
