@@ -20,7 +20,7 @@
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 
 		<!--Fish Traps -->
@@ -41,11 +41,9 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
-		<!--Fire Pit  -->
 		<Row>
-			<BuildingType>BUILDING_FIRE_PIT</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 
@@ -56,38 +54,63 @@
 			<Yield>1</Yield>
 		</Row>
 
-		<!--Knossos  -->
+		<!--Fire Pit  -->
 		<Row>
-			<BuildingType>BUILDING_KNOSSOS</BuildingType>
+			<BuildingType>BUILDING_FIRE_PIT</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 
-	</Building_YieldChanges>
-
-	<!--Carpenter gets + 1 yield with machinery (specified in Buildings.xml) -->
-	<Building_TechEnhancedYieldChanges>
+		<!--Neolithic Kilns -->
 		<Row>
-			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Sea -->
+		<Row>
+			<BuildingType>BUILDING_SEA_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEA_MYTH</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Beast -->
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--Myth of the Hero -->
+		<Row>
+			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	</Building_TechEnhancedYieldChanges>
-
-
-	<Building_ResourceYieldChanges>
-		<!--Fish Traps-->
+			
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<!--Carpenter-->
 		<Row>
-			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Building_ResourceYieldChanges>
+	</Building_YieldModifiers>
 </GameData>

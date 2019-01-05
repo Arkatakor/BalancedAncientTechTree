@@ -64,5 +64,36 @@
 			<Description>TXT_KEY_BUILDING_FIRE_PIT</Description>
 		</Row>
 
+
+		<!--Neolithic Kilns -->
+		<Row>
+			<Type>BUILDINGCLASS_NEOLITHIC_KILNS</Type>
+			<DefaultBuilding>BUILDING_NEOLITHIC_KILNS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NEOLITHIC_KILNS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!--Myth of the sea -->
+		<Row>
+			<Type>BUILDINGCLASS_SEA_MYTH</Type>
+			<DefaultBuilding>BUILDING_SEA_MYTH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SEA_MYTH</Description>
+		</Row>
+
+		<!--Myth of the hero -->
+		<Row>
+			<Type>BUILDINGCLASS_HERO_MYTH</Type>
+			<DefaultBuilding>BUILDING_HERO_MYTH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HERO_MYTH</Description>
+		</Row>
+
+		<!--Myth of the beast -->
+		<Row>
+			<Type>BUILDINGCLASS_BEAST_MYTH</Type>
+			<DefaultBuilding>BUILDING_BEAST_MYTH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BEAST_MYTH</Description>
+		</Row>
+
+		
 	</BuildingClasses>
 </GameData>

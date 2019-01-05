@@ -122,7 +122,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APIARY_STRATEGY">
 			<Text>
-				An Apiary will generate an extra 1 [ICON_SCIENCE] Science and 1 [ICON_GOLD] Gold.
+				An Apiary will generate an extra 1 [ICON_FOOD] Food, 1 [ICON_GOLD] Gold and 1 [ICON_SCIENCE] Science.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDINGS_APIARY_DESC">
@@ -132,7 +132,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APIARY_HELP">
 			<Text>
-				Provides a small gold and science boost.
+				Provides a small gold, food and science boost.
 			</Text>
 		</Row>
 
@@ -180,6 +180,98 @@
 		<Row Tag="TXT_KEY_BUILDING_FIRE_PIT_HELP">
 			<Text>
 				Provides the city with a small culture boost.  Obsolete with Theology.
+			</Text>
+		</Row>
+
+		<!-- Neolithic Kilns -->
+		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS">
+			<Text>
+				Neolithic Kilns
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_TEXT">
+			<Text>
+				Painted pottery were the most distinctive artifacts of the Majiayao culture, a group of neolithic communities who lived primarily in the upper Yellow River region in eastern Gansu, eastern Qinghai and northern Sichuan, China from 3300 to 2000 BC.[NEWLINE][NEWLINE]
+
+				In contrast to plain pottery, the Majiayao painted pottery was produced at large, centralised workshops.  The largest Neolithic workshop found in China is at Baidaogouping, Gansu. The manufacture of large amounts of painted pottery means there were professional craftspeople to produce it, which is taken to indicate increasing social complexity.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_STRATEGY">
+			<Text>
+				Provides the city with a free granery and increased gold for trade routes.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP">
+			<Text>
+				Provides the city with a free granery and + 2 [ICON_GOLD] Gold for external trade routes.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Hath not the potter power over the clay, to make one vessel unto honor and another unto dishonor?" -The Bible, Romans</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH">
+			<Text>
+				Myth of the Sea
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_TEXT">
+			<Text>
+				A "myth" is a story used to explain a natural phenomena, historical legend, or customary practice. Myths can be elaborations on historical events or allegories to explain parts of the world like the movement of the sun and moon or the behavior of animals. A "mythology" is a body of myths that forms a key part of a civilization's culture. Every ancient civilizations had their own mythology, and scholars have developed models of comparison between them to discover how myths began.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_STRATEGY">
+			<Text>
+				Provides the city with a small faith and science bonus. [NEWLINE][NEWLINE]City must be built next to the sea.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_HELP">
+			<Text>
+				Provides the city with +1 [ICON_FAITH] Faith and + 1 [ICON_GOLD] Gold.  Cannot be built in the same city as Myth of the Beast or Myth of the Hero.  Obsolete with Education.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH">
+			<Text>
+				Myth of the Beast
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_TEXT">
+			<Text>
+				A "myth" is a story used to explain a natural phenomena, historical legend, or customary practice. Myths can be elaborations on historical events or allegories to explain parts of the world like the movement of the sun and moon or the behavior of animals. A "mythology" is a body of myths that forms a key part of a civilization's culture. Every ancient civilizations had their own mythology, and scholars have developed models of comparison between them to discover how myths began.			
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_STRATEGY">
+			<Text>
+				Provides the city with a small faith and food bonus.  [NEWLINE][NEWLINE]City must have a source of Deer, Bison or Cattle nearby.  Cannot be built in same city as Myth of the Sea or Myth of the Hero.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_HELP">
+			<Text>
+				Provides the city with 1 [ICON_FAITH] Faith and 1 [ICON_FOOD] Food. Obsolete with Education.
+			</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH">
+			<Text>
+				Myth of the Hero
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_TEXT">
+			<Text>
+				A "myth" is a story used to explain a natural phenomena, historical legend, or customary practice. Myths can be elaborations on historical events or allegories to explain parts of the world like the movement of the sun and moon or the behavior of animals. A "mythology" is a body of myths that forms a key part of a civilization's culture. Every ancient civilizations had their own mythology, and scholars have developed models of comparison between them to discover how myths began.			
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_STRATEGY">
+			<Text>
+				Provides the city with a small faith and production bonus.  Cannot be built in same city as Myth of the Sea or Myth of the Beast.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_HELP">
+			<Text>
+				Provides the city with 1 [ICON_FAITH] Faith and 1 [ICON_PRODUCTION] Production. Obsolete with Education.
 			</Text>
 		</Row>
 

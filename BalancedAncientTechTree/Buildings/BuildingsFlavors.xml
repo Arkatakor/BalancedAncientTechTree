@@ -13,7 +13,7 @@
 		<Row>
 			<BuildingType>BUILDING_FURRIER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 
 		<!--Lascaux Caves-->
@@ -25,12 +25,12 @@
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LASCAUX_CAVES</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 
 		<!--Carpenter-->
@@ -47,12 +47,12 @@
 		<Row>
 			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CARPENTER</BuildingType>
@@ -64,34 +64,44 @@
 		<Row>
 			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
 			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
-			<Flavor>16</Flavor>
+			<Flavor>15</Flavor>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 
 		<!--Apiary -->
 		<Row>
 			<BuildingType>BUILDING_APIARY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_APIARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APIARY</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 
 		<!--Palisade-->
@@ -101,7 +111,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 
-		<!--Labyrinth of Knossos-->
+		<!--Knossos-->
 		<Row>
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
@@ -115,7 +125,7 @@
 		<Row>
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 
 		<!--Fire Pit -->
@@ -125,6 +135,42 @@
 			<Flavor>10</Flavor>
 		</Row>
 
+		<!--Five Great Kilns -->
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIVE_GREAT_KILNS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<!--Myth of the Beast -->
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!--Myth of the Hero -->
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!--Myth of the Sea -->
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	
 	</Building_Flavors>
 
 </GameData>

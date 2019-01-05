@@ -48,6 +48,30 @@
 			<PortraitIndex>6</PortraitIndex>
 			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>			
 		</Row>
+		<!-- Neolithic Kilns  -->		
+		<Row>
+			<Type>BUILDING_NEOLITHIC_KILNS</Type>
+			<BuildingClass>BUILDINGCLASS_NEOLITHIC_KILNS</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NEOLITHIC_KILNS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NEOLITHIC_KILNS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NEOLITHIC_KILNS_STRATEGY</Strategy>
+			<Quote>TXT_KEY_BUILDING_NEOLITHIC_KILNS_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_WONDER_NEOLITHIC_KILNS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_GRANERY</FreeBuildingThisCity>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_NEOLITHIC_KILNS</WonderSplashAudio>	
+			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
+		</Row>
 	</Buildings>
 	<Civilization_BuildingClassOverrides>
 		<Row>
@@ -70,7 +94,22 @@
 			<BuildingClassType>BUILDINGCLASS_KNOSSOS</BuildingClassType>
 			<BuildingType/>
 		</Row>
-
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NEOLITHIC_KILNS</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NEOLITHIC_KILNS</BuildingClassType>
+			<BuildingType/>
+		</Row>		
 	</Civilization_BuildingClassOverrides>
-	
+	<!--<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
+			<ResourceType>RESOURCE_PORCELAIN</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>-->
 </GameData>

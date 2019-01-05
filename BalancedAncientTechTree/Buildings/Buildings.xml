@@ -134,5 +134,65 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
+
+		<!--Myth of the Sea -->
+		<Row>
+			<Type>BUILDING_SEA_MYTH</Type>
+			<BuildingClass>BUILDINGCLASS_SEA_MYTH</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SEA_MYTH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SEA_MYTH</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_SEA_MYTH_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SEA_MYTH_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_SEA_MYTH</ArtDefineTag>
+			<Water>true</Water>
+			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<!--Myth of the Beast -->
+		<Row>
+			<Type>BUILDING_BEAST_MYTH</Type>
+			<BuildingClass>BUILDINGCLASS_BEAST_MYTH</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BEAST_MYTH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BEAST_MYTH</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_BEAST_MYTH_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BEAST_MYTH_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BEAST_MYTH</ArtDefineTag>
+			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<!--Myth of the Hero -->
+		<Row>
+			<Type>BUILDING_HERO_MYTH</Type>
+			<BuildingClass>BUILDINGCLASS_HERO_MYTH</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HERO_MYTH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HERO_MYTH</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_HERO_MYTH_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HERO_MYTH_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HERO_MYTH</ArtDefineTag>
+			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
+			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		
 	</Buildings>
 </GameData>
