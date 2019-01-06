@@ -64,8 +64,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<FreeBuildingThisCity>BUILDINGCLASS_GRANERY</FreeBuildingThisCity>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<FreeBuildingThisCity>BUILDINGCLASS_GRANARY</FreeBuildingThisCity>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>

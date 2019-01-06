@@ -198,12 +198,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_STRATEGY">
 			<Text>
-				Provides the city with a free granery and increased gold for trade routes.
+				Provides the city with a free granary and increased gold for trade routes.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP">
 			<Text>
-				Provides the city with a free granery and + 2 [ICON_GOLD] Gold for external trade routes.
+				Provides the city with a free granary and + 2 [ICON_GOLD] Gold for external trade routes.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_QUOTE">

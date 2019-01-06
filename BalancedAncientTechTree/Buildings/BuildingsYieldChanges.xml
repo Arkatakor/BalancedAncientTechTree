@@ -110,6 +110,23 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Building_BuildingClassYieldChanges>
+			<Delete BuildingType="BUILDING_NEOLITHIC_KILNS"/>
+			<Row>
+				<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+				<YieldType>YIELD_CULTURE</YieldType>
+				<YieldChange>2</YieldChange>
+			</Row>
+		</Building_BuildingClassYieldChanges>
+		<Building_BuildingClassHappiness>
+			<Delete BuildingType="BUILDING_NEOLITHIC_KILNS"/>
+			<Row>
+				<BuildingType>BUILDING_NEOLITHIC_KILNS</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+				<Happiness>1</Happiness>
+			</Row>
+		</Building_BuildingClassHappiness>
 			
 	</Building_YieldChanges>
 	<Building_YieldModifiers>
