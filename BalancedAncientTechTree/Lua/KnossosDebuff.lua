@@ -154,11 +154,11 @@ function IsObsolote()
 		return true
 	end
 
-	local knossosPlayer = Players[g_iKnossosPlayerID]
-	local knossosTeam 	= knossosPlayer:GetTeam()
-	local techID		= GameInfoTypes["TECH_DYNAMYTE"]
-l
-	if knossosTeam:HasTech(techID) then
+	local knossosPlayer 		= Players[g_iKnossosPlayerID]
+	local techID				= GameInfoTypes["TECH_DYNAMITE"]
+	local pknossosPlayerTeam 	= Teams[knossosPlayer:GetTeam()]
+
+	if (pknossosPlayerTeam:GetTeamTechs():HasTech(techID)) then
 		return true
 	end
 
