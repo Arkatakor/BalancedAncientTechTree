@@ -6,7 +6,6 @@
 -- Knossos Damage Debuff
 ----------------------------------------------------------------------------------------------------------------------------
 local g_iBuildingKnossosID		= GameInfoTypes["BUILDING_KNOSSOS"]
-
 local g_iKnossosPlayerID = nil
 local g_iKnossosBuildingPlot = nil
 
@@ -18,7 +17,7 @@ function  KnossosDamageEndTurn(playerID)
 		--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
 
-	if (g_iKnossosPlayerID == nil) then
+	if g_iKnossosPlayerID == nil or IsObsolote() then
 		return
 	end
 
@@ -28,9 +27,9 @@ function  KnossosDamageEndTurn(playerID)
 		--	loop thru players units and damage them if in vicinity to knossos
 		for unit in player:Units() do
 			local plot = unit:GetPlot()			
-			if (plot and (IsUnitPlotNearKnossos(plot))) then
-				--	damage unit here
-				unit:SetDamage(unit:GetDamage() + 10)				
+			if (plot and not plot:IsWater() and IsUnitPlotNearKnossos(plot)) then
+				local plotDistance = GetPlotDistanceFromKnossos(plot)
+				SetUnitDamage(unit, plotDistance)
 			end	
 			
 		end
@@ -41,17 +40,19 @@ function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
 	--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
 
-	if (g_iKnossosPlayerID == nil) then
+	if g_iKnossosPlayerID == nil or IsObsolote() then
 		return
 	end
 
 	local player = Players[playerID]
 
 	if (player:IsAlive() and IsPlayerAtWarWithKnossosOwner(playerID)) then
-		local plotDistance = Map.PlotDistance(unitX, unitY, g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
-		if plotDistance <= 2 and plotDistance > 0 then
-			local unit = player:GetUnitByID(unitID)
-			unit:SetDamage(unit:GetDamage() + 10)				
+		local unit = player:GetUnitByID(unitID)
+		local plot = unit:GetPlot()
+
+		if IsUnitPlotNearKnossos(plot) and not plot:IsWater() then
+			local plotDistance = GetPlotDistanceFromKnossos(plot)
+			SetUnitDamage(unit, plotDistance)
 		end
 	end
 end
@@ -105,10 +106,61 @@ function IsUnitPlotNearKnossos(plot)
 	
 	local plotDistance = Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 
-	if plotDistance <= 2 and plotDistance > 0 then
+	if plotDistance <= 3 and plotDistance > 0 then
 		return true
 	end
 	
 	return false
 end
 
+function GetPlotDistanceFromKnossos(plot)
+
+	return Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
+
+end
+
+
+function SetUnitDamage(unit, plotDistance)
+
+	local damageAmount
+
+	if plotDistance == 3  then
+		damageAmount = math.random(6, 9)
+	elseif plotDistance == 2 then
+		damageAmount = math.random(9, 12)
+	else
+		damageAmount = math.random(12, 15)
+	end
+
+	if unit:IsBarbarian() then
+ 		damageAmount = damageAmount * 5
+	end
+
+	unit:SetDamage(unit:GetDamage() + damageAmount)
+end
+
+function IsUnitDistanceNearKnossos(plotDistance)
+	
+	if plotDistance <= 3 and plotDistance > 0 then
+		return true
+	end
+	
+	return false
+end
+
+function IsObsolote()
+
+	if g_iKnossosPlayerID == nil then
+		return true
+	end
+
+	local knossosPlayer = Players[g_iKnossosPlayerID]
+	local knossosTeam 	= knossosPlayer:GetTeam()
+	local techID		= GameInfoTypes["TECH_DYNAMYTE"]
+l
+	if knossosTeam:HasTech(techID) then
+		return true
+	end
+
+	return false
+end
