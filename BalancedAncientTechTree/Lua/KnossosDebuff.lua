@@ -17,7 +17,7 @@ function  KnossosDamageEndTurn(playerID)
 		--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
 
-	if g_iKnossosPlayerID == nil or IsObsolote() then
+	if g_iKnossosPlayerID == nil or IsKnossosObsolote() then
 		return
 	end
 
@@ -27,7 +27,7 @@ function  KnossosDamageEndTurn(playerID)
 		--	loop thru players units and damage them if in vicinity to knossos
 		for unit in player:Units() do
 			local plot = unit:GetPlot()			
-			if (plot and not plot:IsWater() and IsUnitPlotNearKnossos(plot)) then
+			if (plot and IsUnitShouldBeDamaged(plot)) then
 				local plotDistance = GetPlotDistanceFromKnossos(plot)
 				SetUnitDamage(unit, plotDistance)
 			end	
@@ -40,7 +40,7 @@ function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
 	--	Also stores the plot location of knossos if it exists
 	g_iKnossosPlayerID = GetKnossosPlayerID()
 
-	if g_iKnossosPlayerID == nil or IsObsolote() then
+	if g_iKnossosPlayerID == nil or IsKnossosObsolote() then
 		return
 	end
 
@@ -50,10 +50,10 @@ function  KnossosDamageUnitMove(playerID, unitID, unitX, unitY)
 		local unit = player:GetUnitByID(unitID)
 		local plot = unit:GetPlot()
 
-		if IsUnitPlotNearKnossos(plot) and not plot:IsWater() then
+		if (plot and IsUnitShouldBeDamaged(plot)) then
 			local plotDistance = GetPlotDistanceFromKnossos(plot)
 			SetUnitDamage(unit, plotDistance)
-		end
+		end	
 	end
 end
 
@@ -102,34 +102,43 @@ end
 -------------------------------------------------------------------------------
 --	If unit is within 2 plots of knossos return true
 -------------------------------------------------------------------------------
-function IsUnitPlotNearKnossos(plot)
+function IsUnitShouldBeDamaged(plot)
 	
 	local plotDistance = Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 
-	if plotDistance <= 3 and plotDistance > 0 then
+	if plot:IsWater() or PlotIsOwnedByAnotherPlayer(plot) then
+		return false
+	end
+
+	if plotDistance <= 2 and plotDistance > 0 then
 		return true
 	end
 	
 	return false
 end
 
+-------------------------------------------------------------------------------
+--	returns plot distance from knossos 
+-------------------------------------------------------------------------------
 function GetPlotDistanceFromKnossos(plot)
 
 	return Map.PlotDistance(plot:GetX(), plot:GetY(), g_iKnossosBuildingPlot:GetX(), g_iKnossosBuildingPlot:GetY())
 
 end
 
-
+-------------------------------------------------------------------------------
+--	Sets unit damage based on distance 
+-------------------------------------------------------------------------------
 function SetUnitDamage(unit, plotDistance)
 
 	local damageAmount
 
-	if plotDistance == 3  then
-		damageAmount = math.random(6, 9)
-	elseif plotDistance == 2 then
-		damageAmount = math.random(9, 12)
-	else
+--	if plotDistance == 3  then
+--		damageAmount = math.random(6, 9)
+	if plotDistance == 2 then
 		damageAmount = math.random(12, 15)
+	else
+		damageAmount = math.random(15, 18)
 	end
 
 	if unit:IsBarbarian() then
@@ -139,16 +148,22 @@ function SetUnitDamage(unit, plotDistance)
 	unit:SetDamage(unit:GetDamage() + damageAmount)
 end
 
+-------------------------------------------------------------------------------
+--	Returns whether unit is within X tiles to Knossos wonder 
+-------------------------------------------------------------------------------
 function IsUnitDistanceNearKnossos(plotDistance)
 	
-	if plotDistance <= 3 and plotDistance > 0 then
+	if plotDistance <= 2 and plotDistance > 0 then
 		return true
 	end
 	
 	return false
 end
 
-function IsObsolote()
+-------------------------------------------------------------------------------
+--	Returns whether Knossos is obsolete based on obsolesence tech 
+-------------------------------------------------------------------------------
+function IsKnossosObsolote()
 
 	if g_iKnossosPlayerID == nil then
 		return true
@@ -162,5 +177,23 @@ function IsObsolote()
 		return true
 	end
 
+	return false
+end
+
+-------------------------------------------------------------------------------
+--	If enemy unit is in territory not owned by knosso player, damage should not occur 
+-------------------------------------------------------------------------------
+function PlotIsOwnedByAnotherPlayer(plot)
+
+	if not plot:IsOwned() then
+		return false
+	end 
+
+	local iPlotOwnerPlayerID = plot:GetOwner()
+
+	if (iPlotOwnerPlayerID ~= g_iKnossosPlayerID) then
+		return true
+	end
+	
 	return false
 end

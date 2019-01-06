@@ -42,7 +42,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<Defense>500</Defense>
-			<ExtraCityHitPoints>15</ExtraCityHitPoints>
 			<ConquestProb>100</ConquestProb>					
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
