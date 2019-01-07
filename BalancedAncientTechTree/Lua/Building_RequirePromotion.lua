@@ -19,7 +19,7 @@ function BuildingsRequirePromotion(PlayerID, CityID, BuildingType)
 
 		local pPlayer = Players[PlayerID]
 
-		if player:IsAlive() and not IsBuildingObsolote(PlayerID) then
+		if pPlayer:IsAlive() and not IsBuildingObsolote(PlayerID) then
 
 			for BuildingType,iPromotionLevelRequered in pairs(tBuildingRequirePromotion[BuildingType]) do
 
