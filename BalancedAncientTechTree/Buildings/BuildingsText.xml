@@ -33,7 +33,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FURRIER_STRATEGY">
 			<Text>
-				Furriers can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_FUR] fur, [ICON_RES_BISON] bison or [ICON_RES_SHEEP ] sheep.  Furriers will generate an extra 1 [ICON_GOLD] Gold for those resources.  Furrier also increases a civilization's [ICON_HAPPINESS_1] Happiness.
+				Furriers can only be constructed in a city near to one or more improved [ICON_RES_DEER] deer, [ICON_RES_FUR] fur, [ICON_RES_BISON] bison or [ICON_RES_SHEEP ] sheep.  Furriers will generate an extra 1 [ICON_GOLD] Gold for those resources.  
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FURRIER_HELP">
@@ -72,7 +72,7 @@
 			<Text>[NEWLINE][TAB][TAB]"There is no great invention, from fire to flying, which has not been hailed as an insult to some god."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_HELP">
-			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 6-15 damage if they move or end their turn within 3 tiles of the city.  Damage depends on distance to Knossos.  Barbarians take 5x normal damage.  Also increases city defense strength by 5 and Hit Points by 15.  Does not work on water tiles.  Obsolete with dynamite.</Text>
+			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 6-15 damage if they move or end their turn within 3 tiles of the city.  Damage increases closer to Knossos city.  Barbarians take 5x normal damage.  Also increases city defense strength by 5 and Hit Points by 15.  Does not work on water tiles.  Obsolete with dynamite.</Text>
 		</Row>
 		
 		<!--Carpenter-->
@@ -198,12 +198,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_STRATEGY">
 			<Text>
-				Provides the city with a free granary and increased gold for trade routes.
+				LEFTOFF: Provides the city with a free granary and increased culture for granaries and a minor gold for trade routes.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP">
 			<Text>
-				Provides the city with a free granary and + 2 [ICON_GOLD] Gold for external trade routes.
+				Provides the city with a free granary.  Granaries in empire yield + 2 [ICON_CULTURE] Culture LEFTOFF:  for external trade routes.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_QUOTE">
@@ -228,7 +228,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_HELP">
 			<Text>
-				Provides the city with +1 [ICON_PEACE] Faith and + 1 [ICON_GOLD] Gold.  Cannot be built in the same city as Myth of the Beast or Myth of the Hero.  Obsolete with Education.
+				Requires coast. Provides the city with +1 [ICON_PEACE] Faith and + 1 [ICON_GOLD] Gold.  Cannot be built in the same city as Myth of the Beast or Myth of the Hero.  Obsolete with Education.
 			</Text>
 		</Row>
 
@@ -244,12 +244,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_STRATEGY">
 			<Text>
-				Provides the city with a small faith and food bonus.  [NEWLINE][NEWLINE]City must have a source of Deer, Bison or Cattle nearby.  Cannot be built in same city as Myth of the Sea or Myth of the Hero.
+				Provides the city with a small faith and culture bonus.  [NEWLINE][NEWLINE]City must have a source of Deer, Bison or Cattle nearby.  Cannot be built in same city as Myth of the Sea or Myth of the Hero.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_HELP">
 			<Text>
-				Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_FOOD] Food. Obsolete with Education.
+				Requires a source of Deer, Bison or Cattle.  Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_FOOD] Food. Obsolete with Education.
 			</Text>
 		</Row>
 
