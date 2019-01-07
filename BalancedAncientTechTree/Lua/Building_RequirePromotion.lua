@@ -29,10 +29,9 @@ function BuildingsRequirePromotion(PlayerID, CityID, BuildingType)
 
 					local iLevel = unit:GetLevel()
 
-					if (iLevel >= iPromotionLevelRequered then
+					if (iLevel >= iPromotionLevelRequered) then
 						return true
-					end	
-					
+					end						
 				end		
 			end
 			return false
