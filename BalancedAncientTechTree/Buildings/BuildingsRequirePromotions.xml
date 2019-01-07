@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07-Jan-19 2:09:49 PM -->
+<GameData>
+	<Table name="Building_RequirePromotion">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="PromotionLevelRequired" type="integer"/>
+	</Table>
+	<Building_RequirePromotion>
+		<Row>
+			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
+			<PromotionLevelRequired>2</PromotionLevelRequired>
+		</Row>
+	</Building_RequirePromotion>
+</GameData>

@@ -8,13 +8,13 @@
     <ModVersion>6</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
-    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  Monument and shrine require these new techs.  New buildings include elder council, furrier, carpenter, fish traps, apiary, myths and the Lascaux Caves and Knossos wonders.
+    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  Monument and shrine require these new techs.  New buildings include elder council, furrier, carpenter, fish traps, apiary, myths and 3 new wonders..
 
 [h1][b]Compatibility[/b][/h1]
 
 Compatible with any tech mod that does modify ancient era techs. Works with the Enlightenment Era and Future Worlds mods for example (I use them myself in conjunction with this mod).  Vox Populi players can find a compatible version of this mod [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1237369145]here[/url], 
 
-[h1][b]Background &amp; Reasons for creating this Mod[/b][/h1]
+[h1][b]Background of this Mod[/b][/h1]
 
 The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from [url=http://anewdawn.sourceforge.net/pages/features/]Civ4 BtS Rise of Mankind - A New Dawn mod[/url].  The latter was also the source of ideas behind some of the new buildings found in this mod.
 
@@ -137,6 +137,11 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>Buildings/BuildingsRequirePromotions.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>Buildings/BuildingsResourcesImproved.xml</FileName>
       </Action>
       <Action>
@@ -229,6 +234,12 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
         <Name>KnossosDebuff</Name>
         <Description>KnossosDebuff</Description>
         <FileName>Lua/KnossosDebuff.lua</FileName>
+      </Content>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>Building_RequirePromotion</Name>
+        <Description>Building_RequirePromotion</Description>
+        <FileName>Lua/Building_RequirePromotion.lua</FileName>
       </Content>
     </ModContent>
     <Homepage>http://steamcommunity.com/sharedfiles/filedetails/?id=728819967</Homepage>
@@ -357,6 +368,10 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Buildings\BuildingsRequirePromotions.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Buildings\BuildingsResourcesImproved.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -394,6 +409,10 @@ Also special thanks to LeeS whose resource-in-vicinity lua code came in great us
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Lua\Building_RequireNearbyResourcesORS.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\Building_RequirePromotion.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

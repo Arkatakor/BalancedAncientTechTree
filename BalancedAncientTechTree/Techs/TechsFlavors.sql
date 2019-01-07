@@ -42,7 +42,7 @@ INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE
 --	POTTERY 
 -----------------------------------------------------------------------
 --	For knossos
-INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_WONDER', 4);
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_POTTERY','FLAVOR_WONDER', 4);
 
 -----------------------------------------------------------------------
 --	WOOD_WORKING 
