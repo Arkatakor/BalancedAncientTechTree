@@ -49,7 +49,7 @@ function IsBuildingObsolote(PlayerID)
 		return true
 	end
 
-	local player 				= Players[g_iKnossosPlayerID]
+	local player 				= Players[PlayerID]
 	--	TODO: find a way to not hardcode this
 	local techID				= GameInfoTypes["TECH_SCIENTIFIC_THEORY"]
 	local pknossosPlayerTeam 	= Teams[player:GetTeam()]
