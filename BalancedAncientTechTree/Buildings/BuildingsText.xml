@@ -72,7 +72,7 @@
 			<Text>[NEWLINE][TAB][TAB]"There is no great invention, from fire to flying, which has not been hailed as an insult to some god."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_HELP">
-			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 6-15 damage if they move or end their turn within 3 tiles of the city.  Damage increases closer to Knossos city.  Barbarians take 5x normal damage.  Also increases city defense strength by 5 and Hit Points by 15.  Does not work on water tiles.  Obsolete with dynamite.</Text>
+			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 7-17 damage if they move or end their turn within 3 tiles of the city.  Damage increases closer to Knossos city.  Barbarians take 5x normal damage.  Also increases city defense strength by 5.  Does not work on water tiles.  Obsolete with dynamite.</Text>
 		</Row>
 		
 		<!--Carpenter-->
@@ -198,12 +198,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_STRATEGY">
 			<Text>
-				LEFTOFF: Provides the city with a free granary and increased culture for granaries and a minor gold for trade routes.
+				Provides the city with a free granary and increased culture and happiness for all granaries in the empire.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP">
 			<Text>
-				Provides the city with a free granary.  Granaries in empire yield + 2 [ICON_CULTURE] Culture LEFTOFF:  for external trade routes.
+				Provides the city with a free granary.  Granaries in empire yield + 2 [ICON_CULTURE] Culture and + 1 happiness.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NEOLITHIC_KILNS_QUOTE">
@@ -223,12 +223,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_STRATEGY">
 			<Text>
-				Provides the city with a small faith and science bonus. [NEWLINE][NEWLINE]City must be built next to the sea.
+				Provides the city with a small faith and science bonus. [NEWLINE][NEWLINE]City must be built next to the sea and have any fishable sea resource within its territory.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEA_MYTH_HELP">
 			<Text>
-				Requires coast. Provides the city with +1 [ICON_PEACE] Faith and + 1 [ICON_GOLD] Gold.  Cannot be built in the same city as Myth of the Beast or Myth of the Hero.  Obsolete with Education.
+				Requires coast and any sea fishable sea resource. Provides the city with +1 [ICON_PEACE] Faith and + 1 [ICON_GOLD] Gold.  [NEWLINE][NEWLINE]Cannot be built in the same city as other Myths.  Obsolete with Scientific Theory.
 			</Text>
 		</Row>
 
@@ -249,7 +249,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BEAST_MYTH_HELP">
 			<Text>
-				Requires a source of Deer, Bison or Cattle.  Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_FOOD] Food. Obsolete with Education.
+				Requires any form of land animal resource within city territory.  Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_CULTURE] Culture. [NEWLINE][NEWLINE]Cannot be built in city with other Myths.  Obsolete with Scientific Theory.
 			</Text>
 		</Row>
 
@@ -266,12 +266,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_STRATEGY">
 			<Text>
-				Provides the city with a small faith and production bonus.  Cannot be built in same city as Myth of the Sea or Myth of the Beast.
+				Provides the city with a small faith and production bonus.  Cannot be built in same city as other Myths.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_HELP">
 			<Text>
-				Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_PRODUCTION] Production. Obsolete with Education.
+				Requires a unit with 2 promotions.  Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_PRODUCTION] Production. [NEWLINE][NEWLINE]Cannot be built in city with other Myths. Obsolete with Scientific Theory.
 			</Text>
 		</Row>
 

@@ -95,7 +95,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 

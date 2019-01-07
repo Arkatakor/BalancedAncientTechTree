@@ -148,10 +148,11 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SEA_MYTH</ArtDefineTag>
 			<Water>true</Water>
 			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
-			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
@@ -167,10 +168,11 @@
 			<Strategy>TXT_KEY_BUILDING_BEAST_MYTH_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BEAST_MYTH</ArtDefineTag>
 			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
-			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>
@@ -186,10 +188,11 @@
 			<Strategy>TXT_KEY_BUILDING_HERO_MYTH_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_HERO_MYTH</ArtDefineTag>
 			<MutuallyExclusiveGroup>1448</MutuallyExclusiveGroup>	
-			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 		</Row>

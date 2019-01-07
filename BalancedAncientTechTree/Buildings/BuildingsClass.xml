@@ -78,6 +78,7 @@
 			<Type>BUILDINGCLASS_SEA_MYTH</Type>
 			<DefaultBuilding>BUILDING_SEA_MYTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_SEA_MYTH</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 
 		<!--Myth of the hero -->
@@ -85,6 +86,7 @@
 			<Type>BUILDINGCLASS_HERO_MYTH</Type>
 			<DefaultBuilding>BUILDING_HERO_MYTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_HERO_MYTH</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 
 		<!--Myth of the beast -->
@@ -92,8 +94,8 @@
 			<Type>BUILDINGCLASS_BEAST_MYTH</Type>
 			<DefaultBuilding>BUILDING_BEAST_MYTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_BEAST_MYTH</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-
 		
 	</BuildingClasses>
 </GameData>

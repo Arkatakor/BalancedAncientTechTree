@@ -57,5 +57,21 @@
 			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
 	</Building_RequireNearbyResourcesORS>	
 </GameData>
