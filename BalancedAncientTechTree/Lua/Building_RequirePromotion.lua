@@ -25,7 +25,7 @@ function BuildingsRequirePromotion(PlayerID, CityID, BuildingType)
 
 				--	LEFTOFF HERE:
 				--	loop thru players units and damage them if in vicinity to knossos
-				for unit in player:Units() do
+				for unit in pPlayer:Units() do
 
 					local iLevel = unit:GetLevel()
 
