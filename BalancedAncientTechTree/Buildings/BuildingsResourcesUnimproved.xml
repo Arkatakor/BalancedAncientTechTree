@@ -44,6 +44,19 @@
 			<BuildingType>BUILDING_KNOSSOS</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 		</Row>
+		<!--Myth of the Sea -->		
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_TRAPS</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+		</Row>
 		<!--Myth of the Beast -->		
 		<Row>
 			<BuildingType>BUILDING_BEAST_MYTH</BuildingType>
