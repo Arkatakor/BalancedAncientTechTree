@@ -39,6 +39,12 @@ INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE
 INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_STONE_TOOLS','FLAVOR_WONDER', 3);
 
 -----------------------------------------------------------------------
+--	POTTERY 
+-----------------------------------------------------------------------
+--	For knossos
+INSERT INTO Technology_Flavors (TechType, FlavorType, Flavor) VALUES('TECH_POTTERY','FLAVOR_WONDER', 4);
+
+-----------------------------------------------------------------------
 --	WOOD_WORKING 
 -----------------------------------------------------------------------
 UPDATE Technology_Flavors SET TechType = 'TECH_WOOD_WORKING' WHERE TechType = 'TECH_CONSTRUCTION' 

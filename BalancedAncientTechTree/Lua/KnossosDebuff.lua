@@ -135,7 +135,7 @@ function SetUnitDamage(unit, plotDistance)
 
 	if plotDistance == 3  then
 		damageAmount = math.random(7, 10)
-	if plotDistance == 2 then
+	elseif plotDistance == 2 then
 		damageAmount = math.random(11, 14)
 	else
 		damageAmount = math.random(14, 17)
