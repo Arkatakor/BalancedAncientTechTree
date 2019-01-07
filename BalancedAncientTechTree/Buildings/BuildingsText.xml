@@ -66,13 +66,13 @@
 			<Text>In Greek mythology, the labyrinth of knossos was an elaborate structure designed and built by the legendary artificer Daedalus for King Minos of Crete at Knossos. Its function was to hold the Minotaur eventually killed by the hero Theseus. Daedalus had so cunningly made the Labyrinth that he could barely escape it after he built it.[NEWLINE][NEWLINE]Although early Cretan coins occasionally exhibit branching (multicursal) patterns, the single-path (unicursal) seven-course "Classical" design without branching or dead ends became associated with the Labyrinth on coins as early as 430 BC, and similar non-branching patterns became widely used as visual representations of the Labyrinth – even though both logic and literary descriptions make it clear that the Minotaur was trapped in a complex branching maze. Even as the designs became more elaborate, visual depictions of the mythological Labyrinth from Roman times until the Renaissance are almost invariably unicursal. Branching mazes were reintroduced only when garden mazes became popular during the Renaissance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_STRATEGY">
-			<Text>Enemy units take damage if they move or end their turn within 3 tiles of the city where its built.  Also provides an early defense boost.  Barbarians take significantly more damage.  Does not work on water tiles.  Requires [ICON_RES_STONE] stone in city vicinity.</Text>
+			<Text>Enemy units take damage if they move or end their turn within 3 tiles of the city where its built.  Barbarians take significantly more damage.  Does not work on water tiles.  Requires [ICON_RES_STONE] stone in city vicinity.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_WONDER_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"There is no great invention, from fire to flying, which has not been hailed as an insult to some god."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KNOSSOS_HELP">
-			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 7-17 damage if they move or end their turn within 3 tiles of the city.  Damage increases closer to Knossos city.  Barbarians take 5x normal damage.  Also increases city defense strength by 5.  Does not work on water tiles.  Obsolete with dynamite.</Text>
+			<Text>Requires [ICON_RES_STONE] stone in city vicinity.  Enemy units take 7-17 damage if they move or end their turn within 3 tiles of the city.  Damage increases closer to Knossos city.  Barbarians take 5x normal damage.  Does not work on water tiles.  Obsolete with dynamite.</Text>
 		</Row>
 		
 		<!--Carpenter-->
