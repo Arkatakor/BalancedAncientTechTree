@@ -100,7 +100,7 @@ function IsPlayerAtWarWithKnossosOwner(playerID)
 end
 
 -------------------------------------------------------------------------------
---	If unit is within 2 plots of knossos return true
+--	If unit is within 3 plots of knossos return true
 -------------------------------------------------------------------------------
 function IsUnitShouldBeDamaged(plot)
 	
@@ -110,7 +110,7 @@ function IsUnitShouldBeDamaged(plot)
 		return false
 	end
 
-	if plotDistance <= 2 and plotDistance > 0 then
+	if IsUnitDistanceNearKnossos(plotDistance) then
 		return true
 	end
 	
@@ -133,13 +133,20 @@ function SetUnitDamage(unit, plotDistance)
 
 	local damageAmount
 
---	if plotDistance == 3  then
---		damageAmount = math.random(6, 9)
+	if plotDistance == 3  then
+		damageAmount = math.random(7, 10)
 	if plotDistance == 2 then
-		damageAmount = math.random(12, 15)
+		damageAmount = math.random(11, 14)
 	else
-		damageAmount = math.random(15, 18)
+		damageAmount = math.random(14, 17)
 	end
+
+--	if plotDistance == 2 then
+--		damageAmount = math.random(12, 15)
+--	else
+--		damageAmount = math.random(15, 18)
+--	end
+
 
 	if unit:IsBarbarian() then
  		damageAmount = damageAmount * 5
@@ -153,7 +160,7 @@ end
 -------------------------------------------------------------------------------
 function IsUnitDistanceNearKnossos(plotDistance)
 	
-	if plotDistance <= 2 and plotDistance > 0 then
+	if plotDistance <= 3 and plotDistance > 0 then
 		return true
 	end
 	
