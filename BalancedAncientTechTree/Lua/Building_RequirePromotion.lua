@@ -7,7 +7,7 @@ for row in GameInfo.Building_RequirePromotion() do
 	if not tBuildingRequirePromotion[GameInfoTypes[row.BuildingType]] then
 		tBuildingRequirePromotion[GameInfoTypes[row.BuildingType]] = { }
 	end
-	table.insert(tBuildingRequirePromotion[GameInfoTypes[row.BuildingType]], row.PromotionLevelRequired)
+	table.insert(tBuildingRequirePromotion[GameInfoTypes[row.BuildingType]], row.ExperienceRequired)
 end
 
 -------------------------------------------------------------------------------------------------------
@@ -19,17 +19,17 @@ function BuildingsRequirePromotion(PlayerID, CityID, BuildingType)
 
 		local pPlayer = Players[PlayerID]
 
-		if pPlayer:IsAlive() and not IsBuildingObsolote(PlayerID) then
+		if pPlayer:IsAlive() and IsBuildingCanBeBuilt(PlayerID) then
 
-			for BuildingType,iPromotionLevelRequered in pairs(tBuildingRequirePromotion[BuildingType]) do
+			for BuildingType,iExperienceRequired in pairs(tBuildingRequirePromotion[BuildingType]) do
 
 				--	LEFTOFF HERE:
 				--	loop thru players units and damage them if in vicinity to knossos
 				for unit in pPlayer:Units() do
 
-					local iLevel = unit:GetLevel()
+					local iExperience = unit:GetExperience()
 
-					if (iLevel >= iPromotionLevelRequered) then
+					if (iExperience >= iExperienceRequired) then
 						return true
 					end						
 				end		
@@ -43,20 +43,21 @@ GameEvents.CityCanConstruct.Add(BuildingsRequirePromotion);
 
 print("Building_RequirePromotion.lua loaded successfully")
 
-function IsBuildingObsolote(PlayerID)
+function IsBuildingCanBeBuilt(PlayerID)
 
 	if PlayerID == nil then
-		return true
+		return false
 	end
 
 	local player 				= Players[PlayerID]
-	--	TODO: find a way to not hardcode this
-	local techID				= GameInfoTypes["TECH_SCIENTIFIC_THEORY"]
+	--	TODO: find a way to not hardcode this; apparantly there one can store multiple values in key pair table (stackoverflow)
+	local obsoleteTechID		= GameInfoTypes["TECH_SCIENTIFIC_THEORY"]
+	local requriedTechID		= GameInfoTypes["TECH_STONE_TOOLS"]
 	local pknossosPlayerTeam 	= Teams[player:GetTeam()]
 
-	if (pknossosPlayerTeam:GetTeamTechs():HasTech(techID)) then
-		return true
+	if not pknossosPlayerTeam:GetTeamTechs():HasTech(requriedTechID) or pknossosPlayerTeam:GetTeamTechs():HasTech(obsoleteTechID)then
+		return false
 	end
 
-	return false
+	return true
 end
