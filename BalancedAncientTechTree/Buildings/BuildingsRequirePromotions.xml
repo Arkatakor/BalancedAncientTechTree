@@ -8,6 +8,7 @@
 	<Building_RequirePromotion>
 		<Row>
 			<BuildingType>BUILDING_HERO_MYTH</BuildingType>
+			<!-- Experience for level 2 = 10, level 3 = 30 -->
 			<ExperienceRequired>10</ExperienceRequired>
 		</Row>
 	</Building_RequirePromotion>
