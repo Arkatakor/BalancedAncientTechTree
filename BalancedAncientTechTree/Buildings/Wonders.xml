@@ -50,7 +50,7 @@
 		<Row>
 			<Type>BUILDING_NEOLITHIC_KILNS</Type>
 			<BuildingClass>BUILDINGCLASS_NEOLITHIC_KILNS</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>185</Cost>
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NEOLITHIC_KILNS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NEOLITHIC_KILNS</Description>
