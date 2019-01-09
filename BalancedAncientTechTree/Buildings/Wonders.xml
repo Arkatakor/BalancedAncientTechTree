@@ -65,7 +65,7 @@
 			<FreeBuildingThisCity>BUILDINGCLASS_GRANARY</FreeBuildingThisCity>
 			<IconAtlas>ANCIENT_BUILDING_ATLAS</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
-			<WonderSplashImage>KnossosSplash.dds</WonderSplashImage>
+			<WonderSplashImage>NeolithicKilnsSplash.dds</WonderSplashImage>
 			<WonderSplashAudio>AS2D_WONDER_NEOLITHIC_KILNS</WonderSplashAudio>	
 			<!--<WonderSplashAnchor>L,T</WonderSplashAnchor>-->
 		</Row>

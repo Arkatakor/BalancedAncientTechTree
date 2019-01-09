@@ -271,7 +271,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERO_MYTH_HELP">
 			<Text>
-				Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_PRODUCTION] Production. [NEWLINE][NEWLINE]Requires a unit with 1 promotion.  Cannot be built in city with other Myths. Obsolete with Scientific Theory.
+				Provides the city with 1 [ICON_PEACE] Faith and 1 [ICON_PRODUCTION] Production. [NEWLINE][NEWLINE]Requires a unit with 2 promotions.  Cannot be built in city with other Myths. Obsolete with Scientific Theory.
 			</Text>
 		</Row>
 
