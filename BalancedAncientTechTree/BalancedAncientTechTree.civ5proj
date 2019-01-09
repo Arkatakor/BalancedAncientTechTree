@@ -8,7 +8,7 @@
     <ModVersion>6</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>Adds a new level of depth the to the ancient era by adding hunting, fishing, mysticism, stone tools and wood working.</Teaser>
-    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  Monument and shrine require these new techs.  New buildings include elder council, furrier, carpenter, fish traps, apiary, myths and 3 new wonders..
+    <Description>Adds a new level of depth the to the ancient era with hunting, fishing, mysticism, stone tools and wood working.  Monument and shrine require these new techs.  New buildings include elder council, furrier, carpenter, fish traps, apiary, various myths and 3 new wonders.
 
 [h1][b]Compatibility[/b][/h1]
 
@@ -16,23 +16,15 @@ Compatible with any tech mod that does modify ancient era techs. Works with the 
 
 [h1][b]Background of this Mod[/b][/h1]
 
-The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from [url=http://anewdawn.sourceforge.net/pages/features/]Civ4 BtS Rise of Mankind - A New Dawn mod[/url].  The latter was also the source of ideas behind some of the new buildings found in this mod.
+The ideas behind the techs implemented in this mod stem from Civ4 (hunting / fishing / mysticism) and from [url=http://anewdawn.sourceforge.net/pages/features/]Civ4 BtS Rise of Mankind - A New Dawn mod[/url].  The latter was also the source of ideas behind some of the new buildings in this mod.
 
-[h1]Reason 1: Balancing early resource access[/h1]
+This mod was initally created with balancing early access of resources in mind.  Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is due to sailing / trapping being expensive to research very early game.  This gives capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison. 
 
-Though resources are guaranteed around a capital, early access to them is not, particularly regarding sea resources as well as land resources like bison, deer, ivory and furs. This is because sailing and trapping are expensive to research very early game. This creates an imbalance as capitals that have wheat / cattle / sheep get an unfair advantage early game vs capitals that spawn next to sea resources or land resources like deer / bison. This mod aims to re-balance that and leans on Civ4's initial tech tree design to achieve this.   
-
-[h1]Reason 2: Historical Accuracy[/h1]
-
-Historically there is no realistic reason why acquiring fish, bison or deer should be so much harder than irrigating land or herding sheep or cattle. After all people were hunter-gatherers long before they developed proper agriculture.
-
-[h1]Reason 3: Adding more depth to the ancient era[/h1]
-
-The monument was available right off the bat and having the shrine building available with pottery seemed nonsensical.  Also there just seemed to be too few techs before one would wonder rush the great library / stonehenge.  This mod opens up new tech research priority strategies.
-
+This mod aims to re-balance the above issue and leans on Civ4's initial tech tree design to achieve this.  I feel it also boosts historical accuracy as people were hunter-gatherers long before they developed proper agriculture.
+   
 [h1][b]AI Free Techs Difficulty Adjustments [/b][/h1]
 
-For now, all free AI techs have been removed as 2 wonders are available already at tech tier 1.  This gives the player a fighting chance to build those wonders. 
+All free AI techs have been removed as 2 wonders are available already at tech tier 1.  This gives the player a fighting chance to build those wonders. 
 
 [h1][b]SPECIAL THANKS[/b][/h1]
 
